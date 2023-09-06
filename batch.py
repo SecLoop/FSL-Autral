@@ -4,13 +4,13 @@ import subprocess
 import traceback
 import tempfile
 
-path = "/Users/lousix/sec/tmp/"
+path = "/Users/lousix/Desktop/Java-ICS/"
 database_path = "/Users/lousix/sec/CodeQL/CodeQLpy/out/database/"
 
 files= os.listdir(path)
 s = []
 for file in files:
-    if "manjing-ywdx-api.jar" in file:
+    if "base1.jar" in file:
         s.append(file)
 
 

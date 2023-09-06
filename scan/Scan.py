@@ -41,6 +41,8 @@ class Scan():
 
     # 保存扫描结果
     def saveResult(self, results, filename, pluginname):
+        with open(filename + ".csv", 'w') as w:
+            w.write("")
         if len(results) <= 1:
             return
 
@@ -48,17 +50,12 @@ class Scan():
             if i == 0:
                 continue
             result = results[i]
-            # color_print.error("Error Result: " + json.dumps(result))
-            # log.error("Error Result: " + json.dumps(result))
-            # print(os.path.join(self.result_path ,filename))
-            with open(filename, 'a') as w:
+            with open(filename + ".csv", 'a') as w:
                 w.write((", ".join(result) + '\n'))
 
-            #     continue
-
-            # with open(os.path.join(self.result_path ,filename), 'a') as w:
-            #     w.write('%s, %s, %s, %s, %s, %s, %s, %s\n' % (cvsClean(result[0]), cvsClean(result[1]),cvsClean(result[2]),cvsClean(result[3]),\
-            #         cvsClean(result[4]),cvsClean(result[5]),cvsClean(result[6]), pluginname, ))
+    def saveSink(self, result, filename, pluginname):
+        with open(filename + ".json", 'w') as w:
+            w.write(result)
 
     # 初始化保存结果的文件
     def initResult(self, filename):
