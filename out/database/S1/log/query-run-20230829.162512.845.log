@@ -1,0 +1,12 @@
+[2023-08-29 16:25:12] This is codeql query run -d /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1 /Users/lousix/sec/CodeQL/codeql-workspace/java/ql/test/tmpgf4d_ii2/fa1e7d89bcf7486facd8a6b84676b4da.ql
+[2023-08-29 16:25:12] Log file was started late.
+[2023-08-29 16:25:12] Calling plumbing command: codeql resolve ram --format=json
+[2023-08-29 16:25:12] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx2048M",
+                        "--off-heap-ram=2048"
+                      ]
+[2023-08-29 16:25:12] Spawning plumbing command: execute queries -J-Xmx2048M --off-heap-ram=2048 --verbosity=progress --logdir=/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/log --evaluator-log-level=5 --warnings=show --qlconfig-file=/Users/lousix/sec/CodeQL/CodeQLpy/qlconfig.yml -- /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/db-java path:/Users/lousix/sec/CodeQL/codeql-workspace/java/ql/test/tmpgf4d_ii2/fa1e7d89bcf7486facd8a6b84676b4da.ql
+[2023-08-29 16:25:13] [ERROR] Spawned process exited abnormally (code 2; tried to run: [/Users/lousix/sec/CodeQL/codeql/tools/osx64/java-aarch64/bin/java, -Xmx2048M, -Djava.library.path=/Users/lousix/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., -cp, /Users/lousix/sec/CodeQL/codeql/tools/codeql.jar, com.semmle.cli2.CodeQL, env_argv, execute, queries, -J-Xmx2048M, _, _, _, _, _, _, --, /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/db-java, _])
+[2023-08-29 16:25:13] Plumbing command codeql execute queries terminated with status 2.
+[2023-08-29 16:25:13] Exiting with code 2

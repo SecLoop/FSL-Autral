@@ -1,0 +1,11 @@
+---
+sourceLocationPrefix: /Users/lousix/sec/CodeQL/CodeQLpy
+baselineLinesOfCode: 0
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: java
+creationMetadata:
+  sha: 677b557a0cdf566acd4fccdeb9a951b92c81528a
+  cliVersion: 2.13.5
+  creationTime: 2023-08-29T08:26:21.124921Z
+finalised: true

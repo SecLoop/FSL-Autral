@@ -1,0 +1,1662 @@
+[T 14:59:15 2716] CodeQL CLI version 2.13.5
+[T 14:59:15 2716] Initializing tracer.
+[T 14:59:15 2716] Initialising tags...
+[T 14:59:15 2716] ID set to 0000000000000A9C_0000000000000001 (parent root)
+[T 14:59:15 2716] Initializing tracer.
+[T 14:59:15 2716] Initialising tags...
+[T 14:59:15 2716] ID set to 0000000000000A9C_0000000000000002 (parent root)
+[T 14:59:15 2716] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 14:59:15 2716] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 14:59:15 2716] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 14:59:15 2716] Executing the following tracer actions:
+[T 14:59:15 2716] Tracer actions:
+[T 14:59:15 2716] pre_invocations(0)
+[T 14:59:15 2716] post_invocations(0)
+[T 14:59:15 2716] trace_languages(1): [java]
+[T 14:59:15 2717] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00000A9C.0A8A3630.slice.x86_64: replacing existing signature
+[T 14:59:15 2716] Initializing tracer.
+[T 14:59:15 2716] Initialising tags...
+[T 14:59:15 2716] ID set to 0000000000000A9C_0000000000000003 (parent 0000000000000A9C_0000000000000002)
+[T 14:59:15 2716] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 14:59:15 2716] Lua: === Intercepted call to /bin/bash ===
+[T 14:59:15 2716] Executing the following tracer actions:
+[T 14:59:15 2716] Tracer actions:
+[T 14:59:15 2716] pre_invocations(0)
+[T 14:59:15 2716] post_invocations(0)
+[T 14:59:15 2716] trace_languages(1): [java]
+[T 15:07:07 6564] CodeQL CLI version 2.13.5
+[T 15:07:07 6564] Initializing tracer.
+[T 15:07:07 6564] Initialising tags...
+[T 15:07:07 6564] ID set to 00000000000019A4_0000000000000001 (parent root)
+[T 15:07:07 6564] Initializing tracer.
+[T 15:07:07 6564] Initialising tags...
+[T 15:07:07 6564] ID set to 00000000000019A4_0000000000000002 (parent root)
+[T 15:07:07 6564] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 15:07:07 6564] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 15:07:07 6564] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 15:07:07 6564] Executing the following tracer actions:
+[T 15:07:07 6564] Tracer actions:
+[T 15:07:07 6564] pre_invocations(0)
+[T 15:07:07 6564] post_invocations(0)
+[T 15:07:07 6564] trace_languages(1): [java]
+[T 15:07:07 6566] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.000019A4.29E8A340.slice.x86_64: replacing existing signature
+[T 15:07:09 6564] Initializing tracer.
+[T 15:07:09 6564] Initialising tags...
+[T 15:07:09 6564] ID set to 00000000000019A4_0000000000000003 (parent 00000000000019A4_0000000000000002)
+[T 15:07:09 6564] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 15:07:09 6564] Lua: === Intercepted call to /bin/bash ===
+[T 15:07:09 6564] Executing the following tracer actions:
+[T 15:07:09 6564] Tracer actions:
+[T 15:07:09 6564] pre_invocations(0)
+[T 15:07:09 6564] post_invocations(0)
+[T 15:07:09 6564] trace_languages(1): [java]
+[T 15:07:09 6592] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.000019A4.0C1A8A90.slice.x86_64: replacing existing signature
+[T 15:07:09 6564] Initializing tracer.
+[T 15:07:09 6564] Initialising tags...
+[T 15:07:09 6564] ID set to 00000000000019A4_0000000000000004 (parent 00000000000019A4_0000000000000003)
+[T 15:07:09 6564] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 15:07:09 6564] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 15:07:09 6564] Executing the following tracer actions:
+[T 15:07:09 6564] Tracer actions:
+[T 15:07:09 6564] pre_invocations(0)
+[T 15:07:09 6564] post_invocations(0)
+[T 15:07:09 6564] trace_languages(1): [java]
+[T 15:07:10 6564] Initializing tracer.
+[T 15:07:10 6564] Initialising tags...
+[T 15:07:10 6564] ID set to 00000000000019A4_0000000000000005 (parent 00000000000019A4_0000000000000004)
+[T 15:07:10 6564] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 15:07:10 6564] Lua: === Intercepted call to /bin/bash ===
+[T 15:07:10 6564] Executing the following tracer actions:
+[T 15:07:10 6564] Tracer actions:
+[T 15:07:10 6564] pre_invocations(0)
+[T 15:07:10 6564] post_invocations(0)
+[T 15:07:10 6564] trace_languages(1): [java]
+[T 15:07:10 6606] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.000019CD.00D739A8.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.000019CD.00D739A8.slice.x86_64: replacing existing signature
+[T 15:07:10 6605] Initializing tracer.
+[T 15:07:10 6605] Initialising tags...
+[T 15:07:10 6605] ID set to 00000000000019CD_0000000000000001 (parent 00000000000019A4_0000000000000005)
+[T 15:07:10 6605] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 15:07:10 6605] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 15:07:10 6605] Executing the following tracer actions:
+[T 15:07:10 6605] Tracer actions:
+[T 15:07:10 6605] pre_invocations(0)
+[T 15:07:10 6605] post_invocations(0)
+[T 15:07:10 6605] trace_languages(1): [java]
+[T 15:07:10 6605] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 15:07:10 6605] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:07:10 6605] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 15:07:25 6729] Attempting to switch stdout/stderr to 25...
+[T 15:07:25 6732] Initializing tracer.
+[T 15:07:25 6732] Initialising tags...
+[T 15:07:25 6732] ID set to 0000000000001A4C_0000000000000001 (parent 00000000000019CD_0000000000000001)
+[T 15:07:25 6732] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 15:07:25 6732] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 15:07:25 6732] Executing the following tracer actions:
+[T 15:07:25 6732] Tracer actions:
+[T 15:07:25 6732] pre_invocations(0)
+[T 15:07:25 6732] post_invocations(0)
+[T 15:07:25 6732] trace_languages(1): [java]
+[T 15:07:25 6734] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00001A4C.28F5D700.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00001A4C.28F5D700.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00001A4C.28F5D700.slice.x86_64: replacing existing signature
+[T 15:07:26 6732] Initializing tracer.
+[T 15:07:26 6732] Initialising tags...
+[T 15:07:26 6732] ID set to 0000000000001A4C_0000000000000002 (parent 0000000000001A4C_0000000000000001)
+[T 15:07:26 6732] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 15:07:26 6732] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 15:07:26 6732] Executing the following tracer actions:
+[T 15:07:26 6732] Tracer actions:
+[T 15:07:26 6732] pre_invocations(0)
+[T 15:07:26 6732] post_invocations(0)
+[T 15:07:26 6732] trace_languages(1): [java]
+[T 15:07:26 6732] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 15:07:26 6732] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:07:27 6732] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:14:12 21356] CodeQL CLI version 2.13.5
+[T 16:14:12 21356] Initializing tracer.
+[T 16:14:12 21356] Initialising tags...
+[T 16:14:12 21356] ID set to 000000000000536C_0000000000000001 (parent root)
+[T 16:14:12 21356] Initializing tracer.
+[T 16:14:12 21356] Initialising tags...
+[T 16:14:13 21356] ID set to 000000000000536C_0000000000000002 (parent root)
+[T 16:14:13 21356] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 16:14:13 21356] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 16:14:13 21356] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 16:14:13 21356] Executing the following tracer actions:
+[T 16:14:13 21356] Tracer actions:
+[T 16:14:13 21356] pre_invocations(0)
+[T 16:14:13 21356] post_invocations(0)
+[T 16:14:13 21356] trace_languages(1): [java]
+[T 16:14:13 21368] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.0000536C.002D9BC8.slice.x86_64: replacing existing signature
+[T 16:14:16 21356] Initializing tracer.
+[T 16:14:16 21356] Initialising tags...
+[T 16:14:16 21356] ID set to 000000000000536C_0000000000000003 (parent 000000000000536C_0000000000000002)
+[T 16:14:16 21356] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 16:14:16 21356] Lua: === Intercepted call to /bin/bash ===
+[T 16:14:16 21356] Executing the following tracer actions:
+[T 16:14:16 21356] Tracer actions:
+[T 16:14:16 21356] pre_invocations(0)
+[T 16:14:16 21356] post_invocations(0)
+[T 16:14:16 21356] trace_languages(1): [java]
+[T 16:14:16 21410] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.0000536C.13D25358.slice.x86_64: replacing existing signature
+[T 16:14:16 21356] Initializing tracer.
+[T 16:14:16 21356] Initialising tags...
+[T 16:14:16 21356] ID set to 000000000000536C_0000000000000004 (parent 000000000000536C_0000000000000003)
+[T 16:14:16 21356] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 16:14:16 21356] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 16:14:16 21356] Executing the following tracer actions:
+[T 16:14:16 21356] Tracer actions:
+[T 16:14:16 21356] pre_invocations(0)
+[T 16:14:16 21356] post_invocations(0)
+[T 16:14:16 21356] trace_languages(1): [java]
+[T 16:14:16 21356] Initializing tracer.
+[T 16:14:16 21356] Initialising tags...
+[T 16:14:16 21356] ID set to 000000000000536C_0000000000000005 (parent 000000000000536C_0000000000000004)
+[T 16:14:16 21356] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 16:14:16 21356] Lua: === Intercepted call to /bin/bash ===
+[T 16:14:16 21356] Executing the following tracer actions:
+[T 16:14:16 21356] Tracer actions:
+[T 16:14:16 21356] pre_invocations(0)
+[T 16:14:16 21356] post_invocations(0)
+[T 16:14:16 21356] trace_languages(1): [java]
+[T 16:14:16 21415] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.000053A6.3236B4B0.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.000053A6.3236B4B0.slice.x86_64: replacing existing signature
+[T 16:14:17 21414] Initializing tracer.
+[T 16:14:17 21414] Initialising tags...
+[T 16:14:17 21414] ID set to 00000000000053A6_0000000000000001 (parent 000000000000536C_0000000000000005)
+[T 16:14:17 21414] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 16:14:17 21414] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 16:14:17 21414] Executing the following tracer actions:
+[T 16:14:17 21414] Tracer actions:
+[T 16:14:17 21414] pre_invocations(0)
+[T 16:14:17 21414] post_invocations(0)
+[T 16:14:17 21414] trace_languages(1): [java]
+[T 16:14:17 21414] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:14:17 21414] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 16:14:17 21414] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:14:33 21533] Attempting to switch stdout/stderr to 25...
+[T 16:14:34 21536] Initializing tracer.
+[T 16:14:34 21536] Initialising tags...
+[T 16:14:34 21536] ID set to 0000000000005420_0000000000000001 (parent 00000000000053A6_0000000000000001)
+[T 16:14:34 21536] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 16:14:34 21536] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 16:14:34 21536] Executing the following tracer actions:
+[T 16:14:34 21536] Tracer actions:
+[T 16:14:34 21536] pre_invocations(0)
+[T 16:14:34 21536] post_invocations(0)
+[T 16:14:34 21536] trace_languages(1): [java]
+[T 16:14:34 21544] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00005420.09798980.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00005420.09798980.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00005420.09798980.slice.x86_64: replacing existing signature
+[T 16:14:35 21536] Initializing tracer.
+[T 16:14:35 21536] Initialising tags...
+[T 16:14:35 21536] ID set to 0000000000005420_0000000000000002 (parent 0000000000005420_0000000000000001)
+[T 16:14:35 21536] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 16:14:35 21536] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 16:14:35 21536] Executing the following tracer actions:
+[T 16:14:35 21536] Tracer actions:
+[T 16:14:35 21536] pre_invocations(0)
+[T 16:14:35 21536] post_invocations(0)
+[T 16:14:35 21536] trace_languages(1): [java]
+[T 16:14:35 21536] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:14:35 21536] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 16:14:35 21536] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:26:11 24363] CodeQL CLI version 2.13.5
+[T 16:26:11 24363] Initializing tracer.
+[T 16:26:11 24363] Initialising tags...
+[T 16:26:11 24363] ID set to 0000000000005F2B_0000000000000001 (parent root)
+[T 16:26:11 24363] Initializing tracer.
+[T 16:26:11 24363] Initialising tags...
+[T 16:26:11 24363] ID set to 0000000000005F2B_0000000000000002 (parent root)
+[T 16:26:11 24363] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 16:26:11 24363] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 16:26:11 24363] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 16:26:11 24363] Executing the following tracer actions:
+[T 16:26:11 24363] Tracer actions:
+[T 16:26:11 24363] pre_invocations(0)
+[T 16:26:11 24363] post_invocations(0)
+[T 16:26:11 24363] trace_languages(1): [java]
+[T 16:26:11 24368] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00005F2B.347A7E78.slice.x86_64: replacing existing signature
+[T 16:26:12 24363] Initializing tracer.
+[T 16:26:12 24363] Initialising tags...
+[T 16:26:12 24363] ID set to 0000000000005F2B_0000000000000003 (parent 0000000000005F2B_0000000000000002)
+[T 16:26:12 24363] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 16:26:12 24363] Lua: === Intercepted call to /bin/bash ===
+[T 16:26:12 24363] Executing the following tracer actions:
+[T 16:26:12 24363] Tracer actions:
+[T 16:26:12 24363] pre_invocations(0)
+[T 16:26:12 24363] post_invocations(0)
+[T 16:26:12 24363] trace_languages(1): [java]
+[T 16:26:12 24388] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.00005F2B.365341D0.slice.x86_64: replacing existing signature
+[T 16:26:13 24363] Initializing tracer.
+[T 16:26:13 24363] Initialising tags...
+[T 16:26:13 24363] ID set to 0000000000005F2B_0000000000000004 (parent 0000000000005F2B_0000000000000003)
+[T 16:26:13 24363] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 16:26:13 24363] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 16:26:13 24363] Executing the following tracer actions:
+[T 16:26:13 24363] Tracer actions:
+[T 16:26:13 24363] pre_invocations(0)
+[T 16:26:13 24363] post_invocations(0)
+[T 16:26:13 24363] trace_languages(1): [java]
+[T 16:26:13 24363] Initializing tracer.
+[T 16:26:13 24363] Initialising tags...
+[T 16:26:13 24363] ID set to 0000000000005F2B_0000000000000005 (parent 0000000000005F2B_0000000000000004)
+[T 16:26:13 24363] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 16:26:13 24363] Lua: === Intercepted call to /bin/bash ===
+[T 16:26:13 24363] Executing the following tracer actions:
+[T 16:26:13 24363] Tracer actions:
+[T 16:26:13 24363] pre_invocations(0)
+[T 16:26:13 24363] post_invocations(0)
+[T 16:26:13 24363] trace_languages(1): [java]
+[T 16:26:13 24408] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00005F57.327972A0.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00005F57.327972A0.slice.x86_64: replacing existing signature
+[T 16:26:14 24407] Initializing tracer.
+[T 16:26:14 24407] Initialising tags...
+[T 16:26:14 24407] ID set to 0000000000005F57_0000000000000001 (parent 0000000000005F2B_0000000000000005)
+[T 16:26:14 24407] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 16:26:14 24407] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 16:26:14 24407] Executing the following tracer actions:
+[T 16:26:14 24407] Tracer actions:
+[T 16:26:14 24407] pre_invocations(0)
+[T 16:26:14 24407] post_invocations(0)
+[T 16:26:14 24407] trace_languages(1): [java]
+[T 16:26:14 24407] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:26:14 24407] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 16:26:14 24407] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:26:28 24510] Attempting to switch stdout/stderr to 25...
+[T 16:26:29 24514] Initializing tracer.
+[T 16:26:29 24514] Initialising tags...
+[T 16:26:29 24514] ID set to 0000000000005FC2_0000000000000001 (parent 0000000000005F57_0000000000000001)
+[T 16:26:29 24514] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 16:26:29 24514] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 16:26:29 24514] Executing the following tracer actions:
+[T 16:26:29 24514] Tracer actions:
+[T 16:26:29 24514] pre_invocations(0)
+[T 16:26:29 24514] post_invocations(0)
+[T 16:26:29 24514] trace_languages(1): [java]
+[T 16:26:29 24522] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00005FC2.259A1D28.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00005FC2.259A1D28.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00005FC2.259A1D28.slice.x86_64: replacing existing signature
+[T 16:26:30 24514] Initializing tracer.
+[T 16:26:30 24514] Initialising tags...
+[T 16:26:30 24514] ID set to 0000000000005FC2_0000000000000002 (parent 0000000000005FC2_0000000000000001)
+[T 16:26:30 24514] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 16:26:30 24514] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 16:26:30 24514] Executing the following tracer actions:
+[T 16:26:30 24514] Tracer actions:
+[T 16:26:30 24514] pre_invocations(0)
+[T 16:26:30 24514] post_invocations(0)
+[T 16:26:30 24514] trace_languages(1): [java]
+[T 16:26:30 24514] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:26:30 24514] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 16:26:30 24514] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:28:27 25287] CodeQL CLI version 2.13.5
+[T 16:28:27 25287] Initializing tracer.
+[T 16:28:27 25287] Initialising tags...
+[T 16:28:27 25287] ID set to 00000000000062C7_0000000000000001 (parent root)
+[T 16:28:27 25287] Initializing tracer.
+[T 16:28:27 25287] Initialising tags...
+[T 16:28:27 25287] ID set to 00000000000062C7_0000000000000002 (parent root)
+[T 16:28:27 25287] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 16:28:27 25287] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 16:28:27 25287] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 16:28:27 25287] Executing the following tracer actions:
+[T 16:28:27 25287] Tracer actions:
+[T 16:28:27 25287] pre_invocations(0)
+[T 16:28:27 25287] post_invocations(0)
+[T 16:28:27 25287] trace_languages(1): [java]
+[T 16:28:27 25289] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.000062C7.1A7EC6A0.slice.x86_64: replacing existing signature
+[T 16:28:28 25287] Initializing tracer.
+[T 16:28:28 25287] Initialising tags...
+[T 16:28:28 25287] ID set to 00000000000062C7_0000000000000003 (parent 00000000000062C7_0000000000000002)
+[T 16:28:28 25287] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 16:28:28 25287] Lua: === Intercepted call to /bin/bash ===
+[T 16:28:28 25287] Executing the following tracer actions:
+[T 16:28:28 25287] Tracer actions:
+[T 16:28:28 25287] pre_invocations(0)
+[T 16:28:28 25287] post_invocations(0)
+[T 16:28:28 25287] trace_languages(1): [java]
+[T 16:28:28 25312] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.000062C7.0ECE8AE8.slice.x86_64: replacing existing signature
+[T 16:28:28 25287] Initializing tracer.
+[T 16:28:28 25287] Initialising tags...
+[T 16:28:28 25287] ID set to 00000000000062C7_0000000000000004 (parent 00000000000062C7_0000000000000003)
+[T 16:28:28 25287] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 16:28:28 25287] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 16:28:28 25287] Executing the following tracer actions:
+[T 16:28:28 25287] Tracer actions:
+[T 16:28:28 25287] pre_invocations(0)
+[T 16:28:28 25287] post_invocations(0)
+[T 16:28:28 25287] trace_languages(1): [java]
+[T 16:28:28 25287] Initializing tracer.
+[T 16:28:28 25287] Initialising tags...
+[T 16:28:28 25287] ID set to 00000000000062C7_0000000000000005 (parent 00000000000062C7_0000000000000004)
+[T 16:28:28 25287] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 16:28:28 25287] Lua: === Intercepted call to /bin/bash ===
+[T 16:28:28 25287] Executing the following tracer actions:
+[T 16:28:28 25287] Tracer actions:
+[T 16:28:28 25287] pre_invocations(0)
+[T 16:28:28 25287] post_invocations(0)
+[T 16:28:28 25287] trace_languages(1): [java]
+[T 16:28:28 25320] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.000062E7.329CA658.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.000062E7.329CA658.slice.x86_64: replacing existing signature
+[T 16:28:29 25319] Initializing tracer.
+[T 16:28:29 25319] Initialising tags...
+[T 16:28:29 25319] ID set to 00000000000062E7_0000000000000001 (parent 00000000000062C7_0000000000000005)
+[T 16:28:29 25319] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 16:28:29 25319] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 16:28:29 25319] Executing the following tracer actions:
+[T 16:28:29 25319] Tracer actions:
+[T 16:28:29 25319] pre_invocations(0)
+[T 16:28:29 25319] post_invocations(0)
+[T 16:28:29 25319] trace_languages(1): [java]
+[T 16:28:29 25319] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:28:29 25319] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 16:28:29 25319] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:28:43 25445] Attempting to switch stdout/stderr to 25...
+[T 16:28:43 25448] Initializing tracer.
+[T 16:28:43 25448] Initialising tags...
+[T 16:28:43 25448] ID set to 0000000000006368_0000000000000001 (parent 00000000000062E7_0000000000000001)
+[T 16:28:43 25448] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 16:28:43 25448] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 16:28:43 25448] Executing the following tracer actions:
+[T 16:28:43 25448] Tracer actions:
+[T 16:28:43 25448] pre_invocations(0)
+[T 16:28:43 25448] post_invocations(0)
+[T 16:28:43 25448] trace_languages(1): [java]
+[T 16:28:43 25450] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00006368.2FB8A108.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00006368.2FB8A108.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00006368.2FB8A108.slice.x86_64: replacing existing signature
+[T 16:28:44 25448] Initializing tracer.
+[T 16:28:44 25448] Initialising tags...
+[T 16:28:44 25448] ID set to 0000000000006368_0000000000000002 (parent 0000000000006368_0000000000000001)
+[T 16:28:44 25448] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 16:28:44 25448] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 16:28:44 25448] Executing the following tracer actions:
+[T 16:28:44 25448] Tracer actions:
+[T 16:28:44 25448] pre_invocations(0)
+[T 16:28:44 25448] post_invocations(0)
+[T 16:28:44 25448] trace_languages(1): [java]
+[T 16:28:44 25448] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:28:44 25448] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 16:28:44 25448] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 17:26:07 34129] CodeQL CLI version 2.13.5
+[T 17:26:07 34129] Initializing tracer.
+[T 17:26:07 34129] Initialising tags...
+[T 17:26:07 34129] ID set to 0000000000008551_0000000000000001 (parent root)
+[T 17:26:07 34129] Initializing tracer.
+[T 17:26:07 34129] Initialising tags...
+[T 17:26:07 34129] ID set to 0000000000008551_0000000000000002 (parent root)
+[T 17:26:07 34129] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 17:26:07 34129] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 17:26:07 34129] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 17:26:07 34129] Executing the following tracer actions:
+[T 17:26:07 34129] Tracer actions:
+[T 17:26:07 34129] pre_invocations(0)
+[T 17:26:07 34129] post_invocations(0)
+[T 17:26:07 34129] trace_languages(1): [java]
+[T 17:26:07 34130] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00008551.2C300300.slice.x86_64: replacing existing signature
+[T 17:26:09 34129] Initializing tracer.
+[T 17:26:09 34129] Initialising tags...
+[T 17:26:09 34129] ID set to 0000000000008551_0000000000000003 (parent 0000000000008551_0000000000000002)
+[T 17:26:09 34129] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 17:26:09 34129] Lua: === Intercepted call to /bin/bash ===
+[T 17:26:09 34129] Executing the following tracer actions:
+[T 17:26:09 34129] Tracer actions:
+[T 17:26:09 34129] pre_invocations(0)
+[T 17:26:09 34129] post_invocations(0)
+[T 17:26:09 34129] trace_languages(1): [java]
+[T 17:26:09 34143] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.00008551.3797B468.slice.x86_64: replacing existing signature
+[T 17:26:10 34129] Initializing tracer.
+[T 17:26:10 34129] Initialising tags...
+[T 17:26:10 34129] ID set to 0000000000008551_0000000000000004 (parent 0000000000008551_0000000000000003)
+[T 17:26:10 34129] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 17:26:10 34129] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 17:26:10 34129] Executing the following tracer actions:
+[T 17:26:10 34129] Tracer actions:
+[T 17:26:10 34129] pre_invocations(0)
+[T 17:26:10 34129] post_invocations(0)
+[T 17:26:10 34129] trace_languages(1): [java]
+[T 17:26:10 34129] Initializing tracer.
+[T 17:26:10 34129] Initialising tags...
+[T 17:26:10 34129] ID set to 0000000000008551_0000000000000005 (parent 0000000000008551_0000000000000004)
+[T 17:26:10 34129] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 17:26:10 34129] Lua: === Intercepted call to /bin/bash ===
+[T 17:26:10 34129] Executing the following tracer actions:
+[T 17:26:10 34129] Tracer actions:
+[T 17:26:10 34129] pre_invocations(0)
+[T 17:26:10 34129] post_invocations(0)
+[T 17:26:10 34129] trace_languages(1): [java]
+[T 17:26:10 34148] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00008563.14D04710.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00008563.14D04710.slice.x86_64: replacing existing signature
+[T 17:26:10 34147] Initializing tracer.
+[T 17:26:10 34147] Initialising tags...
+[T 17:26:10 34147] ID set to 0000000000008563_0000000000000001 (parent 0000000000008551_0000000000000005)
+[T 17:26:10 34147] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 17:26:10 34147] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 17:26:10 34147] Executing the following tracer actions:
+[T 17:26:10 34147] Tracer actions:
+[T 17:26:10 34147] pre_invocations(0)
+[T 17:26:10 34147] post_invocations(0)
+[T 17:26:10 34147] trace_languages(1): [java]
+[T 17:26:10 34147] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 17:26:10 34147] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 17:26:10 34147] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 17:26:24 34267] Attempting to switch stdout/stderr to 25...
+[T 17:26:24 34271] Initializing tracer.
+[T 17:26:24 34271] Initialising tags...
+[T 17:26:24 34271] ID set to 00000000000085DF_0000000000000001 (parent 0000000000008563_0000000000000001)
+[T 17:26:24 34271] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 17:26:24 34271] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 17:26:24 34271] Executing the following tracer actions:
+[T 17:26:24 34271] Tracer actions:
+[T 17:26:24 34271] pre_invocations(0)
+[T 17:26:24 34271] post_invocations(0)
+[T 17:26:24 34271] trace_languages(1): [java]
+[T 17:26:24 34277] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.000085DF.3A63EBF8.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.000085DF.3A63EBF8.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.000085DF.3A63EBF8.slice.x86_64: replacing existing signature
+[T 17:26:25 34271] Initializing tracer.
+[T 17:26:25 34271] Initialising tags...
+[T 17:26:25 34271] ID set to 00000000000085DF_0000000000000002 (parent 00000000000085DF_0000000000000001)
+[T 17:26:25 34271] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 17:26:25 34271] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 17:26:25 34271] Executing the following tracer actions:
+[T 17:26:25 34271] Tracer actions:
+[T 17:26:25 34271] pre_invocations(0)
+[T 17:26:25 34271] post_invocations(0)
+[T 17:26:25 34271] trace_languages(1): [java]
+[T 17:26:25 34271] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 17:26:25 34271] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 17:26:25 34271] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 17:28:46 35103] CodeQL CLI version 2.13.5
+[T 17:28:46 35103] Initializing tracer.
+[T 17:28:46 35103] Initialising tags...
+[T 17:28:46 35103] ID set to 000000000000891F_0000000000000001 (parent root)
+[T 17:28:46 35103] Initializing tracer.
+[T 17:28:46 35103] Initialising tags...
+[T 17:28:46 35103] ID set to 000000000000891F_0000000000000002 (parent root)
+[T 17:28:46 35103] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 17:28:46 35103] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 17:28:46 35103] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 17:28:46 35103] Executing the following tracer actions:
+[T 17:28:46 35103] Tracer actions:
+[T 17:28:46 35103] pre_invocations(0)
+[T 17:28:46 35103] post_invocations(0)
+[T 17:28:46 35103] trace_languages(1): [java]
+[T 17:28:46 35104] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.0000891F.224B53D0.slice.x86_64: replacing existing signature
+[T 17:28:47 35103] Initializing tracer.
+[T 17:28:47 35103] Initialising tags...
+[T 17:28:47 35103] ID set to 000000000000891F_0000000000000003 (parent 000000000000891F_0000000000000002)
+[T 17:28:47 35103] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 17:28:47 35103] Lua: === Intercepted call to /bin/bash ===
+[T 17:28:47 35103] Executing the following tracer actions:
+[T 17:28:47 35103] Tracer actions:
+[T 17:28:47 35103] pre_invocations(0)
+[T 17:28:47 35103] post_invocations(0)
+[T 17:28:47 35103] trace_languages(1): [java]
+[T 17:28:47 35117] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.0000891F.11DBABA8.slice.x86_64: replacing existing signature
+[T 17:28:47 35103] Initializing tracer.
+[T 17:28:47 35103] Initialising tags...
+[T 17:28:47 35103] ID set to 000000000000891F_0000000000000004 (parent 000000000000891F_0000000000000003)
+[T 17:28:47 35103] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 17:28:47 35103] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 17:28:47 35103] Executing the following tracer actions:
+[T 17:28:47 35103] Tracer actions:
+[T 17:28:47 35103] pre_invocations(0)
+[T 17:28:47 35103] post_invocations(0)
+[T 17:28:47 35103] trace_languages(1): [java]
+[T 17:28:47 35103] Initializing tracer.
+[T 17:28:47 35103] Initialising tags...
+[T 17:28:47 35103] ID set to 000000000000891F_0000000000000005 (parent 000000000000891F_0000000000000004)
+[T 17:28:47 35103] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 17:28:47 35103] Lua: === Intercepted call to /bin/bash ===
+[T 17:28:47 35103] Executing the following tracer actions:
+[T 17:28:47 35103] Tracer actions:
+[T 17:28:47 35103] pre_invocations(0)
+[T 17:28:47 35103] post_invocations(0)
+[T 17:28:47 35103] trace_languages(1): [java]
+[T 17:28:47 35125] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00008934.2A541328.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00008934.2A541328.slice.x86_64: replacing existing signature
+[T 17:28:47 35124] Initializing tracer.
+[T 17:28:47 35124] Initialising tags...
+[T 17:28:47 35124] ID set to 0000000000008934_0000000000000001 (parent 000000000000891F_0000000000000005)
+[T 17:28:47 35124] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 17:28:47 35124] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 17:28:47 35124] Executing the following tracer actions:
+[T 17:28:47 35124] Tracer actions:
+[T 17:28:47 35124] pre_invocations(0)
+[T 17:28:47 35124] post_invocations(0)
+[T 17:28:47 35124] trace_languages(1): [java]
+[T 17:28:47 35124] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 17:28:47 35124] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 17:28:48 35124] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 17:29:00 35208] Attempting to switch stdout/stderr to 25...
+[T 17:29:01 35211] Initializing tracer.
+[T 17:29:01 35211] Initialising tags...
+[T 17:29:01 35211] ID set to 000000000000898B_0000000000000001 (parent 0000000000008934_0000000000000001)
+[T 17:29:01 35211] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 17:29:01 35211] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 17:29:01 35211] Executing the following tracer actions:
+[T 17:29:01 35211] Tracer actions:
+[T 17:29:01 35211] pre_invocations(0)
+[T 17:29:01 35211] post_invocations(0)
+[T 17:29:01 35211] trace_languages(1): [java]
+[T 17:29:01 35220] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000898B.0A283C28.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000898B.0A283C28.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000898B.0A283C28.slice.x86_64: replacing existing signature
+[T 17:29:01 35211] Initializing tracer.
+[T 17:29:01 35211] Initialising tags...
+[T 17:29:01 35211] ID set to 000000000000898B_0000000000000002 (parent 000000000000898B_0000000000000001)
+[T 17:29:01 35211] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 17:29:01 35211] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 17:29:01 35211] Executing the following tracer actions:
+[T 17:29:01 35211] Tracer actions:
+[T 17:29:01 35211] pre_invocations(0)
+[T 17:29:01 35211] post_invocations(0)
+[T 17:29:01 35211] trace_languages(1): [java]
+[T 17:29:01 35211] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 17:29:01 35211] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 17:29:01 35211] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 17:44:44 36500] CodeQL CLI version 2.13.5
+[T 17:44:44 36500] Initializing tracer.
+[T 17:44:44 36500] Initialising tags...
+[T 17:44:44 36500] ID set to 0000000000008E94_0000000000000001 (parent root)
+[T 17:44:44 36500] Initializing tracer.
+[T 17:44:44 36500] Initialising tags...
+[T 17:44:44 36500] ID set to 0000000000008E94_0000000000000002 (parent root)
+[T 17:44:44 36500] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 17:44:44 36500] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 17:44:44 36500] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 17:44:44 36500] Executing the following tracer actions:
+[T 17:44:44 36500] Tracer actions:
+[T 17:44:44 36500] pre_invocations(0)
+[T 17:44:44 36500] post_invocations(0)
+[T 17:44:44 36500] trace_languages(1): [java]
+[T 17:44:44 36501] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00008E94.18433650.slice.x86_64: replacing existing signature
+[T 17:44:44 36500] Initializing tracer.
+[T 17:44:44 36500] Initialising tags...
+[T 17:44:44 36500] ID set to 0000000000008E94_0000000000000003 (parent 0000000000008E94_0000000000000002)
+[T 17:44:44 36500] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 17:44:44 36500] Lua: === Intercepted call to /bin/bash ===
+[T 17:44:44 36500] Executing the following tracer actions:
+[T 17:44:44 36500] Tracer actions:
+[T 17:44:44 36500] pre_invocations(0)
+[T 17:44:44 36500] post_invocations(0)
+[T 17:44:44 36500] trace_languages(1): [java]
+[T 17:44:44 36507] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.00008E94.2AFF2420.slice.x86_64: replacing existing signature
+[T 17:44:44 36500] Initializing tracer.
+[T 17:44:44 36500] Initialising tags...
+[T 17:44:44 36500] ID set to 0000000000008E94_0000000000000004 (parent 0000000000008E94_0000000000000003)
+[T 17:44:44 36500] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 17:44:44 36500] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 17:44:44 36500] Executing the following tracer actions:
+[T 17:44:44 36500] Tracer actions:
+[T 17:44:44 36500] pre_invocations(0)
+[T 17:44:44 36500] post_invocations(0)
+[T 17:44:44 36500] trace_languages(1): [java]
+[T 17:44:44 36500] Initializing tracer.
+[T 17:44:44 36500] Initialising tags...
+[T 17:44:44 36500] ID set to 0000000000008E94_0000000000000005 (parent 0000000000008E94_0000000000000004)
+[T 17:44:44 36500] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 17:44:44 36500] Lua: === Intercepted call to /bin/bash ===
+[T 17:44:44 36500] Executing the following tracer actions:
+[T 17:44:44 36500] Tracer actions:
+[T 17:44:44 36500] pre_invocations(0)
+[T 17:44:44 36500] post_invocations(0)
+[T 17:44:44 36500] trace_languages(1): [java]
+[T 17:44:44 36512] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00008E9F.326FB288.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00008E9F.326FB288.slice.x86_64: replacing existing signature
+[T 17:44:44 36511] Initializing tracer.
+[T 17:44:44 36511] Initialising tags...
+[T 17:44:44 36511] ID set to 0000000000008E9F_0000000000000001 (parent 0000000000008E94_0000000000000005)
+[T 17:44:44 36511] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 17:44:44 36511] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 17:44:44 36511] Executing the following tracer actions:
+[T 17:44:44 36511] Tracer actions:
+[T 17:44:44 36511] pre_invocations(0)
+[T 17:44:44 36511] post_invocations(0)
+[T 17:44:44 36511] trace_languages(1): [java]
+[T 17:44:44 36511] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 17:44:44 36511] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 17:44:45 36511] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 17:44:57 36620] Attempting to switch stdout/stderr to 25...
+[T 17:44:57 36624] Initializing tracer.
+[T 17:44:57 36624] Initialising tags...
+[T 17:44:57 36624] ID set to 0000000000008F10_0000000000000001 (parent 0000000000008E9F_0000000000000001)
+[T 17:44:57 36624] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 17:44:57 36624] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 17:44:57 36624] Executing the following tracer actions:
+[T 17:44:57 36624] Tracer actions:
+[T 17:44:57 36624] pre_invocations(0)
+[T 17:44:57 36624] post_invocations(0)
+[T 17:44:57 36624] trace_languages(1): [java]
+[T 17:44:57 36626] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00008F10.3B130818.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00008F10.3B130818.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00008F10.3B130818.slice.x86_64: replacing existing signature
+[T 17:44:58 36624] Initializing tracer.
+[T 17:44:58 36624] Initialising tags...
+[T 17:44:58 36624] ID set to 0000000000008F10_0000000000000002 (parent 0000000000008F10_0000000000000001)
+[T 17:44:58 36624] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 17:44:58 36624] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 17:44:58 36624] Executing the following tracer actions:
+[T 17:44:58 36624] Tracer actions:
+[T 17:44:58 36624] pre_invocations(0)
+[T 17:44:58 36624] post_invocations(0)
+[T 17:44:58 36624] trace_languages(1): [java]
+[T 17:44:58 36624] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 17:44:58 36624] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 17:44:58 36624] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 17:50:59 38247] CodeQL CLI version 2.13.5
+[T 17:50:59 38247] Initializing tracer.
+[T 17:50:59 38247] Initialising tags...
+[T 17:50:59 38247] ID set to 0000000000009567_0000000000000001 (parent root)
+[T 17:50:59 38247] Initializing tracer.
+[T 17:50:59 38247] Initialising tags...
+[T 17:50:59 38247] ID set to 0000000000009567_0000000000000002 (parent root)
+[T 17:50:59 38247] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 17:50:59 38247] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 17:50:59 38247] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 17:50:59 38247] Executing the following tracer actions:
+[T 17:50:59 38247] Tracer actions:
+[T 17:50:59 38247] pre_invocations(0)
+[T 17:50:59 38247] post_invocations(0)
+[T 17:50:59 38247] trace_languages(1): [java]
+[T 17:50:59 38248] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00009567.2EA00130.slice.x86_64: replacing existing signature
+[T 17:51:00 38247] Initializing tracer.
+[T 17:51:00 38247] Initialising tags...
+[T 17:51:00 38247] ID set to 0000000000009567_0000000000000003 (parent 0000000000009567_0000000000000002)
+[T 17:51:00 38247] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 17:51:00 38247] Lua: === Intercepted call to /bin/bash ===
+[T 17:51:00 38247] Executing the following tracer actions:
+[T 17:51:00 38247] Tracer actions:
+[T 17:51:00 38247] pre_invocations(0)
+[T 17:51:00 38247] post_invocations(0)
+[T 17:51:00 38247] trace_languages(1): [java]
+[T 17:51:00 38255] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.00009567.06776158.slice.x86_64: replacing existing signature
+[T 17:51:00 38247] Initializing tracer.
+[T 17:51:00 38247] Initialising tags...
+[T 17:51:00 38247] ID set to 0000000000009567_0000000000000004 (parent 0000000000009567_0000000000000003)
+[T 17:51:00 38247] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 17:51:00 38247] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 17:51:00 38247] Executing the following tracer actions:
+[T 17:51:00 38247] Tracer actions:
+[T 17:51:00 38247] pre_invocations(0)
+[T 17:51:00 38247] post_invocations(0)
+[T 17:51:00 38247] trace_languages(1): [java]
+[T 17:51:00 38247] Initializing tracer.
+[T 17:51:00 38247] Initialising tags...
+[T 17:51:00 38247] ID set to 0000000000009567_0000000000000005 (parent 0000000000009567_0000000000000004)
+[T 17:51:00 38247] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 17:51:00 38247] Lua: === Intercepted call to /bin/bash ===
+[T 17:51:00 38247] Executing the following tracer actions:
+[T 17:51:00 38247] Tracer actions:
+[T 17:51:00 38247] pre_invocations(0)
+[T 17:51:00 38247] post_invocations(0)
+[T 17:51:00 38247] trace_languages(1): [java]
+[T 17:51:00 38261] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00009574.0EC2CF00.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00009574.0EC2CF00.slice.x86_64: replacing existing signature
+[T 17:51:00 38260] Initializing tracer.
+[T 17:51:00 38260] Initialising tags...
+[T 17:51:00 38260] ID set to 0000000000009574_0000000000000001 (parent 0000000000009567_0000000000000005)
+[T 17:51:00 38260] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 17:51:00 38260] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 17:51:00 38260] Executing the following tracer actions:
+[T 17:51:00 38260] Tracer actions:
+[T 17:51:00 38260] pre_invocations(0)
+[T 17:51:00 38260] post_invocations(0)
+[T 17:51:00 38260] trace_languages(1): [java]
+[T 17:51:00 38260] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 17:51:00 38260] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 17:51:00 38260] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 17:51:13 38364] Attempting to switch stdout/stderr to 25...
+[T 17:51:14 38368] Initializing tracer.
+[T 17:51:14 38368] Initialising tags...
+[T 17:51:14 38368] ID set to 00000000000095E0_0000000000000001 (parent 0000000000009574_0000000000000001)
+[T 17:51:14 38368] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 17:51:14 38368] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 17:51:14 38368] Executing the following tracer actions:
+[T 17:51:14 38368] Tracer actions:
+[T 17:51:14 38368] pre_invocations(0)
+[T 17:51:14 38368] post_invocations(0)
+[T 17:51:14 38368] trace_languages(1): [java]
+[T 17:51:14 38370] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.000095E0.047E92E0.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.000095E0.047E92E0.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.000095E0.047E92E0.slice.x86_64: replacing existing signature
+[T 17:51:14 38368] Initializing tracer.
+[T 17:51:14 38368] Initialising tags...
+[T 17:51:14 38368] ID set to 00000000000095E0_0000000000000002 (parent 00000000000095E0_0000000000000001)
+[T 17:51:14 38368] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 17:51:14 38368] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 17:51:14 38368] Executing the following tracer actions:
+[T 17:51:14 38368] Tracer actions:
+[T 17:51:14 38368] pre_invocations(0)
+[T 17:51:14 38368] post_invocations(0)
+[T 17:51:14 38368] trace_languages(1): [java]
+[T 17:51:14 38368] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 17:51:14 38368] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 17:51:14 38368] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 15:50:49 57171] CodeQL CLI version 2.13.5
+[T 15:50:49 57171] Initializing tracer.
+[T 15:50:49 57171] Initialising tags...
+[T 15:50:49 57171] ID set to 000000000000DF53_0000000000000001 (parent root)
+[T 15:50:49 57171] Initializing tracer.
+[T 15:50:49 57171] Initialising tags...
+[T 15:50:49 57171] ID set to 000000000000DF53_0000000000000002 (parent root)
+[T 15:50:49 57171] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 15:50:49 57171] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 15:50:49 57171] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 15:50:49 57171] Executing the following tracer actions:
+[T 15:50:49 57171] Tracer actions:
+[T 15:50:49 57171] pre_invocations(0)
+[T 15:50:49 57171] post_invocations(0)
+[T 15:50:49 57171] trace_languages(1): [java]
+[T 15:50:49 57179] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.0000DF53.301952F0.slice.x86_64: replacing existing signature
+[T 15:50:52 57171] Initializing tracer.
+[T 15:50:52 57171] Initialising tags...
+[T 15:50:52 57171] ID set to 000000000000DF53_0000000000000003 (parent 000000000000DF53_0000000000000002)
+[T 15:50:52 57171] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 15:50:52 57171] Lua: === Intercepted call to /bin/bash ===
+[T 15:50:52 57171] Executing the following tracer actions:
+[T 15:50:52 57171] Tracer actions:
+[T 15:50:52 57171] pre_invocations(0)
+[T 15:50:52 57171] post_invocations(0)
+[T 15:50:52 57171] trace_languages(1): [java]
+[T 15:50:52 57221] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.0000DF53.209431D8.slice.x86_64: replacing existing signature
+[T 15:50:53 57171] Initializing tracer.
+[T 15:50:53 57171] Initialising tags...
+[T 15:50:53 57171] ID set to 000000000000DF53_0000000000000004 (parent 000000000000DF53_0000000000000003)
+[T 15:50:53 57171] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 15:50:53 57171] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 15:50:53 57171] Executing the following tracer actions:
+[T 15:50:53 57171] Tracer actions:
+[T 15:50:53 57171] pre_invocations(0)
+[T 15:50:53 57171] post_invocations(0)
+[T 15:50:53 57171] trace_languages(1): [java]
+[T 15:50:53 57171] Initializing tracer.
+[T 15:50:53 57171] Initialising tags...
+[T 15:50:53 57171] ID set to 000000000000DF53_0000000000000005 (parent 000000000000DF53_0000000000000004)
+[T 15:50:53 57171] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 15:50:53 57171] Lua: === Intercepted call to /bin/bash ===
+[T 15:50:53 57171] Executing the following tracer actions:
+[T 15:50:53 57171] Tracer actions:
+[T 15:50:53 57171] pre_invocations(0)
+[T 15:50:53 57171] post_invocations(0)
+[T 15:50:53 57171] trace_languages(1): [java]
+[T 15:50:53 57237] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.0000DF94.218BD848.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.0000DF94.218BD848.slice.x86_64: replacing existing signature
+[T 15:50:54 57236] Initializing tracer.
+[T 15:50:54 57236] Initialising tags...
+[T 15:50:54 57236] ID set to 000000000000DF94_0000000000000001 (parent 000000000000DF53_0000000000000005)
+[T 15:50:54 57236] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 15:50:54 57236] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 15:50:54 57236] Executing the following tracer actions:
+[T 15:50:54 57236] Tracer actions:
+[T 15:50:54 57236] pre_invocations(0)
+[T 15:50:54 57236] post_invocations(0)
+[T 15:50:54 57236] trace_languages(1): [java]
+[T 15:50:54 57236] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 15:50:54 57236] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:50:54 57236] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 15:51:10 57369] Attempting to switch stdout/stderr to 25...
+[T 15:51:10 57372] Initializing tracer.
+[T 15:51:10 57372] Initialising tags...
+[T 15:51:10 57372] ID set to 000000000000E01C_0000000000000001 (parent 000000000000DF94_0000000000000001)
+[T 15:51:10 57372] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 15:51:10 57372] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 15:51:10 57372] Executing the following tracer actions:
+[T 15:51:10 57372] Tracer actions:
+[T 15:51:10 57372] pre_invocations(0)
+[T 15:51:10 57372] post_invocations(0)
+[T 15:51:10 57372] trace_languages(1): [java]
+[T 15:51:10 57380] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000E01C.380DDE68.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000E01C.380DDE68.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000E01C.380DDE68.slice.x86_64: replacing existing signature
+[T 15:51:11 57372] Initializing tracer.
+[T 15:51:11 57372] Initialising tags...
+[T 15:51:11 57372] ID set to 000000000000E01C_0000000000000002 (parent 000000000000E01C_0000000000000001)
+[T 15:51:11 57372] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 15:51:11 57372] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 15:51:11 57372] Executing the following tracer actions:
+[T 15:51:11 57372] Tracer actions:
+[T 15:51:11 57372] pre_invocations(0)
+[T 15:51:11 57372] post_invocations(0)
+[T 15:51:11 57372] trace_languages(1): [java]
+[T 15:51:11 57372] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 15:51:11 57372] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:51:12 57372] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 15:59:24 58540] CodeQL CLI version 2.13.5
+[T 15:59:24 58540] Initializing tracer.
+[T 15:59:24 58540] Initialising tags...
+[T 15:59:24 58540] ID set to 000000000000E4AC_0000000000000001 (parent root)
+[T 15:59:24 58540] Initializing tracer.
+[T 15:59:24 58540] Initialising tags...
+[T 15:59:24 58540] ID set to 000000000000E4AC_0000000000000002 (parent root)
+[T 15:59:24 58540] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 15:59:24 58540] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 15:59:24 58540] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 15:59:24 58540] Executing the following tracer actions:
+[T 15:59:24 58540] Tracer actions:
+[T 15:59:24 58540] pre_invocations(0)
+[T 15:59:24 58540] post_invocations(0)
+[T 15:59:24 58540] trace_languages(1): [java]
+[T 15:59:24 58541] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.0000E4AC.38587428.slice.x86_64: replacing existing signature
+[T 15:59:25 58540] Initializing tracer.
+[T 15:59:25 58540] Initialising tags...
+[T 15:59:25 58540] ID set to 000000000000E4AC_0000000000000003 (parent 000000000000E4AC_0000000000000002)
+[T 15:59:25 58540] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 15:59:25 58540] Lua: === Intercepted call to /bin/bash ===
+[T 15:59:25 58540] Executing the following tracer actions:
+[T 15:59:25 58540] Tracer actions:
+[T 15:59:25 58540] pre_invocations(0)
+[T 15:59:25 58540] post_invocations(0)
+[T 15:59:25 58540] trace_languages(1): [java]
+[T 15:59:25 58545] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.0000E4AC.11E5DD08.slice.x86_64: replacing existing signature
+[T 15:59:25 58540] Initializing tracer.
+[T 15:59:25 58540] Initialising tags...
+[T 15:59:25 58540] ID set to 000000000000E4AC_0000000000000004 (parent 000000000000E4AC_0000000000000003)
+[T 15:59:25 58540] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 15:59:25 58540] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 15:59:25 58540] Executing the following tracer actions:
+[T 15:59:25 58540] Tracer actions:
+[T 15:59:25 58540] pre_invocations(0)
+[T 15:59:25 58540] post_invocations(0)
+[T 15:59:25 58540] trace_languages(1): [java]
+[T 15:59:25 58540] Initializing tracer.
+[T 15:59:25 58540] Initialising tags...
+[T 15:59:25 58540] ID set to 000000000000E4AC_0000000000000005 (parent 000000000000E4AC_0000000000000004)
+[T 15:59:25 58540] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 15:59:25 58540] Lua: === Intercepted call to /bin/bash ===
+[T 15:59:25 58540] Executing the following tracer actions:
+[T 15:59:25 58540] Tracer actions:
+[T 15:59:25 58540] pre_invocations(0)
+[T 15:59:25 58540] post_invocations(0)
+[T 15:59:25 58540] trace_languages(1): [java]
+[T 15:59:25 58554] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.0000E4B9.1A2F27D0.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.0000E4B9.1A2F27D0.slice.x86_64: replacing existing signature
+[T 15:59:25 58553] Initializing tracer.
+[T 15:59:25 58553] Initialising tags...
+[T 15:59:25 58553] ID set to 000000000000E4B9_0000000000000001 (parent 000000000000E4AC_0000000000000005)
+[T 15:59:25 58553] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 15:59:25 58553] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 15:59:25 58553] Executing the following tracer actions:
+[T 15:59:25 58553] Tracer actions:
+[T 15:59:25 58553] pre_invocations(0)
+[T 15:59:25 58553] post_invocations(0)
+[T 15:59:25 58553] trace_languages(1): [java]
+[T 15:59:25 58553] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 15:59:25 58553] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:59:25 58553] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 15:59:43 58742] Attempting to switch stdout/stderr to 25...
+[T 15:59:43 58746] Initializing tracer.
+[T 15:59:43 58746] Initialising tags...
+[T 15:59:44 58746] ID set to 000000000000E57A_0000000000000001 (parent 000000000000E4B9_0000000000000001)
+[T 15:59:44 58746] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 15:59:44 58746] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 15:59:44 58746] Executing the following tracer actions:
+[T 15:59:44 58746] Tracer actions:
+[T 15:59:44 58746] pre_invocations(0)
+[T 15:59:44 58746] post_invocations(0)
+[T 15:59:44 58746] trace_languages(1): [java]
+[T 15:59:44 58748] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000E57A.00245C98.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000E57A.00245C98.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000E57A.00245C98.slice.x86_64: replacing existing signature
+[T 15:59:44 58746] Initializing tracer.
+[T 15:59:44 58746] Initialising tags...
+[T 15:59:44 58746] ID set to 000000000000E57A_0000000000000002 (parent 000000000000E57A_0000000000000001)
+[T 15:59:44 58746] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 15:59:44 58746] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 15:59:44 58746] Executing the following tracer actions:
+[T 15:59:44 58746] Tracer actions:
+[T 15:59:44 58746] pre_invocations(0)
+[T 15:59:44 58746] post_invocations(0)
+[T 15:59:44 58746] trace_languages(1): [java]
+[T 15:59:44 58746] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 15:59:44 58746] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 15:59:44 58746] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 11:24:00 6653] CodeQL CLI version 2.13.5
+[T 11:24:00 6653] Initializing tracer.
+[T 11:24:00 6653] Initialising tags...
+[T 11:24:00 6653] ID set to 00000000000019FD_0000000000000001 (parent root)
+[T 11:24:00 6653] Initializing tracer.
+[T 11:24:00 6653] Initialising tags...
+[T 11:24:00 6653] ID set to 00000000000019FD_0000000000000002 (parent root)
+[T 11:24:00 6653] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 11:24:00 6653] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 11:24:00 6653] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 11:24:00 6653] Executing the following tracer actions:
+[T 11:24:00 6653] Tracer actions:
+[T 11:24:00 6653] pre_invocations(0)
+[T 11:24:00 6653] post_invocations(0)
+[T 11:24:00 6653] trace_languages(1): [java]
+[T 11:24:00 6654] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.000019FD.14802B40.slice.x86_64: replacing existing signature
+[T 11:24:01 6653] Initializing tracer.
+[T 11:24:01 6653] Initialising tags...
+[T 11:24:01 6653] ID set to 00000000000019FD_0000000000000003 (parent 00000000000019FD_0000000000000002)
+[T 11:24:01 6653] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 11:24:01 6653] Lua: === Intercepted call to /bin/bash ===
+[T 11:24:01 6653] Executing the following tracer actions:
+[T 11:24:01 6653] Tracer actions:
+[T 11:24:01 6653] pre_invocations(0)
+[T 11:24:01 6653] post_invocations(0)
+[T 11:24:01 6653] trace_languages(1): [java]
+[T 11:24:01 6662] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.000019FD.206DE910.slice.x86_64: replacing existing signature
+[T 11:24:02 6653] Initializing tracer.
+[T 11:24:02 6653] Initialising tags...
+[T 11:24:02 6653] ID set to 00000000000019FD_0000000000000004 (parent 00000000000019FD_0000000000000003)
+[T 11:24:02 6653] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 11:24:02 6653] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 11:24:02 6653] Executing the following tracer actions:
+[T 11:24:02 6653] Tracer actions:
+[T 11:24:02 6653] pre_invocations(0)
+[T 11:24:02 6653] post_invocations(0)
+[T 11:24:02 6653] trace_languages(1): [java]
+[T 11:24:02 6653] Initializing tracer.
+[T 11:24:02 6653] Initialising tags...
+[T 11:24:02 6653] ID set to 00000000000019FD_0000000000000005 (parent 00000000000019FD_0000000000000004)
+[T 11:24:02 6653] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 11:24:02 6653] Lua: === Intercepted call to /bin/bash ===
+[T 11:24:02 6653] Executing the following tracer actions:
+[T 11:24:02 6653] Tracer actions:
+[T 11:24:02 6653] pre_invocations(0)
+[T 11:24:02 6653] post_invocations(0)
+[T 11:24:02 6653] trace_languages(1): [java]
+[T 11:24:02 6676] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00001A12.0459FBB0.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00001A12.0459FBB0.slice.x86_64: replacing existing signature
+[T 11:24:02 6674] Initializing tracer.
+[T 11:24:02 6674] Initialising tags...
+[T 11:24:02 6674] ID set to 0000000000001A12_0000000000000001 (parent 00000000000019FD_0000000000000005)
+[T 11:24:02 6674] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 11:24:02 6674] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 11:24:02 6674] Executing the following tracer actions:
+[T 11:24:02 6674] Tracer actions:
+[T 11:24:02 6674] pre_invocations(0)
+[T 11:24:02 6674] post_invocations(0)
+[T 11:24:02 6674] trace_languages(1): [java]
+[T 11:24:02 6674] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 11:24:02 6674] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 11:24:02 6674] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 11:24:18 6744] Attempting to switch stdout/stderr to 25...
+[T 11:24:19 6747] Initializing tracer.
+[T 11:24:19 6747] Initialising tags...
+[T 11:24:19 6747] ID set to 0000000000001A5B_0000000000000001 (parent 0000000000001A12_0000000000000001)
+[T 11:24:19 6747] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 11:24:19 6747] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 11:24:19 6747] Executing the following tracer actions:
+[T 11:24:19 6747] Tracer actions:
+[T 11:24:19 6747] pre_invocations(0)
+[T 11:24:19 6747] post_invocations(0)
+[T 11:24:19 6747] trace_languages(1): [java]
+[T 11:24:19 6755] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00001A5B.040017F8.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00001A5B.040017F8.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00001A5B.040017F8.slice.x86_64: replacing existing signature
+[T 11:24:19 6747] Initializing tracer.
+[T 11:24:19 6747] Initialising tags...
+[T 11:24:19 6747] ID set to 0000000000001A5B_0000000000000002 (parent 0000000000001A5B_0000000000000001)
+[T 11:24:19 6747] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 11:24:19 6747] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 11:24:19 6747] Executing the following tracer actions:
+[T 11:24:19 6747] Tracer actions:
+[T 11:24:19 6747] pre_invocations(0)
+[T 11:24:19 6747] post_invocations(0)
+[T 11:24:19 6747] trace_languages(1): [java]
+[T 11:24:19 6747] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 11:24:19 6747] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 11:24:20 6747] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 11:27:37 7543] CodeQL CLI version 2.13.5
+[T 11:27:37 7543] Initializing tracer.
+[T 11:27:37 7543] Initialising tags...
+[T 11:27:37 7543] ID set to 0000000000001D77_0000000000000001 (parent root)
+[T 11:27:37 7543] Initializing tracer.
+[T 11:27:37 7543] Initialising tags...
+[T 11:27:37 7543] ID set to 0000000000001D77_0000000000000002 (parent root)
+[T 11:27:37 7543] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 11:27:37 7543] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 11:27:37 7543] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 11:27:37 7543] Executing the following tracer actions:
+[T 11:27:37 7543] Tracer actions:
+[T 11:27:37 7543] pre_invocations(0)
+[T 11:27:37 7543] post_invocations(0)
+[T 11:27:37 7543] trace_languages(1): [java]
+[T 11:27:37 7544] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00001D77.13FB7A80.slice.x86_64: replacing existing signature
+[T 11:27:38 7543] Initializing tracer.
+[T 11:27:38 7543] Initialising tags...
+[T 11:27:38 7543] ID set to 0000000000001D77_0000000000000003 (parent 0000000000001D77_0000000000000002)
+[T 11:27:38 7543] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 11:27:38 7543] Lua: === Intercepted call to /bin/bash ===
+[T 11:27:38 7543] Executing the following tracer actions:
+[T 11:27:38 7543] Tracer actions:
+[T 11:27:38 7543] pre_invocations(0)
+[T 11:27:38 7543] post_invocations(0)
+[T 11:27:38 7543] trace_languages(1): [java]
+[T 11:28:31 7796] CodeQL CLI version 2.13.5
+[T 11:28:31 7796] Initializing tracer.
+[T 11:28:31 7796] Initialising tags...
+[T 11:28:31 7796] ID set to 0000000000001E74_0000000000000001 (parent root)
+[T 11:28:31 7796] Initializing tracer.
+[T 11:28:31 7796] Initialising tags...
+[T 11:28:31 7796] ID set to 0000000000001E74_0000000000000002 (parent root)
+[T 11:28:31 7796] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 11:28:31 7796] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 11:28:31 7796] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 11:28:31 7796] Executing the following tracer actions:
+[T 11:28:31 7796] Tracer actions:
+[T 11:28:31 7796] pre_invocations(0)
+[T 11:28:31 7796] post_invocations(0)
+[T 11:28:31 7796] trace_languages(1): [java]
+[T 11:28:31 7797] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00001E74.265AD900.slice.x86_64: replacing existing signature
+[T 11:28:32 7796] Initializing tracer.
+[T 11:28:32 7796] Initialising tags...
+[T 11:28:32 7796] ID set to 0000000000001E74_0000000000000003 (parent 0000000000001E74_0000000000000002)
+[T 11:28:32 7796] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 11:28:32 7796] Lua: === Intercepted call to /bin/bash ===
+[T 11:28:32 7796] Executing the following tracer actions:
+[T 11:28:32 7796] Tracer actions:
+[T 11:28:32 7796] pre_invocations(0)
+[T 11:28:32 7796] post_invocations(0)
+[T 11:28:32 7796] trace_languages(1): [java]
+[T 11:31:04 9036] CodeQL CLI version 2.13.5
+[T 11:31:04 9036] Initializing tracer.
+[T 11:31:04 9036] Initialising tags...
+[T 11:31:04 9036] ID set to 000000000000234C_0000000000000001 (parent root)
+[T 11:31:04 9036] Initializing tracer.
+[T 11:31:04 9036] Initialising tags...
+[T 11:31:04 9036] ID set to 000000000000234C_0000000000000002 (parent root)
+[T 11:31:04 9036] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 11:31:04 9036] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 11:31:04 9036] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 11:31:04 9036] Executing the following tracer actions:
+[T 11:31:04 9036] Tracer actions:
+[T 11:31:04 9036] pre_invocations(0)
+[T 11:31:04 9036] post_invocations(0)
+[T 11:31:04 9036] trace_languages(1): [java]
+[T 11:31:04 9037] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.0000234C.117F2BF8.slice.x86_64: replacing existing signature
+[T 11:31:05 9036] Initializing tracer.
+[T 11:31:05 9036] Initialising tags...
+[T 11:31:05 9036] ID set to 000000000000234C_0000000000000003 (parent 000000000000234C_0000000000000002)
+[T 11:31:05 9036] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 11:31:05 9036] Lua: === Intercepted call to /bin/bash ===
+[T 11:31:05 9036] Executing the following tracer actions:
+[T 11:31:05 9036] Tracer actions:
+[T 11:31:05 9036] pre_invocations(0)
+[T 11:31:05 9036] post_invocations(0)
+[T 11:31:05 9036] trace_languages(1): [java]
+[T 11:31:05 9041] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.0000234C.015E8660.slice.x86_64: replacing existing signature
+[T 11:31:05 9036] Initializing tracer.
+[T 11:31:05 9036] Initialising tags...
+[T 11:31:05 9036] ID set to 000000000000234C_0000000000000004 (parent 000000000000234C_0000000000000003)
+[T 11:31:05 9036] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 11:31:05 9036] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 11:31:05 9036] Executing the following tracer actions:
+[T 11:31:05 9036] Tracer actions:
+[T 11:31:05 9036] pre_invocations(0)
+[T 11:31:05 9036] post_invocations(0)
+[T 11:31:05 9036] trace_languages(1): [java]
+[T 11:31:05 9036] Initializing tracer.
+[T 11:31:05 9036] Initialising tags...
+[T 11:31:05 9036] ID set to 000000000000234C_0000000000000005 (parent 000000000000234C_0000000000000004)
+[T 11:31:05 9036] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 11:31:05 9036] Lua: === Intercepted call to /bin/bash ===
+[T 11:31:05 9036] Executing the following tracer actions:
+[T 11:31:05 9036] Tracer actions:
+[T 11:31:05 9036] pre_invocations(0)
+[T 11:31:05 9036] post_invocations(0)
+[T 11:31:05 9036] trace_languages(1): [java]
+[T 11:31:05 9046] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00002355.1A13EF10.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00002355.1A13EF10.slice.x86_64: replacing existing signature
+[T 11:31:05 9045] Initializing tracer.
+[T 11:31:05 9045] Initialising tags...
+[T 11:31:05 9045] ID set to 0000000000002355_0000000000000001 (parent 000000000000234C_0000000000000005)
+[T 11:31:05 9045] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 11:31:05 9045] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 11:31:05 9045] Executing the following tracer actions:
+[T 11:31:05 9045] Tracer actions:
+[T 11:31:05 9045] pre_invocations(0)
+[T 11:31:05 9045] post_invocations(0)
+[T 11:31:05 9045] trace_languages(1): [java]
+[T 11:31:05 9045] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 11:31:05 9045] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 11:31:06 9045] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 11:31:22 9202] Attempting to switch stdout/stderr to 25...
+[T 11:31:23 9205] Initializing tracer.
+[T 11:31:23 9205] Initialising tags...
+[T 11:31:23 9205] ID set to 00000000000023F5_0000000000000001 (parent 0000000000002355_0000000000000001)
+[T 11:31:23 9205] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 11:31:23 9205] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 11:31:23 9205] Executing the following tracer actions:
+[T 11:31:23 9205] Tracer actions:
+[T 11:31:23 9205] pre_invocations(0)
+[T 11:31:23 9205] post_invocations(0)
+[T 11:31:23 9205] trace_languages(1): [java]
+[T 11:31:23 9221] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.000023F5.0A1851F0.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.000023F5.0A1851F0.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.000023F5.0A1851F0.slice.x86_64: replacing existing signature
+[T 11:31:23 9205] Initializing tracer.
+[T 11:31:23 9205] Initialising tags...
+[T 11:31:23 9205] ID set to 00000000000023F5_0000000000000002 (parent 00000000000023F5_0000000000000001)
+[T 11:31:23 9205] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 11:31:23 9205] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 11:31:23 9205] Executing the following tracer actions:
+[T 11:31:23 9205] Tracer actions:
+[T 11:31:23 9205] pre_invocations(0)
+[T 11:31:23 9205] post_invocations(0)
+[T 11:31:23 9205] trace_languages(1): [java]
+[T 11:31:23 9205] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 11:31:23 9205] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 11:31:24 9205] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 13:42:36 23301] CodeQL CLI version 2.13.5
+[T 13:42:36 23301] Initializing tracer.
+[T 13:42:36 23301] Initialising tags...
+[T 13:42:36 23301] ID set to 0000000000005B05_0000000000000001 (parent root)
+[T 13:42:36 23301] Initializing tracer.
+[T 13:42:36 23301] Initialising tags...
+[T 13:42:36 23301] ID set to 0000000000005B05_0000000000000002 (parent root)
+[T 13:42:36 23301] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 13:42:36 23301] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 13:42:36 23301] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 13:42:36 23301] Executing the following tracer actions:
+[T 13:42:36 23301] Tracer actions:
+[T 13:42:36 23301] pre_invocations(0)
+[T 13:42:36 23301] post_invocations(0)
+[T 13:42:36 23301] trace_languages(1): [java]
+[T 13:42:36 23302] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00005B05.0E3F0C88.slice.x86_64: replacing existing signature
+[T 13:42:36 23301] Initializing tracer.
+[T 13:42:36 23301] Initialising tags...
+[T 13:42:36 23301] ID set to 0000000000005B05_0000000000000003 (parent 0000000000005B05_0000000000000002)
+[T 13:42:36 23301] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 13:42:36 23301] Lua: === Intercepted call to /bin/bash ===
+[T 13:42:36 23301] Executing the following tracer actions:
+[T 13:42:36 23301] Tracer actions:
+[T 13:42:36 23301] pre_invocations(0)
+[T 13:42:36 23301] post_invocations(0)
+[T 13:42:36 23301] trace_languages(1): [java]
+[T 13:42:37 23319] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.00005B05.3B8361D0.slice.x86_64: replacing existing signature
+[T 13:42:37 23301] Initializing tracer.
+[T 13:42:37 23301] Initialising tags...
+[T 13:42:37 23301] ID set to 0000000000005B05_0000000000000004 (parent 0000000000005B05_0000000000000003)
+[T 13:42:37 23301] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 13:42:37 23301] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 13:42:37 23301] Executing the following tracer actions:
+[T 13:42:37 23301] Tracer actions:
+[T 13:42:37 23301] pre_invocations(0)
+[T 13:42:37 23301] post_invocations(0)
+[T 13:42:37 23301] trace_languages(1): [java]
+[T 13:42:37 23301] Initializing tracer.
+[T 13:42:37 23301] Initialising tags...
+[T 13:42:37 23301] ID set to 0000000000005B05_0000000000000005 (parent 0000000000005B05_0000000000000004)
+[T 13:42:37 23301] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 13:42:37 23301] Lua: === Intercepted call to /bin/bash ===
+[T 13:42:37 23301] Executing the following tracer actions:
+[T 13:42:37 23301] Tracer actions:
+[T 13:42:37 23301] pre_invocations(0)
+[T 13:42:37 23301] post_invocations(0)
+[T 13:42:37 23301] trace_languages(1): [java]
+[T 13:42:37 23331] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00005B22.1B5C70B8.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00005B22.1B5C70B8.slice.x86_64: replacing existing signature
+[T 13:42:37 23330] Initializing tracer.
+[T 13:42:37 23330] Initialising tags...
+[T 13:42:37 23330] ID set to 0000000000005B22_0000000000000001 (parent 0000000000005B05_0000000000000005)
+[T 13:42:37 23330] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 13:42:37 23330] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 13:42:37 23330] Executing the following tracer actions:
+[T 13:42:37 23330] Tracer actions:
+[T 13:42:37 23330] pre_invocations(0)
+[T 13:42:37 23330] post_invocations(0)
+[T 13:42:37 23330] trace_languages(1): [java]
+[T 13:42:37 23330] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 13:42:37 23330] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 13:42:38 23330] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 13:42:54 23467] Attempting to switch stdout/stderr to 25...
+[T 13:42:55 23470] Initializing tracer.
+[T 13:42:55 23470] Initialising tags...
+[T 13:42:55 23470] ID set to 0000000000005BAE_0000000000000001 (parent 0000000000005B22_0000000000000001)
+[T 13:42:55 23470] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 13:42:55 23470] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 13:42:55 23470] Executing the following tracer actions:
+[T 13:42:55 23470] Tracer actions:
+[T 13:42:55 23470] pre_invocations(0)
+[T 13:42:55 23470] post_invocations(0)
+[T 13:42:55 23470] trace_languages(1): [java]
+[T 13:42:55 23472] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00005BAE.0108A9E8.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00005BAE.0108A9E8.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00005BAE.0108A9E8.slice.x86_64: replacing existing signature
+[T 13:42:55 23470] Initializing tracer.
+[T 13:42:55 23470] Initialising tags...
+[T 13:42:55 23470] ID set to 0000000000005BAE_0000000000000002 (parent 0000000000005BAE_0000000000000001)
+[T 13:42:55 23470] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 13:42:55 23470] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 13:42:55 23470] Executing the following tracer actions:
+[T 13:42:55 23470] Tracer actions:
+[T 13:42:55 23470] pre_invocations(0)
+[T 13:42:55 23470] post_invocations(0)
+[T 13:42:55 23470] trace_languages(1): [java]
+[T 13:42:55 23470] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 13:42:55 23470] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 13:42:55 23470] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 14:40:53 35611] CodeQL CLI version 2.13.5
+[T 14:40:53 35611] Initializing tracer.
+[T 14:40:53 35611] Initialising tags...
+[T 14:40:53 35611] ID set to 0000000000008B1B_0000000000000001 (parent root)
+[T 14:40:54 35611] Initializing tracer.
+[T 14:40:54 35611] Initialising tags...
+[T 14:40:54 35611] ID set to 0000000000008B1B_0000000000000002 (parent root)
+[T 14:40:54 35611] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 14:40:54 35611] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 14:40:54 35611] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 14:40:54 35611] Executing the following tracer actions:
+[T 14:40:54 35611] Tracer actions:
+[T 14:40:54 35611] pre_invocations(0)
+[T 14:40:54 35611] post_invocations(0)
+[T 14:40:54 35611] trace_languages(1): [java]
+[T 14:40:54 35616] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00008B1B.1CCE7F18.slice.x86_64: replacing existing signature
+[T 14:40:55 35611] Initializing tracer.
+[T 14:40:55 35611] Initialising tags...
+[T 14:40:55 35611] ID set to 0000000000008B1B_0000000000000003 (parent 0000000000008B1B_0000000000000002)
+[T 14:40:55 35611] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 14:40:55 35611] Lua: === Intercepted call to /bin/bash ===
+[T 14:40:55 35611] Executing the following tracer actions:
+[T 14:40:55 35611] Tracer actions:
+[T 14:40:55 35611] pre_invocations(0)
+[T 14:40:55 35611] post_invocations(0)
+[T 14:40:55 35611] trace_languages(1): [java]
+[T 14:40:55 35643] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.00008B1B.31C0D100.slice.x86_64: replacing existing signature
+[T 14:40:56 35611] Initializing tracer.
+[T 14:40:56 35611] Initialising tags...
+[T 14:40:56 35611] ID set to 0000000000008B1B_0000000000000004 (parent 0000000000008B1B_0000000000000003)
+[T 14:40:56 35611] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 14:40:56 35611] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 14:40:56 35611] Executing the following tracer actions:
+[T 14:40:56 35611] Tracer actions:
+[T 14:40:56 35611] pre_invocations(0)
+[T 14:40:56 35611] post_invocations(0)
+[T 14:40:56 35611] trace_languages(1): [java]
+[T 14:40:56 35611] Initializing tracer.
+[T 14:40:56 35611] Initialising tags...
+[T 14:40:56 35611] ID set to 0000000000008B1B_0000000000000005 (parent 0000000000008B1B_0000000000000004)
+[T 14:40:56 35611] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 14:40:56 35611] Lua: === Intercepted call to /bin/bash ===
+[T 14:40:56 35611] Executing the following tracer actions:
+[T 14:40:56 35611] Tracer actions:
+[T 14:40:56 35611] pre_invocations(0)
+[T 14:40:56 35611] post_invocations(0)
+[T 14:40:56 35611] trace_languages(1): [java]
+[T 14:40:56 35658] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00008B49.0FA32C80.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.00008B49.0FA32C80.slice.x86_64: replacing existing signature
+[T 14:40:56 35657] Initializing tracer.
+[T 14:40:56 35657] Initialising tags...
+[T 14:40:56 35657] ID set to 0000000000008B49_0000000000000001 (parent 0000000000008B1B_0000000000000005)
+[T 14:40:56 35657] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 14:40:56 35657] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 14:40:56 35657] Executing the following tracer actions:
+[T 14:40:56 35657] Tracer actions:
+[T 14:40:56 35657] pre_invocations(0)
+[T 14:40:56 35657] post_invocations(0)
+[T 14:40:56 35657] trace_languages(1): [java]
+[T 14:40:56 35657] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 14:40:56 35657] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 14:40:56 35657] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 14:41:14 35777] Attempting to switch stdout/stderr to 25...
+[T 14:41:14 35780] Initializing tracer.
+[T 14:41:14 35780] Initialising tags...
+[T 14:41:14 35780] ID set to 0000000000008BC4_0000000000000001 (parent 0000000000008B49_0000000000000001)
+[T 14:41:14 35780] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 14:41:14 35780] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 14:41:14 35780] Executing the following tracer actions:
+[T 14:41:14 35780] Tracer actions:
+[T 14:41:14 35780] pre_invocations(0)
+[T 14:41:14 35780] post_invocations(0)
+[T 14:41:14 35780] trace_languages(1): [java]
+[T 14:41:14 35782] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00008BC4.27C5AFB8.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00008BC4.27C5AFB8.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00008BC4.27C5AFB8.slice.x86_64: replacing existing signature
+[T 14:41:15 35780] Initializing tracer.
+[T 14:41:15 35780] Initialising tags...
+[T 14:41:15 35780] ID set to 0000000000008BC4_0000000000000002 (parent 0000000000008BC4_0000000000000001)
+[T 14:41:15 35780] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 14:41:15 35780] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 14:41:15 35780] Executing the following tracer actions:
+[T 14:41:15 35780] Tracer actions:
+[T 14:41:15 35780] pre_invocations(0)
+[T 14:41:15 35780] post_invocations(0)
+[T 14:41:15 35780] trace_languages(1): [java]
+[T 14:41:15 35780] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 14:41:15 35780] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 14:41:15 35780] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 14:44:50 37138] CodeQL CLI version 2.13.5
+[T 14:44:50 37138] Initializing tracer.
+[T 14:44:50 37138] Initialising tags...
+[T 14:44:50 37138] ID set to 0000000000009112_0000000000000001 (parent root)
+[T 14:44:50 37138] Initializing tracer.
+[T 14:44:50 37138] Initialising tags...
+[T 14:44:50 37138] ID set to 0000000000009112_0000000000000002 (parent root)
+[T 14:44:50 37138] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 14:44:50 37138] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 14:44:50 37138] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 14:44:50 37138] Executing the following tracer actions:
+[T 14:44:50 37138] Tracer actions:
+[T 14:44:50 37138] pre_invocations(0)
+[T 14:44:50 37138] post_invocations(0)
+[T 14:44:50 37138] trace_languages(1): [java]
+[T 14:44:50 37144] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.00009112.0DDC62B8.slice.x86_64: replacing existing signature
+[T 14:44:50 37138] Initializing tracer.
+[T 14:44:50 37138] Initialising tags...
+[T 14:44:50 37138] ID set to 0000000000009112_0000000000000003 (parent 0000000000009112_0000000000000002)
+[T 14:44:50 37138] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 14:44:50 37138] Lua: === Intercepted call to /bin/bash ===
+[T 14:44:50 37138] Executing the following tracer actions:
+[T 14:44:50 37138] Tracer actions:
+[T 14:44:50 37138] pre_invocations(0)
+[T 14:44:50 37138] post_invocations(0)
+[T 14:44:50 37138] trace_languages(1): [java]
+[T 14:44:50 37152] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.00009112.310EAB88.slice.x86_64: replacing existing signature
+[T 14:44:51 37138] Initializing tracer.
+[T 14:44:51 37138] Initialising tags...
+[T 14:44:51 37138] ID set to 0000000000009112_0000000000000004 (parent 0000000000009112_0000000000000003)
+[T 14:44:51 37138] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 14:44:51 37138] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 14:44:51 37138] Executing the following tracer actions:
+[T 14:44:51 37138] Tracer actions:
+[T 14:44:51 37138] pre_invocations(0)
+[T 14:44:51 37138] post_invocations(0)
+[T 14:44:51 37138] trace_languages(1): [java]
+[T 14:44:51 37138] Initializing tracer.
+[T 14:44:51 37138] Initialising tags...
+[T 14:44:51 37138] ID set to 0000000000009112_0000000000000005 (parent 0000000000009112_0000000000000004)
+[T 14:44:51 37138] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 14:44:51 37138] Lua: === Intercepted call to /bin/bash ===
+[T 14:44:51 37138] Executing the following tracer actions:
+[T 14:44:51 37138] Tracer actions:
+[T 14:44:51 37138] pre_invocations(0)
+[T 14:44:51 37138] post_invocations(0)
+[T 14:44:51 37138] trace_languages(1): [java]
+[T 14:44:51 37163] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.0000912A.10462340.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.0000912A.10462340.slice.x86_64: replacing existing signature
+[T 14:44:51 37162] Initializing tracer.
+[T 14:44:51 37162] Initialising tags...
+[T 14:44:51 37162] ID set to 000000000000912A_0000000000000001 (parent 0000000000009112_0000000000000005)
+[T 14:44:51 37162] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 14:44:51 37162] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 14:44:51 37162] Executing the following tracer actions:
+[T 14:44:51 37162] Tracer actions:
+[T 14:44:51 37162] pre_invocations(0)
+[T 14:44:51 37162] post_invocations(0)
+[T 14:44:51 37162] trace_languages(1): [java]
+[T 14:44:51 37162] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 14:44:51 37162] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 14:44:51 37162] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 14:45:08 37248] Attempting to switch stdout/stderr to 25...
+[T 14:45:08 37251] Initializing tracer.
+[T 14:45:08 37251] Initialising tags...
+[T 14:45:08 37251] ID set to 0000000000009183_0000000000000001 (parent 000000000000912A_0000000000000001)
+[T 14:45:08 37251] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 14:45:08 37251] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 14:45:08 37251] Executing the following tracer actions:
+[T 14:45:08 37251] Tracer actions:
+[T 14:45:08 37251] pre_invocations(0)
+[T 14:45:08 37251] post_invocations(0)
+[T 14:45:08 37251] trace_languages(1): [java]
+[T 14:45:08 37253] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00009183.226A0F00.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00009183.226A0F00.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00009183.226A0F00.slice.x86_64: replacing existing signature
+[T 14:45:08 37251] Initializing tracer.
+[T 14:45:08 37251] Initialising tags...
+[T 14:45:08 37251] ID set to 0000000000009183_0000000000000002 (parent 0000000000009183_0000000000000001)
+[T 14:45:08 37251] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 14:45:08 37251] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 14:45:08 37251] Executing the following tracer actions:
+[T 14:45:08 37251] Tracer actions:
+[T 14:45:08 37251] pre_invocations(0)
+[T 14:45:08 37251] post_invocations(0)
+[T 14:45:08 37251] trace_languages(1): [java]
+[T 14:45:08 37251] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 14:45:08 37251] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 14:45:09 37251] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 14:49:58 38799] CodeQL CLI version 2.13.5
+[T 14:49:58 38799] Initializing tracer.
+[T 14:49:58 38799] Initialising tags...
+[T 14:49:58 38799] ID set to 000000000000978F_0000000000000001 (parent root)
+[T 14:49:58 38799] Initializing tracer.
+[T 14:49:58 38799] Initialising tags...
+[T 14:49:58 38799] ID set to 000000000000978F_0000000000000002 (parent root)
+[T 14:49:58 38799] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 14:49:58 38799] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 14:49:58 38799] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 14:49:58 38799] Executing the following tracer actions:
+[T 14:49:58 38799] Tracer actions:
+[T 14:49:58 38799] pre_invocations(0)
+[T 14:49:58 38799] post_invocations(0)
+[T 14:49:58 38799] trace_languages(1): [java]
+[T 14:49:58 38800] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.0000978F.15A2F0C0.slice.x86_64: replacing existing signature
+[T 14:49:59 38799] Initializing tracer.
+[T 14:49:59 38799] Initialising tags...
+[T 14:49:59 38799] ID set to 000000000000978F_0000000000000003 (parent 000000000000978F_0000000000000002)
+[T 14:49:59 38799] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 14:49:59 38799] Lua: === Intercepted call to /bin/bash ===
+[T 14:49:59 38799] Executing the following tracer actions:
+[T 14:49:59 38799] Tracer actions:
+[T 14:49:59 38799] pre_invocations(0)
+[T 14:49:59 38799] post_invocations(0)
+[T 14:49:59 38799] trace_languages(1): [java]
+[T 14:49:59 38816] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.0000978F.02FA63E0.slice.x86_64: replacing existing signature
+[T 14:49:59 38799] Initializing tracer.
+[T 14:49:59 38799] Initialising tags...
+[T 14:49:59 38799] ID set to 000000000000978F_0000000000000004 (parent 000000000000978F_0000000000000003)
+[T 14:49:59 38799] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 14:49:59 38799] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 14:49:59 38799] Executing the following tracer actions:
+[T 14:49:59 38799] Tracer actions:
+[T 14:49:59 38799] pre_invocations(0)
+[T 14:49:59 38799] post_invocations(0)
+[T 14:49:59 38799] trace_languages(1): [java]
+[T 14:49:59 38799] Initializing tracer.
+[T 14:49:59 38799] Initialising tags...
+[T 14:49:59 38799] ID set to 000000000000978F_0000000000000005 (parent 000000000000978F_0000000000000004)
+[T 14:49:59 38799] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 14:49:59 38799] Lua: === Intercepted call to /bin/bash ===
+[T 14:49:59 38799] Executing the following tracer actions:
+[T 14:49:59 38799] Tracer actions:
+[T 14:49:59 38799] pre_invocations(0)
+[T 14:49:59 38799] post_invocations(0)
+[T 14:49:59 38799] trace_languages(1): [java]
+[T 14:49:59 38821] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.000097A4.1E3F83D8.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.000097A4.1E3F83D8.slice.x86_64: replacing existing signature
+[T 14:50:00 38820] Initializing tracer.
+[T 14:50:00 38820] Initialising tags...
+[T 14:50:00 38820] ID set to 00000000000097A4_0000000000000001 (parent 000000000000978F_0000000000000005)
+[T 14:50:00 38820] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 14:50:00 38820] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 14:50:00 38820] Executing the following tracer actions:
+[T 14:50:00 38820] Tracer actions:
+[T 14:50:00 38820] pre_invocations(0)
+[T 14:50:00 38820] post_invocations(0)
+[T 14:50:00 38820] trace_languages(1): [java]
+[T 14:50:00 38820] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 14:50:00 38820] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 14:50:00 38820] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 14:50:16 38928] Attempting to switch stdout/stderr to 25...
+[T 14:50:17 38931] Initializing tracer.
+[T 14:50:17 38931] Initialising tags...
+[T 14:50:17 38931] ID set to 0000000000009813_0000000000000001 (parent 00000000000097A4_0000000000000001)
+[T 14:50:17 38931] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 14:50:17 38931] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 14:50:17 38931] Executing the following tracer actions:
+[T 14:50:17 38931] Tracer actions:
+[T 14:50:17 38931] pre_invocations(0)
+[T 14:50:17 38931] post_invocations(0)
+[T 14:50:17 38931] trace_languages(1): [java]
+[T 14:50:17 38933] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00009813.127167B0.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00009813.127167B0.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.00009813.127167B0.slice.x86_64: replacing existing signature
+[T 14:50:17 38931] Initializing tracer.
+[T 14:50:17 38931] Initialising tags...
+[T 14:50:17 38931] ID set to 0000000000009813_0000000000000002 (parent 0000000000009813_0000000000000001)
+[T 14:50:17 38931] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 14:50:17 38931] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 14:50:17 38931] Executing the following tracer actions:
+[T 14:50:17 38931] Tracer actions:
+[T 14:50:17 38931] pre_invocations(0)
+[T 14:50:17 38931] post_invocations(0)
+[T 14:50:17 38931] trace_languages(1): [java]
+[T 14:50:17 38931] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 14:50:17 38931] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 14:50:18 38931] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:26:21 55746] CodeQL CLI version 2.13.5
+[T 16:26:21 55746] Initializing tracer.
+[T 16:26:21 55746] Initialising tags...
+[T 16:26:21 55746] ID set to 000000000000D9C2_0000000000000001 (parent root)
+[T 16:26:21 55746] Initializing tracer.
+[T 16:26:21 55746] Initialising tags...
+[T 16:26:21 55746] ID set to 000000000000D9C2_0000000000000002 (parent root)
+[T 16:26:21 55746] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 16:26:21 55746] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx (canonical: /Users/lousix/sec/CodeQL/codeql/tools/osx64/runner-osx) ====
+[T 16:26:21 55746] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/tools/osx64/runner-osx ===
+[T 16:26:21 55746] Executing the following tracer actions:
+[T 16:26:21 55746] Tracer actions:
+[T 16:26:21 55746] pre_invocations(0)
+[T 16:26:21 55746] post_invocations(0)
+[T 16:26:21 55746] trace_languages(1): [java]
+[T 16:26:21 55750] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/bash.semmle.0000D9C2.2D2BD7C0.slice.x86_64: replacing existing signature
+[T 16:26:22 55746] Initializing tracer.
+[T 16:26:22 55746] Initialising tags...
+[T 16:26:22 55746] ID set to 000000000000D9C2_0000000000000003 (parent 000000000000D9C2_0000000000000002)
+[T 16:26:22 55746] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 16:26:22 55746] Lua: === Intercepted call to /bin/bash ===
+[T 16:26:22 55746] Executing the following tracer actions:
+[T 16:26:22 55746] Tracer actions:
+[T 16:26:22 55746] pre_invocations(0)
+[T 16:26:22 55746] post_invocations(0)
+[T 16:26:22 55746] trace_languages(1): [java]
+[T 16:26:22 55769] Attempting to switch stdout/stderr to 3...
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/bin/sh.semmle.0000D9C2.32D06858.slice.x86_64: replacing existing signature
+[T 16:26:23 55746] Initializing tracer.
+[T 16:26:23 55746] Initialising tags...
+[T 16:26:23 55746] ID set to 000000000000D9C2_0000000000000004 (parent 000000000000D9C2_0000000000000003)
+[T 16:26:23 55746] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh (canonical: /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/run.sh) ====
+[T 16:26:23 55746] Lua: === Intercepted call to /users/lousix/sec/codeql/codeqlpy/out/decode/run.sh ===
+[T 16:26:23 55746] Executing the following tracer actions:
+[T 16:26:23 55746] Tracer actions:
+[T 16:26:23 55746] pre_invocations(0)
+[T 16:26:23 55746] post_invocations(0)
+[T 16:26:23 55746] trace_languages(1): [java]
+[T 16:26:23 55746] Initializing tracer.
+[T 16:26:23 55746] Initialising tags...
+[T 16:26:23 55746] ID set to 000000000000D9C2_0000000000000005 (parent 000000000000D9C2_0000000000000004)
+[T 16:26:23 55746] ==== Candidate to intercept: /bin/bash (canonical: /bin/bash) ====
+[T 16:26:23 55746] Lua: === Intercepted call to /bin/bash ===
+[T 16:26:23 55746] Executing the following tracer actions:
+[T 16:26:23 55746] Tracer actions:
+[T 16:26:23 55746] pre_invocations(0)
+[T 16:26:23 55746] post_invocations(0)
+[T 16:26:23 55746] trace_languages(1): [java]
+[T 16:26:23 55788] Attempting to switch stdout/stderr to 3...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.0000D9EB.1010A008.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java.semmle.0000D9EB.1010A008.slice.x86_64: replacing existing signature
+[T 16:26:23 55787] Initializing tracer.
+[T 16:26:23 55787] Initialising tags...
+[T 16:26:23 55787] ID set to 000000000000D9EB_0000000000000001 (parent 000000000000D9C2_0000000000000005)
+[T 16:26:23 55787] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/bin/java) ====
+[T 16:26:23 55787] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/bin/java ===
+[T 16:26:23 55787] Executing the following tracer actions:
+[T 16:26:23 55787] Tracer actions:
+[T 16:26:23 55787] pre_invocations(0)
+[T 16:26:23 55787] post_invocations(0)
+[T 16:26:23 55787] trace_languages(1): [java]
+[T 16:26:23 55787] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:26:23 55787] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 16:26:23 55787] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).
+[T 16:26:40 55897] Attempting to switch stdout/stderr to 25...
+[T 16:26:41 55900] Initializing tracer.
+[T 16:26:41 55900] Initialising tags...
+[T 16:26:41 55900] ID set to 000000000000DA5C_0000000000000001 (parent 000000000000D9EB_0000000000000001)
+[T 16:26:41 55900] ==== Candidate to intercept: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper (canonical: /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jspawnhelper) ====
+[T 16:26:41 55900] Lua: === Intercepted call to /library/java/javavirtualmachines/jdk1.8.0_181.jdk/contents/home/jre/lib/jspawnhelper ===
+[T 16:26:41 55900] Executing the following tracer actions:
+[T 16:26:41 55900] Tracer actions:
+[T 16:26:41 55900] pre_invocations(0)
+[T 16:26:41 55900] post_invocations(0)
+[T 16:26:41 55900] trace_languages(1): [java]
+[T 16:26:41 55902] Attempting to switch stdout/stderr to 4...
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000DA5C.1DB11300.slice.x86_64
+/Library/Developer/CommandLineTools/usr/bin/install_name_tool: warning: changes being made to the file will invalidate the code signature in: /Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000DA5C.1DB11300.slice.x86_64
+/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/working/copy-root/000001F5/Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java.semmle.0000DA5C.1DB11300.slice.x86_64: replacing existing signature
+[T 16:26:41 55900] Initializing tracer.
+[T 16:26:41 55900] Initialising tags...
+[T 16:26:41 55900] ID set to 000000000000DA5C_0000000000000002 (parent 000000000000DA5C_0000000000000001)
+[T 16:26:41 55900] ==== Candidate to intercept: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java (canonical: /Users/lousix/sec/CodeQL/codeql/java/tools/macos/jdk-extractor-java/bin/java) ====
+[T 16:26:41 55900] Lua: === Intercepted call to /users/lousix/sec/codeql/codeql/java/tools/macos/jdk-extractor-java/bin/java ===
+[T 16:26:41 55900] Executing the following tracer actions:
+[T 16:26:41 55900] Tracer actions:
+[T 16:26:41 55900] pre_invocations(0)
+[T 16:26:41 55900] post_invocations(0)
+[T 16:26:41 55900] trace_languages(1): [java]
+[T 16:26:41 55900] Passing through -javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin to underlying JVM.
+[T 16:26:41 55900] Passing through -Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar to underlying JVM.
+[T 16:26:42 55900] Intercepted JVM creation with extra hidden args: ['-javaagent:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar=ignore-project,java,kotlin' '-Xbootclasspath/a:/Users/lousix/sec/CodeQL/codeql/java/tools/codeql-java-agent.jar' ] (result: 1, 0).

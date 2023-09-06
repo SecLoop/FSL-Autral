@@ -1,0 +1,440 @@
+[2023-08-17 17:51:16] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/MonitorController.java:142: error: variable declaration not allowed here
+[2023-08-17 17:51:16] [javac-output-38368]       Boolean bool = this.monitorService.add(Double.valueOf(map.getOrDefault("unuse", Double.valueOf(0.0D)).toString()), Double.valueOf(map.getOrDefault("usepercent", Double.valueOf(0.0D)).toString())); 
+[2023-08-17 17:51:16] [javac-output-38368]               ^
+[2023-08-17 17:51:16] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/DbUtils.java:237: error: variable declaration not allowed here
+[2023-08-17 17:51:16] [javac-output-38368]             Long long_ = Long.valueOf(((Integer)value).longValue()); 
+[2023-08-17 17:51:16] [javac-output-38368]                  ^
+[2023-08-17 17:51:16] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/DbUtils.java:240: error: variable declaration not allowed here
+[2023-08-17 17:51:16] [javac-output-38368]             Long long_ = Long.valueOf(((BigDecimal)value).longValue()); 
+[2023-08-17 17:51:16] [javac-output-38368]                  ^
+[2023-08-17 17:51:16] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/DatatransferMicroServiceBoot.java:181: error: not a statement
+[2023-08-17 17:51:16] [javac-output-38368]     this;
+[2023-08-17 17:51:16] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/SeeyonSSLProtocolSocketFactory.java:25: error: ')' expected
+[2023-08-17 17:51:17] [javac-output-38368]       sslcontext.init((KeyManager[])null, new TrustManager[] { (TrustManager)new TrustAnyTrustManager((TrustAnyTrustManager)null, null) }new SecureRandom());
+[2023-08-17 17:51:17] [javac-output-38368]                                                                                                                                          ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/SeeyonSSLProtocolSocketFactory.java:25: error: ';' expected
+[2023-08-17 17:51:17] [javac-output-38368]       sslcontext.init((KeyManager[])null, new TrustManager[] { (TrustManager)new TrustAnyTrustManager((TrustAnyTrustManager)null, null) }new SecureRandom());
+[2023-08-17 17:51:17] [javac-output-38368]                                                                                                                                                            ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/UsageRecordBo.java:16: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/UsageRecordBo.java:25: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/IndicatorUtil.java:60: error: -> expected
+[2023-08-17 17:51:17] [javac-output-38368]           partitions.forEach(());
+[2023-08-17 17:51:17] [javac-output-38368]                                ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/WebSocketServer.java:36: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/WebSocketServer.java:72: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/WebSocketServer.java:74: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]       this;
+[2023-08-17 17:51:17] [javac-output-38368]       ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/WebSocketServer.java:76: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]         this;
+[2023-08-17 17:51:17] [javac-output-38368]         ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/WebSocketServer.java:83: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/WebSocketServer.java:85: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]       this;
+[2023-08-17 17:51:17] [javac-output-38368]       ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/WebSocketServer.java:87: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]         this;
+[2023-08-17 17:51:17] [javac-output-38368]         ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/SourceMD5Check.java:66: error: -> expected
+[2023-08-17 17:51:17] [javac-output-38368]           List<SourceCodeMd5Record> filter = (List<SourceCodeMd5Record>)list.stream().filter(()).collect(Collectors.toList());
+[2023-08-17 17:51:17] [javac-output-38368]                                                                                                ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AutoBackDBThread.java:58: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AutoBackDBThread.java:60: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AutoBackDBThread.java:62: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AutoBackDBThread.java:64: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AutoBackDBThread.java:66: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AutoBackDBThread.java:68: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AutoBackDBThread.java:70: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:17] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AutoBackDBThread.java:72: error: not a statement
+[2023-08-17 17:51:17] [javac-output-38368]     this;
+[2023-08-17 17:51:17] [javac-output-38368]     ^
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/DemoController.java:6: error: package com.seeyon.s1.common.dto does not exist
+[2023-08-17 17:51:18] [javac-output-38368] import com.seeyon.s1.common.dto.Result;
+[2023-08-17 17:51:18] [javac-output-38368]                                ^
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/DemoController.java:24: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   Result<DemoVo> query(DemoDto demoDto) {
+[2023-08-17 17:51:18] [javac-output-38368]   ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class Result
+[2023-08-17 17:51:18] [javac-output-38368]   location: class DemoController
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AttachmentDataClearController.java:9: error: package com.seeyon.agent.common.systemLog.bean does not exist
+[2023-08-17 17:51:18] [javac-output-38368] import com.seeyon.agent.common.systemLog.bean.SystemLogBean;
+[2023-08-17 17:51:18] [javac-output-38368]                                              ^
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ISystemBusinessLogService.java:4: error: package com.seeyon.agent.common.systemLog.bean does not exist
+[2023-08-17 17:51:18] [javac-output-38368] import com.seeyon.agent.common.systemLog.bean.SystemLogBean;
+[2023-08-17 17:51:18] [javac-output-38368]                                              ^
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ISystemBusinessLogService.java:13: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   void saveLog(List<SystemLogBean> paramList);
+[2023-08-17 17:51:18] [javac-output-38368]                     ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class SystemLogBean
+[2023-08-17 17:51:18] [javac-output-38368]   location: interface ISystemBusinessLogService
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PageView.java:3: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368] import com.seeyon.agent.common.jacksonReplaceFastJson.JSON;
+[2023-08-17 17:51:18] [javac-output-38368]                                                      ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class JSON
+[2023-08-17 17:51:18] [javac-output-38368]   location: package com.seeyon.agent.common.jacksonReplaceFastJson
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ISystemBusinessLogService.java:15: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   PageView<SystemLogBean> queryLog(Map<String, String> paramMap);
+[2023-08-17 17:51:18] [javac-output-38368]            ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class SystemLogBean
+[2023-08-17 17:51:18] [javac-output-38368]   location: interface ISystemBusinessLogService
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootController.java:10: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368] import com.seeyon.agent.common.servicestate.ServiceStatus;
+[2023-08-17 17:51:18] [javac-output-38368]                                            ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceStatus
+[2023-08-17 17:51:18] [javac-output-38368]   location: package com.seeyon.agent.common.servicestate
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootController.java:13: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368] import com.seeyon.agent.sfu.common.utils.CommandResult;
+[2023-08-17 17:51:18] [javac-output-38368]                                         ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class CommandResult
+[2023-08-17 17:51:18] [javac-output-38368]   location: package com.seeyon.agent.sfu.common.utils
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootController.java:16: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368] import com.seeyon.agent.sfu.server.apps.boot.bo.ServiceBoot;
+[2023-08-17 17:51:18] [javac-output-38368]                                                ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceBoot
+[2023-08-17 17:51:18] [javac-output-38368]   location: package com.seeyon.agent.sfu.server.apps.boot.bo
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootController.java:46: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368] public class BootController extends ServiceStatus {
+[2023-08-17 17:51:18] [javac-output-38368]                                     ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol: class ServiceStatus
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootManager.java:3: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368] import com.seeyon.agent.sfu.server.apps.boot.bo.ServiceBoot;
+[2023-08-17 17:51:18] [javac-output-38368]                                                ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceBoot
+[2023-08-17 17:51:18] [javac-output-38368]   location: package com.seeyon.agent.sfu.server.apps.boot.bo
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootManager.java:8: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   List<ServiceBoot> getAllServiceBoots();
+[2023-08-17 17:51:18] [javac-output-38368]        ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceBoot
+[2023-08-17 17:51:18] [javac-output-38368]   location: interface BootManager
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootManager.java:10: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   ServiceBoot getServiceBoot(String paramString);
+[2023-08-17 17:51:18] [javac-output-38368]   ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceBoot
+[2023-08-17 17:51:18] [javac-output-38368]   location: interface BootManager
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootManager.java:20: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   ServiceBoot getOAServiceBoot();
+[2023-08-17 17:51:18] [javac-output-38368]   ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceBoot
+[2023-08-17 17:51:18] [javac-output-38368]   location: interface BootManager
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootManager.java:22: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   ServiceBoot getM1ServiceBoot();
+[2023-08-17 17:51:18] [javac-output-38368]   ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceBoot
+[2023-08-17 17:51:18] [javac-output-38368]   location: interface BootManager
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootManager.java:24: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   ServiceBoot getOfficeTransServiceBoot();
+[2023-08-17 17:51:18] [javac-output-38368]   ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceBoot
+[2023-08-17 17:51:18] [javac-output-38368]   location: interface BootManager
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootManager.java:26: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   ServiceBoot getSearchServiceBoot();
+[2023-08-17 17:51:18] [javac-output-38368]   ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceBoot
+[2023-08-17 17:51:18] [javac-output-38368]   location: interface BootManager
+[2023-08-17 17:51:18] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/BootManager.java:28: error: cannot find symbol
+[2023-08-17 17:51:18] [javac-output-38368]   ServiceBoot getM3ServiceBoot();
+[2023-08-17 17:51:18] [javac-output-38368]   ^
+[2023-08-17 17:51:18] [javac-output-38368]   symbol:   class ServiceBoot
+[2023-08-17 17:51:18] [javac-output-38368]   location: interface BootManager
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/CollHandleLogController.java:9: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.client.common.PageView;
+[2023-08-17 17:51:19] [javac-output-38368]                                          ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.client.common
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ICollHandleLogService.java:3: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.client.common.PageView;
+[2023-08-17 17:51:19] [javac-output-38368]                                          ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.client.common
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/CollHandleLog.java:4: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.util.base.StringUtils;
+[2023-08-17 17:51:19] [javac-output-38368]                                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class StringUtils
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.util.base
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ICollHandleLogService.java:11: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   <T extends com.seeyon.agent.common.bean.CollHandleLog> PageView<T> queryLog(int paramInt, String paramString, Integer paramInteger) throws SQLException;
+[2023-08-17 17:51:19] [javac-output-38368]                                                          ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: interface ICollHandleLogService
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/CollHandleLogDetail.java:3: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.util.base.StringUtils;
+[2023-08-17 17:51:19] [javac-output-38368]                                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class StringUtils
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.util.base
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FromDataClearController.java:8: error: package com.seeyon.agent.common.systemLog.bean does not exist
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.systemLog.bean.SystemLogBean;
+[2023-08-17 17:51:19] [javac-output-38368]                                              ^
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:3: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.server.apps.dataclaer.bean.DynamicTableField;
+[2023-08-17 17:51:19] [javac-output-38368]                                                       ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.server.apps.dataclaer.bean
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:14: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   private List<DynamicTableField> formmainDefineFields;
+[2023-08-17 17:51:19] [javac-output-38368]                ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:16: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   private Map<String, List<DynamicTableField>> formsonsDefineFieldsMap;
+[2023-08-17 17:51:19] [javac-output-38368]                            ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:18: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   private Map<String, DynamicTableField> dynamicFields;
+[2023-08-17 17:51:19] [javac-output-38368]                       ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:20: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   private List<DynamicTableField> dynamicFieldList;
+[2023-08-17 17:51:19] [javac-output-38368]                ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:22: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   private List<DynamicTableField> modifiedFormFieldsList;
+[2023-08-17 17:51:19] [javac-output-38368]                ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:24: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   private Map<String, List<DynamicTableField>> modifiedFormFieldsMap;
+[2023-08-17 17:51:19] [javac-output-38368]                            ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:42: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public List<DynamicTableField> getFormmainDefineFields() {
+[2023-08-17 17:51:19] [javac-output-38368]               ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:46: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public void setFormmainDefineFields(List<DynamicTableField> formmainDefineFields) {
+[2023-08-17 17:51:19] [javac-output-38368]                                            ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:50: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public Map<String, List<DynamicTableField>> getFormsonsDefineFieldsMap() {
+[2023-08-17 17:51:19] [javac-output-38368]                           ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:54: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public void setFormsonsDefineFieldsMap(Map<String, List<DynamicTableField>> formsonsDefineFieldsMap) {
+[2023-08-17 17:51:19] [javac-output-38368]                                                           ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:58: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public Map<String, DynamicTableField> getDynamicFields() {
+[2023-08-17 17:51:19] [javac-output-38368]                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:62: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public void setDynamicFields(Map<String, DynamicTableField> dynamicFields) {
+[2023-08-17 17:51:19] [javac-output-38368]                                            ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:66: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public List<DynamicTableField> getModifiedFormFieldsList() {
+[2023-08-17 17:51:19] [javac-output-38368]               ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:72: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public void setModifiedFormFieldsList(List<DynamicTableField> modifiedFormFieldsList) {
+[2023-08-17 17:51:19] [javac-output-38368]                                              ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:76: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public Map<String, List<DynamicTableField>> getModifiedFormFieldsMap() {
+[2023-08-17 17:51:19] [javac-output-38368]                           ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:82: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public void setModifiedFormFieldsMap(Map<String, List<DynamicTableField>> modifiedFormFieldsMap) {
+[2023-08-17 17:51:19] [javac-output-38368]                                                         ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:86: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public List<DynamicTableField> getDynamicFieldList() {
+[2023-08-17 17:51:19] [javac-output-38368]               ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/FormMain.java:92: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public void setDynamicFieldList(List<DynamicTableField> dynamicFieldList) {
+[2023-08-17 17:51:19] [javac-output-38368]                                        ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DynamicTableField
+[2023-08-17 17:51:19] [javac-output-38368]   location: class FormMain
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PatchController.java:7: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.servicestate.ServiceStatus;
+[2023-08-17 17:51:19] [javac-output-38368]                                            ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class ServiceStatus
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.common.servicestate
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PatchController.java:9: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.client.common.BaseController;
+[2023-08-17 17:51:19] [javac-output-38368]                                          ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class BaseController
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.client.common
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PatchController.java:10: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.client.common.PageView;
+[2023-08-17 17:51:19] [javac-output-38368]                                          ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.client.common
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PatchController.java:17: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.server.apps.patchupdate.utils.HttpClientUtil;
+[2023-08-17 17:51:19] [javac-output-38368]                                                          ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class HttpClientUtil
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.server.apps.patchupdate.utils
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PatchController.java:41: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] public class PatchController extends BaseController {
+[2023-08-17 17:51:19] [javac-output-38368]                                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol: class BaseController
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PatchManager.java:4: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.client.common.PageView;
+[2023-08-17 17:51:19] [javac-output-38368]                                          ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.client.common
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PatchManager.java:19: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   PageView getInstalledList(Map<String, Object> paramMap);
+[2023-08-17 17:51:19] [javac-output-38368]   ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: interface PatchManager
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ServiceStatusEvent.java:3: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.servicestate.ServiceStatus;
+[2023-08-17 17:51:19] [javac-output-38368]                                            ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class ServiceStatus
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.common.servicestate
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ServiceStatusEvent.java:7: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   private Vector<ServiceStatus> statusVector = new Vector<>();
+[2023-08-17 17:51:19] [javac-output-38368]                  ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class ServiceStatus
+[2023-08-17 17:51:19] [javac-output-38368]   location: class ServiceStatusEvent
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ServiceStatusEvent.java:13: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   public void addAttach(ServiceStatus pro) {
+[2023-08-17 17:51:19] [javac-output-38368]                         ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class ServiceStatus
+[2023-08-17 17:51:19] [javac-output-38368]   location: class ServiceStatusEvent
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/UpgradeController.java:7: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.jacksonReplaceFastJson.JSON;
+[2023-08-17 17:51:19] [javac-output-38368]                                                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class JSON
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.common.jacksonReplaceFastJson
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/UpgradeController.java:12: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.server.apps.upgrade.utils.ZipUtil;
+[2023-08-17 17:51:19] [javac-output-38368]                                                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class ZipUtil
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.server.apps.upgrade.utils
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/JSONObject.java:3: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.jacksonReplaceFastJson.JSON;
+[2023-08-17 17:51:19] [javac-output-38368]                                                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class JSON
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.common.jacksonReplaceFastJson
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/RecoveryDataBaseController.java:6: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.servicestate.ServiceStatus;
+[2023-08-17 17:51:19] [javac-output-38368]                                            ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class ServiceStatus
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.common.servicestate
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/RecoveryDataBaseController.java:28: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] public class RecoveryDataBaseController extends ServiceStatus {
+[2023-08-17 17:51:19] [javac-output-38368]                                                 ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol: class ServiceStatus
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AffairController.java:9: error: package com.seeyon.agent.common.systemLog.bean does not exist
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.systemLog.bean.SystemLogBean;
+[2023-08-17 17:51:19] [javac-output-38368]                                              ^
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AffairController.java:14: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.client.common.PageView;
+[2023-08-17 17:51:19] [javac-output-38368]                                          ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.client.common
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AffairController.java:15: error: package com.seeyon.agent.sfu.server.apps.valueaddedtools.affair.bo does not exist
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.server.apps.valueaddedtools.affair.bo.Affair;
+[2023-08-17 17:51:19] [javac-output-38368]                                                                  ^
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AffairService.java:3: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.client.common.PageView;
+[2023-08-17 17:51:19] [javac-output-38368]                                          ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.client.common
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AffairService.java:4: error: package com.seeyon.agent.sfu.server.apps.valueaddedtools.affair.bo does not exist
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.server.apps.valueaddedtools.affair.bo.Affair;
+[2023-08-17 17:51:19] [javac-output-38368]                                                                  ^
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AffairController.java:51: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   private PageView<Affair> view;
+[2023-08-17 17:51:19] [javac-output-38368]           ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: class AffairController
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AffairController.java:51: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   private PageView<Affair> view;
+[2023-08-17 17:51:19] [javac-output-38368]                    ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class Affair
+[2023-08-17 17:51:19] [javac-output-38368]   location: class AffairController
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AffairService.java:8: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   PageView<Affair> searchAffair(String paramString1, int paramInt, String paramString2, String paramString3, String paramString4, String paramString5, String paramString6) throws SQLException;
+[2023-08-17 17:51:19] [javac-output-38368]   ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class PageView
+[2023-08-17 17:51:19] [javac-output-38368]   location: interface AffairService
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AffairService.java:8: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368]   PageView<Affair> searchAffair(String paramString1, int paramInt, String paramString2, String paramString3, String paramString4, String paramString5, String paramString6) throws SQLException;
+[2023-08-17 17:51:19] [javac-output-38368]            ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class Affair
+[2023-08-17 17:51:19] [javac-output-38368]   location: interface AffairService
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/DataBaseController.java:11: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.log.LogPush;
+[2023-08-17 17:51:19] [javac-output-38368]                                   ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class LogPush
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.common.log
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/AuthorityFilterController.java:10: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.jacksonReplaceFastJson.JSON;
+[2023-08-17 17:51:19] [javac-output-38368]                                                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class JSON
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.common.jacksonReplaceFastJson
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ExamineService.java:6: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.jacksonReplaceFastJson.JSON;
+[2023-08-17 17:51:19] [javac-output-38368]                                                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class JSON
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.common.jacksonReplaceFastJson
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/ProcessUndoController.java:10: error: package com.seeyon.agent.common.systemLog.bean does not exist
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.systemLog.bean.SystemLogBean;
+[2023-08-17 17:51:19] [javac-output-38368]                                              ^
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/Affair.java:3: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.sfu.util.base.DateUtils;
+[2023-08-17 17:51:19] [javac-output-38368]                                      ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class DateUtils
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.sfu.util.base
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/GetWayController.java:15: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] import com.seeyon.agent.common.eventlisten.Observer;
+[2023-08-17 17:51:19] [javac-output-38368]                                           ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol:   class Observer
+[2023-08-17 17:51:19] [javac-output-38368]   location: package com.seeyon.agent.common.eventlisten
+[2023-08-17 17:51:19] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/GetWayController.java:60: error: cannot find symbol
+[2023-08-17 17:51:19] [javac-output-38368] public class GetWayController extends Observer {
+[2023-08-17 17:51:19] [javac-output-38368]                                       ^
+[2023-08-17 17:51:19] [javac-output-38368]   symbol: class Observer
+[2023-08-17 17:51:51] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PatchContext.java:49: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+[2023-08-17 17:51:51] [javac-output-38368]           Constructor<?> constructor = clazz.getConstructor(null);
+[2023-08-17 17:51:51] [javac-output-38368]                                                             ^
+[2023-08-17 17:51:51] [javac-output-38368]   cast to Class<?> for a varargs call
+[2023-08-17 17:51:51] [javac-output-38368]   cast to Class<?>[] for a non-varargs call and to suppress this warning
+[2023-08-17 17:51:51] [javac-output-38368] /Users/lousix/sec/CodeQL/CodeQLpy/out/decode/classes/PatchContext.java:50: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+[2023-08-17 17:51:51] [javac-output-38368]           Object instance = constructor.newInstance(null);
+[2023-08-17 17:51:51] [javac-output-38368]                                                     ^
+[2023-08-17 17:51:51] [javac-output-38368]   cast to Object for a varargs call
+[2023-08-17 17:51:51] [javac-output-38368]   cast to Object[] for a non-varargs call and to suppress this warning
