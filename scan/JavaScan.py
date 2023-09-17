@@ -15,16 +15,19 @@ class JavaScan(Scan):
         Scan.__init__(self, )
         # self.scan_name = ["test","java", "java_ext"]
         # self.scan_name = ["java", "java_ext"
-        # self.scan_name = ["SpringController"]
+        
         self.scan_name = ['mytest']
+        # self.scan_name = ["SpringController"]
 
     def run_once(self, dirname, db, result_file, result_path):
+        print('--------------result_file:'+result_file+',result_path:'+result_path+'----------')
         result_flag = False
         plugin_path = os.path.join("plugins", dirname)
         for plugin in self.getPluginList(plugin_path):
             print("startscan: " + plugin)
             results, sink_path = db.query(self.getQuery(os.path.join(plugin_path, plugin)))
-            print(sink_path)
+            # print(results)
+            # print(sink_path)
             if len(results) <= 1:
                 continue
             else:
@@ -44,7 +47,7 @@ class JavaScan(Scan):
         # result_file = time.strftime(database + '_%Y-%m-%d', time.localtime(time.time())) + "_" + str(int(time.time()))
         result_file = database[-1]
         result_path = "out/result/mytest/"
-        result_flag = self.run_once("mytest", db, result_file, result_path)
+        result_flag = self.run_once("SpringController", db, result_file, result_path)
 
         print("Scan Over")
 

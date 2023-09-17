@@ -71,4 +71,13 @@ class Query(object):
         # Perform query and return results
         options = ['-o', output, '-d', database]
         self.run_command('run', options)
+        print('query.py:'+str(options))
+        
+        # new_output = os.path.join(qlConfig('qlpath'), "query.csv")
+        # print('output:'+new_output)
+        # new_options = ['--format=csv','-o', new_output, '-d', database]
+        # res = self.run_command('run',new_options)
+        # print(res)
+        # print('query2.py:'+str(new_options))
+        
         return codeql.BQRS(output)

@@ -29,14 +29,17 @@ class BQRS(object):
     def parse(self):
         # print(path)
         path_sarif = temporary_file(suffix='.sarif')
-        self.interpret(format='sarifv2.1.0', kind="path-problem", output=path_sarif)
-        json.loads(open(path_sarif, "r").read())
+        # print(path_sarif)
+        # self.interpret(format='sarifv2.1.0', kind="path-problem", output=path_sarif)
+        # # print(path_sarif)
+        # json.loads(open(path_sarif, "r").read())
 
         path = temporary_file(suffix='.csv')
         self.decode(format='csv', output=path)
         with open(path, 'r') as f:
-            return list(csv.reader(f, delimiter=',')), open(path_sarif, "r").read()
-
+            return list(csv.reader(f, delimiter=',')), "{\"1\": \"2\"}" #open(path_sarif, "r").read()
+        
+        
     # Interface
     def info(self, format):
         """

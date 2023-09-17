@@ -60,6 +60,7 @@ def set_search_path(path):
 
 def run(args):
     command = [codeql_path] + list(map(str, args))
+    print('command:'+str(command))
     encoding = "utf-8"
     if platform.system() == "Darwin":
         command = ["arch -x86_64"] + command
