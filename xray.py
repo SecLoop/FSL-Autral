@@ -5,7 +5,8 @@ import glob
 
 base_url = 'http://127.0.0.1:8080'
 xray_path = '/Users/bianzhenkun/Desktop/'
-cookie = ''
+xray_config_path = '/Users/bianzhenkun/Desktop/xray_config/'
+cookie = 'test=123'
 csv_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/SpringController/result_java-sec-code.csv'
 
 # 对于数据进行初始化，对于所有涉及到的xray配置文件进行Cookie赋值
@@ -14,15 +15,16 @@ def initEnv(data_source):
     return initData(data_source)
     
 def initCookie():
-    yaml_files = glob.glob(xray_path+'*.yaml')
+    yaml_files = glob.glob(xray_config_path+'*.yaml')
     for file in yaml_files:
-        modifyConfigYaml(file,['http','header','Cookie'],cookie,0)
+        print(file)
+        modifyConfigYaml(file,['http','headers','Cookie'],cookie)
 
 # 初始化数据
 def initData(data_source):
     data = pd.read_csv(data_source)
     # 添加了一列，表示提取该参数的方法，param-method
-    title = ['controller','method','route','content-type','request-method','param','source-type','annotation','param-method']
+    title = ['controller','method','route','content-type','request-method','param','source-type','annotation']
     data.columns = title
     return formatData(data)
     
@@ -31,19 +33,19 @@ def formatData(data):
     data = data.applymap(lambda x: x.strip() if isinstance(x, str) else x)
     return data
 
-# type 0代表仅修改，1代表继续添加，2代表删除，key为修改参数的层级[layer1,layer2,...,layer n]的格式，value表示值
-def modifyConfigYaml(config_path,key,value,type):
-    with open(config_path) as f:
-        config_data = yaml.safe_load(f)
-        for layer in key:    
-            update_value(config_data, key, value)
-        
+def modifyConfigYaml(config_path,key,value):
+    with open(config_path,'r') as f:
+        config_data = yaml.safe_load(f.read()) 
+    with open(config_path,'w') as f:
+        updateValue(config_data, key, value)
+        yaml.safe_dump(config_data,f)
+
 # 递归函数，根据路径修改字典的值
-def update_value(data, path, new_value):
+def updateValue(data, path, new_value):
     if len(path) == 1:
         data[path[0]] = new_value
     else:
-        update_value(data[path[0]], path[1:], new_value)
+        updateValue(data[path[0]], path[1:], new_value)
 
 # data为GET方法某个url的所有数据行，DataFrame类型
 def singleGetMethodCase(data,route):
@@ -63,7 +65,7 @@ def singleGetMethodCase(data,route):
             if row['annotation'] == 'CookieValue':
                 # print('cookie!')
                 # 这里不知道怎么解决yaml文件里的cookie注入，先写一个固定的
-                modifyConfigYaml(xray_path+'config_get.yaml',['http','header','Cookie'],row['param'] + '=123;',1)
+                modifyConfigYaml(xray_config_path+'config_get.yaml',['http','header','Cookie'],row['param'] + '=123;')
     url = url + '/?' + url_params[:-1]
     return send2Xray(url,'GET',None)
     
@@ -83,10 +85,8 @@ def singlePostMethodCase(data,route):
     for index, row in data.iterrows():
         # 情况1: 这条数据是no AnAnnotation，需要修改Cntent-Type，一般为文件上传，xray测不，这里就添加一下header然后pass了
         if row['annotation'] == 'no AnAnnotation':
-            modifyConfigYaml(xray_path+'config_post.yaml',['http','header','Content-Type'],'multipart/form-data; boundary=xxx',1)
-
-    #感觉Post的有点晕，起床再说
-            
+            modifyConfigYaml(xray_config_path+'config_post.yaml',['http','header','Content-Type'],'multipart/form-data; boundary=xxx')
+  
             
 # data为request方法某个url的所有数据行，DataFrame类型
 # 需要补充的列：
@@ -108,20 +108,20 @@ def singalRequest(data,route):
                 url_params = url_params + param + '=&' 
             # case 1.2: 提取的参数方法是getHeader，就将header写入yaml文件，但是yaml文件里这个不清楚怎么跑xray，故先写一个定值
             elif row['param-method'] == 'getHeader':
-                modifyConfigYaml(xray_path+'config_request.yaml',['http','header',param],'127.0.0.1',1)
+                modifyConfigYaml(xray_config_path+'config_request.yaml',['http','header',param],'127.0.0.1')
             # case 1.3: 提取的方法是无，那么这个url可能在url里也有可能在body里，都要打一遍
             elif row['param-method'] == '':
-                request_body = url_params + param + '=&' 
+                request_body = url_params + param + '=&'
                 url_params = url_params + param + '=&' 
         # case 2: 注释为CookieValue时，修改header的cookie
         elif row['annotation'] == 'CookieValue':
-            modifyConfigYaml(xray_path+'config_get.yaml',['http','headers','Cookie'],param + '=123;',1)
+            modifyConfigYaml(xray_config_path+'config_get.yaml',['http','headers','Cookie'],param + '=123;')
         # case 3: 注释为RequestBody时，需要判断是否有参数，有参数的话需要判断是否为某个类，如果是某个类，需要将这个类解析为这个类的内容
         elif row['annotation'] == 'RequestBody':
             contain_get = False
             # 处理直接post json格式的内容，这里只进行header添加
             if row['content-type'] == 'application/json':
-                modifyConfigYaml(xray_path+'config_request.yaml',['http','headers','Content-Type'],' application/json',1)
+                modifyConfigYaml(xray_config_path+'config_request.yaml',['http','headers','Content-Type'],' application/json')
             else:
                 # 这里需要判断当前请求参数是否在需要解析的类中，具体没有想好怎么实现，索性先用True代替
                 if True:
@@ -156,7 +156,5 @@ def send2Xray(url,request_method,body):
 
 if __name__ == '__main__':
     data = initEnv(csv_path)
-    getMethodCase(data)
-    
-
+    # getMethodCase(data)
 
