@@ -50,8 +50,8 @@ class Scan():
             if i == 0:
                 continue
             result = results[i]
-            with open(filename + ".csv", 'a') as w:
-                w.write((", ".join(result) + '\n'))
+            with open(filename + ".xlsx", 'a') as w:
+                w.write(("\t ".join(result) + '\n'))
 
     def saveSink(self, result, filename, pluginname):
         with open(filename + ".json", 'w') as w:

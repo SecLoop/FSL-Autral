@@ -42,11 +42,20 @@ where
 	// source.getEnclosingCallable().getFile().getAbsolutePath() = ""
 	// and
 	// m.getName() = "isLogined"
+// select
+//     c as controller, m as method,
+//     getControllerRoute(c, m) as route,
+// 		getContentType(m),
+// 		getRequestMethod(m),
+// 		getParam(source) as param,
+// 		source.getType(),
+// 	  getParamAnnotation(source) as annotation
 select
     c as controller, m as method,
     getControllerRoute(c, m) as route,
-		getContentType(m),
-		getRequestMethod(m),
-		getParam(source) as param,
-		source.getType(),
-	  getParamAnnotation(source) as annotation
+	getContentType(m),
+	getRequestMethod(m),
+	getParam(source) as param,
+	source.getType(),
+	getParamAnnotation(source) as annotation,
+	getRequestType(source) as request
