@@ -182,6 +182,7 @@ def requestAndPostMethodCase(data):
 # 由于涉及到url和body的多次组合，故采用两个列表
 def singalRequestAndPostV2(data,route):
     url = base_url + route
+    print(url)
     url_params = ''
     request_body = ''
     has_get = True
@@ -206,7 +207,7 @@ def singalRequestAndPostV2(data,route):
             # if row['param_method'].startWith('getParameter'):
             #     pass
             # case 2.2: getHeader的话，就是获取的header的东西，我们只需要改yaml文件就行
-            if row['param_method'].startWith('getHeader'):
+            if str(row['param_method']).startswith('getHeader'):
                 # 这里header_value先默认getHeader获取的是Host，之后添加list动态更改
                 header_value = '127.0.0.1'
                 modifyConfigYaml(xray_config_path+'config_request.yaml',['http','headers',param],header_value)
@@ -220,6 +221,7 @@ def singalRequestAndPostV2(data,route):
                 # 4. 以上是生成post的请求的过程，对于get请求，直接把所有参数写到url里就行
             else:
                 url_params = url_params + param + '=&'
+                print(url_params)
                 request_body = request_body + param + '=&'
                 get_list.append(url+'/?'+url_params[:-1])
                 post_list.append(request_body[:-1]) 
@@ -228,10 +230,15 @@ def singalRequestAndPostV2(data,route):
             has_get = False
             request_body = request_body + param + '=&'
             post_list = [x+param+'=&' for x in post_list]
-        # case 4: 有注解，并且为@RequestParam，但是@RequestParam只能确定在get上，不能确定是post还是get
+        # case 4: 有注解，并且为@RequestParam，不能确定是post还是get
         elif row['annotation'] == 'RequestParam':
+            # url_params = url_params + param + '=&'
+            # get_list = [x+param+'=&' for x in get_list]
             url_params = url_params + param + '=&'
-            get_list = [x+param+'=&' for x in get_list]
+            # print(url_params)
+            request_body = request_body + param + '=&'
+            get_list.append(url+'/?'+url_params[:-1])
+            post_list.append(request_body[:-1]) 
         else:
             print('还没有考虑到的情况！！！')
             
@@ -244,7 +251,7 @@ def singalRequestAndPostV2(data,route):
                     send2Xray(i,'POST',j,xray_config_path+'config_request.yaml')
         # 发送GET请求，没有请求体
         if has_get:
-            send2Xray(url[:-1],'GET',None,xray_config_path+'config_request.yaml')
+            send2Xray(url,'GET',None,xray_config_path+'config_request.yaml')
             
 def requestAndPostMethodCaseV2(data):
     grouped_data = data.groupby('route')
@@ -267,10 +274,10 @@ def doClassification(data):
     grouped_data = data.groupby('request_method')
     for request_method, group in grouped_data:
         if request_method == 'GetMapping':
-            getMethodCase(group)
-            # pass
+            # getMethodCase(group)
+            pass
         else:
-            # requestAndPostMethodCase(group)
+            requestAndPostMethodCaseV2(group)
             pass
 
 res_list = []
@@ -279,8 +286,6 @@ def saveOutput(result):
     res_list.append(result)
     print(res_list)
 
-def etst():
-    yaml_list = global.*()
     
 
 if __name__ == '__main__':
@@ -288,4 +293,4 @@ if __name__ == '__main__':
     doClassification(data)
     # data = pd.read_excel('/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/SpringController/result_java-sec-code.xlsx' ,engine='openpyxl')
     # print(data)
-    print(res_list)
+    # print(res_list)
