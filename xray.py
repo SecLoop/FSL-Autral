@@ -3,7 +3,7 @@ import os
 import yaml
 import glob
 
-database_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/CodeQLpy/out/database/micro_service_seclab-main/'
+database_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/CodeQLpy/out/database/java-sec-code/'
 base_url = 'http://127.0.0.1:8080'
 xray_path = '/Users/bianzhenkun/Desktop/'
 xray_config_path = '/Users/bianzhenkun/Desktop/xray_config/'
@@ -32,7 +32,7 @@ def initCSV(database_path):
 
 # 初始化数据
 def initData(data_source):
-    data = pd.read_excel(data_source)
+    data = pd.read_csv(data_source)
     # 添加了一列，表示提取该参数的方法，param_method
     title = ['controller','method','route','content-type','request_method','param','source-type','annotation','param_method']
     data.columns = title
@@ -153,7 +153,7 @@ def singalRequestAndPost(data,route):
                 pass
             # 当传入的参数是用户自定义的，则需要替换为类的属性，在最开始initCSV的时候已经存储在CSV中了，直接读取
             elif row['param'] not in java_type_list:
-                object_params_data = pd.read_excel(params_csv_path,names=['cls','field','field_type'])
+                object_params_data = pd.read_csv(params_csv_path,names=['cls','field','field_type'])
                 object_params = object_params_data[object_params_data['cls']==row['param']]
                 for temp_param in object_params:
                      url_params = url_params + temp_param + '=&' 
@@ -176,6 +176,78 @@ def requestAndPostMethodCase(data):
     for route, group in grouped_data:
         singalRequestAndPost(group, route)
 
+
+# V2版本按照参数添加到url上还是body中进行分类，对于添加到body里的，就只发送POST，否则POST和GET都打一遍
+# 同样的，传入的参数data还是route路由下所有的行
+# 由于涉及到url和body的多次组合，故采用两个列表
+def singalRequestAndPostV2(data,route):
+    url = base_url + route
+    url_params = ''
+    request_body = ''
+    has_get = True
+    
+    # url+' '+request_body
+    post_list = []
+    # url
+    get_list = []
+    
+    for index, row in data.iterrows():
+        # 提取当前参数
+        param = row['param'] if row['param'][0] != '"' else row['param'][1:-1]
+        # 赋值Conten-Type
+        modifyConfigYaml(xray_config_path+'config_request.yaml',['http','headers','Content-Type'],row['content-type'])
+        
+        # case 1:添加cookie的，目前写死固定值 
+        if row['annotation'] == 'CookieValue':
+            modifyConfigYaml(xray_config_path+'config_request.yaml',['http','headers','Cookie'],param + '=123;')
+        # case 2:没有注解，这种情况比较复杂
+        elif row['annotation'] == 'no AnAnnotation':
+            # case 2.1: getParameter的话，post和get都可能，而且url和body里的参数都可以用getParameter读取
+            # if row['param_method'].startWith('getParameter'):
+            #     pass
+            # case 2.2: getHeader的话，就是获取的header的东西，我们只需要改yaml文件就行
+            if row['param_method'].startWith('getHeader'):
+                # 这里header_value先默认getHeader获取的是Host，之后添加list动态更改
+                header_value = '127.0.0.1'
+                modifyConfigYaml(xray_config_path+'config_request.yaml',['http','headers',param],header_value)
+            # case 2.3: no get，发现情况也比较复杂，get和post都可以，故与case 2.1合并
+            # elif row['param_method'] == 'no get':
+            # 合并后就是get的放到get_list中，post的放到post_list中
+            # 由于是针对某个url的操作，我们这里其实是对param的组合，分别为
+                # 1. get的直接就把参数放到get上
+                # 2. post的把post放到post上
+                # 3. 然后组合，注意某一个参数只有一个位置，不能url和body同时出现同一个参数的
+                # 4. 以上是生成post的请求的过程，对于get请求，直接把所有参数写到url里就行
+            else:
+                url_params = url_params + param + '=&'
+                request_body = request_body + param + '=&'
+                get_list.append(url+'/?'+url_params[:-1])
+                post_list.append(request_body[:-1]) 
+        # case 3: 有注解，并且是@RequestBody，那么就一定是POST，我们需要做的就是不发送GET请求
+        elif row['annotation'] == 'RequestBody':
+            has_get = False
+            request_body = request_body + param + '=&'
+            post_list = [x+param+'=&' for x in post_list]
+        # case 4: 有注解，并且为@RequestParam，但是@RequestParam只能确定在get上，不能确定是post还是get
+        elif row['annotation'] == 'RequestParam':
+            url_params = url_params + param + '=&'
+            get_list = [x+param+'=&' for x in get_list]
+        else:
+            print('还没有考虑到的情况！！！')
+            
+        
+        # 组合发送，这里为了简单省事，直接全组合，毕竟实际参数也不多，后期需要优化组合
+        # 发送POST请求
+        if len(post_list) > 0:
+            for i in get_list:
+                for j in post_list:
+                    send2Xray(i,'POST',j,xray_config_path+'config_request.yaml')
+        # 发送GET请求，没有请求体
+        if has_get:
+            send2Xray(url[:-1],'GET',None,xray_config_path+'config_request.yaml')
+            
+
+
 # 统一发送到xray黑盒验证
 def send2Xray(url,request_method,body,config):
     command = f'cd {xray_path} && ./xray_darwin_amd64 --config {config} webscan --url {url}'
@@ -183,20 +255,34 @@ def send2Xray(url,request_method,body,config):
         command += ' --data {}'.format(body if len(body)>0 else '\"\"')
     print(command)
     result = os.system(command)
+    print("result="+str(result))
     # 每次运行完命令，都需要将环境还原
     os.system(f'cd {xray_config_path} && cp ./bak.yaml ./config_get.yaml && cp ./bak.yaml ./config_post.yaml && cp ./bak.yaml ./config_request.yaml')
-    return result
 
 # 将数据分类处理
 def doClassification(data):
     grouped_data = data.groupby('request_method')
     for request_method, group in grouped_data:
         if request_method == 'GetMapping':
-            # getMethodCase(group)
-            pass
+            getMethodCase(group)
+            # pass
         else:
-            requestAndPostMethodCase(group)
+            # requestAndPostMethodCase(group)
+            pass
+
+res_list = []
+# 保存结果
+def saveOutput(result):
+    res_list.append(result)
+    print(res_list)
+
+def etst():
+    yaml_list = global.*()
+    
 
 if __name__ == '__main__':
     data = initEnv(csv_path)
     doClassification(data)
+    # data = pd.read_excel('/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/SpringController/result_java-sec-code.xlsx' ,engine='openpyxl')
+    # print(data)
+    print(res_list)
