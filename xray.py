@@ -246,7 +246,10 @@ def singalRequestAndPostV2(data,route):
         if has_get:
             send2Xray(url[:-1],'GET',None,xray_config_path+'config_request.yaml')
             
-
+def requestAndPostMethodCaseV2(data):
+    grouped_data = data.groupby('route')
+    for route, group in grouped_data:
+        singalRequestAndPostV2(group, route)
 
 # 统一发送到xray黑盒验证
 def send2Xray(url,request_method,body,config):
