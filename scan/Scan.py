@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+import csv
 import os
 import json
 from abc import abstractmethod
@@ -46,12 +47,19 @@ class Scan():
         if len(results) <= 1:
             return
 
-        for i in range(len(results)):
-            if i == 0:
-                continue
-            result = results[i]
-            with open(filename + ".xlsx", 'a') as w:
-                w.write(("\t ".join(result) + '\n'))
+        with open(filename + ".csv", mode='w', newline='') as file:
+            writer = csv.writer(file)
+
+            for row in results:
+                writer.writerow(row)
+
+
+        # for i in range(len(results)):
+        #     if i == 0:
+        #         continue
+        #     result = results[i]
+        #     with open(filename + ".csv", 'a') as w:
+        #         w.write(("\t ".join(result) + '\n'))
 
     def saveSink(self, result, filename, pluginname):
         with open(filename + ".json", 'w') as w:

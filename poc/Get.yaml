@@ -1,0 +1,15 @@
+name: poc-yaml-example-com
+transport: http
+rules:
+    r1:
+        request:
+            method: GET
+            path: /WebGoat/SSRF/task2?url='or 1=1--
+        expression: |
+            response.status==200
+expression:
+    r1()
+detail:
+    author: Lousix
+    links:
+        - https://docs.xray.cool/

