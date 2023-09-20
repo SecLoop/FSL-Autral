@@ -7,7 +7,8 @@ database_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/CodeQLpy/out/data
 base_url = 'http://127.0.0.1:8080'
 xray_path = '/Users/bianzhenkun/Desktop/'
 xray_config_path = '/Users/bianzhenkun/Desktop/xray_config/'
-cookie = 'JSESSIONID=D3989DFFC35EAE93649DD1D68146B9D9; remember-me=YWRtaW46MTY5NjMyMDQxNTIwNDpjOWE1NDJjNzNmNzI1ZjgwMjQ4ZDBlNGY3ZDRmODc2ZQ; XSRF-TOKEN=864d2359-199b-4298-8fcb-bf6cdf8d3de8'
+# 这里的cookie用于测试存储型xss
+cookie = 'JSESSIONID=675E9CE9311F44CCB92CEB252E9495AB; remember-me=YWRtaW46MTY5NjQwMTg4MDM2MjoxZTU5NjNlNDc4YjRiZDg2ZDIzZDNhNDE1ZTM5NmZkYg; XSRF-TOKEN=d64d86e0-f9f9-4ffc-b31e-8961ef0618cb; xss=<script>alert(1)</script>'
 csv_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/SpringController/result_java-sec-code.csv'
 params_csv_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/ExtractElement/result_java-sec-code.csv'
 java_type_list = ['int','double','float','long','long long','Integer','Double','Float','Long','Map','HashMap','List','Set']
@@ -167,6 +168,7 @@ def singalRequestAndPost(data,route):
         send2Xray(url,'POST',request_body[:-1],xray_config_path+'config_request.yaml')
         if contain_get:
             print('GET send')
+
             send2Xray(url,'GET',None,xray_config_path+'config_request.yaml')
         contain_get = True
         
@@ -188,9 +190,9 @@ def singalRequestAndPostV2(data,route):
     has_get = True
     
     # url+' '+request_body
-    post_list = []
+    post_list = ['']
     # url
-    get_list = []
+    get_list = [url]
     
     for index, row in data.iterrows():
         # 提取当前参数
@@ -242,7 +244,8 @@ def singalRequestAndPostV2(data,route):
         else:
             print('还没有考虑到的情况！！！')
             
-        
+        print(post_list)
+        print(get_list)
         # 组合发送，这里为了简单省事，直接全组合，毕竟实际参数也不多，后期需要优化组合
         # 发送POST请求
         if len(post_list) > 0:
@@ -251,7 +254,8 @@ def singalRequestAndPostV2(data,route):
                     send2Xray(i,'POST',j,xray_config_path+'config_request.yaml')
         # 发送GET请求，没有请求体
         if has_get:
-            send2Xray(url,'GET',None,xray_config_path+'config_request.yaml')
+            for i in get_list:
+                send2Xray(i,'GET',None,xray_config_path+'config_request.yaml')
             
 def requestAndPostMethodCaseV2(data):
     grouped_data = data.groupby('route')
@@ -260,12 +264,13 @@ def requestAndPostMethodCaseV2(data):
 
 # 统一发送到xray黑盒验证
 def send2Xray(url,request_method,body,config):
-    command = f'cd {xray_path} && ./xray_darwin_amd64 --config {config} webscan --url {url}'
+    command = f'cd {xray_path} && ./xray_darwin_amd64 --config {config} webscan --url {url} >> log.out'
     if request_method == 'POST':
         command += ' --data {}'.format(body if len(body)>0 else '\"\"')
     print(command)
+    with open('/Users/bianzhenkun/Desktop/command2.txt','a+') as f:
+        f.write(command+'\n')
     result = os.system(command)
-    print("result="+str(result))
     # 每次运行完命令，都需要将环境还原
     os.system(f'cd {xray_config_path} && cp ./bak.yaml ./config_get.yaml && cp ./bak.yaml ./config_post.yaml && cp ./bak.yaml ./config_request.yaml')
 
@@ -274,23 +279,11 @@ def doClassification(data):
     grouped_data = data.groupby('request_method')
     for request_method, group in grouped_data:
         if request_method == 'GetMapping':
-            # getMethodCase(group)
-            pass
+            getMethodCase(group)
         else:
             requestAndPostMethodCaseV2(group)
-            pass
 
-res_list = []
-# 保存结果
-def saveOutput(result):
-    res_list.append(result)
-    print(res_list)
-
-    
 
 if __name__ == '__main__':
     data = initEnv(csv_path)
     doClassification(data)
-    # data = pd.read_excel('/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/SpringController/result_java-sec-code.xlsx' ,engine='openpyxl')
-    # print(data)
-    # print(res_list)
