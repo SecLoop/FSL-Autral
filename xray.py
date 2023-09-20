@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import yaml
 import glob
+import re
 
 database_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/CodeQLpy/out/database/java-sec-code/'
 base_url = 'http://127.0.0.1:8080'
@@ -171,7 +172,6 @@ def singalRequestAndPost(data,route):
 
             send2Xray(url,'GET',None,xray_config_path+'config_request.yaml')
         contain_get = True
-        
          
 def requestAndPostMethodCase(data):
     grouped_data = data.groupby('route')
@@ -284,6 +284,19 @@ def doClassification(data):
             requestAndPostMethodCaseV2(group)
 
 
+def checkRes():
+    file_path = '/Users/bianzhenkun/Desktop/log.out'
+    with open(file_path,'r') as f:
+        data = f.readlines()
+        data = ''.join(data)
+    pattern = r'Target\s+"([^"]+)"'
+    matches = re.findall(pattern, data)
+    if matches:
+        print("Target:", matches)
+    else:
+        print("Target not found")
+
 if __name__ == '__main__':
-    data = initEnv(csv_path)
-    doClassification(data)
+    # data = initEnv(csv_path)
+    # doClassification(data)
+    # checkRes()
