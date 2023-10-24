@@ -300,3 +300,7 @@ if __name__ == '__main__':
     # data = initEnv(csv_path)
     # doClassification(data)
     # checkRes()
+    data = pd.read_csv(csv_path)
+    print(data)
+    
+ 

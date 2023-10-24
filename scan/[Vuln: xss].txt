@@ -1,0 +1,8 @@
+[Vuln: xss]
+Target           "http://127.0.0.1:8080/codeinject/?filepath="
+VulnType         "reflected/default"
+Payload          "<ScRiPt>alert(1)</ScRiPt>"
+Position         "query"
+ParamKey         "filepath"
+ParamValue       "ofujazridfdxvbcpyysd"
+

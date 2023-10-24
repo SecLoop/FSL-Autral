@@ -36,7 +36,6 @@ class JavaScan(Scan):
                 print(result_file)
                 self.saveResult(results, os.path.join(result_path + plugin + "/result_" + result_file), plugin)
                 self.saveSink(sink_path, os.path.join(result_path + plugin + "/sink_" + result_file), plugin)
-
         return result_flag
     
     def run(self, database):
