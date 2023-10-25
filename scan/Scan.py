@@ -42,19 +42,18 @@ class Scan():
 
     # 保存扫描结果
     def saveResult(self, results, filename, pluginname):
+
+        directory = os.path.dirname(filename)
+
+        # 检查目录是否存在，如果不存在则递归创建目录
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
         with open(filename + ".csv", 'w') as w:
             w.write("")
         if len(results) <= 1:
             return
 
-<<<<<<< HEAD
-        for i in range(len(results)):
-            if i == 0:
-                continue
-            result = results[i]
-            with open(filename + ".csv", 'a') as w:
-                w.write(("\t ".join(result) + '\n'))
-=======
         with open(filename + ".csv", mode='w', newline='') as file:
             writer = csv.writer(file)
 
@@ -68,7 +67,6 @@ class Scan():
         #     result = results[i]
         #     with open(filename + ".csv", 'a') as w:
         #         w.write(("\t ".join(result) + '\n'))
->>>>>>> 3d2c2530381dd74eb17eefff4962eccb89f72f6e
 
     def saveSink(self, result, filename, pluginname):
         with open(filename + ".json", 'w') as w:

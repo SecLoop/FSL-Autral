@@ -33,9 +33,10 @@ class JavaScan(Scan):
             else:
                 if result_flag == False:
                     result_flag = True
-                print(result_file)
+                print(os.path.join(result_path + plugin + "/result_" + result_file))
                 self.saveResult(results, os.path.join(result_path + plugin + "/result_" + result_file), plugin)
                 self.saveSink(sink_path, os.path.join(result_path + plugin + "/sink_" + result_file), plugin)
+
         return result_flag
     
     def run(self, database):
@@ -45,7 +46,7 @@ class JavaScan(Scan):
         # 还在测试先用这个，方便对比
         # result_file = time.strftime(database + '_%Y-%m-%d', time.localtime(time.time())) + "_" + str(int(time.time()))
         result_file = database[-1]
-        result_path = "out/result/mytest/"
+        result_path = "out/result/"+result_file+"/"
         result_flag = self.run_once("SpringController", db, result_file, result_path)
 
         print("Scan Over")
