@@ -9,10 +9,9 @@ base_url = 'http://127.0.0.1:8080'
 xray_path = '/Users/bianzhenkun/Desktop/'
 xray_config_path = '/Users/bianzhenkun/Desktop/xray_config/'
 # 这里的cookie用于测试存储型xss
-cookie = 'JSESSIONID=675E9CE9311F44CCB92CEB252E9495AB; remember-me=YWRtaW46MTY5NjQwMTg4MDM2MjoxZTU5NjNlNDc4YjRiZDg2ZDIzZDNhNDE1ZTM5NmZkYg; XSRF-TOKEN=d64d86e0-f9f9-4ffc-b31e-8961ef0618cb; xss=<script>alert(1)</script>'
-csv_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/SpringController/result_java-sec-code.csv'
+cookie = 'helloJSESSIONID=675E9CE9311F44CCB92CEB252E9495AB; remember-me=YWRtaW46MTY5NjQwMTg4MDM2MjoxZTU5NjNlNDc4YjRiZDg2ZDIzZDNhNDE1ZTM5NmZkYg; XSRF-TOKEN=d64d86e0-f9f9-4ffc-b31e-8961ef0618cb; xss=<script>alert(1)</script>'
+csv_path = '/Users/bianzhenkun/Desktop/未命名文件夹 3/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/SpringController/result_java-sec-code.csv'
 params_csv_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/ExtractElement/result_java-sec-code.csv'
-java_type_list = ['int','double','float','long','long long','Integer','Double','Float','Long','Map','HashMap','List','Set']
 
 
 # 对于数据进行初始化，对于所有涉及到的xray配置文件进行Cookie赋值
@@ -25,7 +24,6 @@ def initEnv(data_source):
 def initCookie():
     yaml_files = glob.glob(xray_config_path+'*.yaml')
     for file in yaml_files:
-        print(file)
         modifyConfigYaml(file,['http','headers','Cookie'],cookie)
      
 # 构建数据库，并运行所有需要的ql文件，保存在csv中   
@@ -295,9 +293,10 @@ def checkRes():
         print("Target:", matches)
     else:
         print("Target not found")
+        
 
 if __name__ == '__main__':
-    # data = initEnv(csv_path)
+    data = initEnv(csv_path)
     # doClassification(data)
     # checkRes()
     data = pd.read_csv(csv_path)
