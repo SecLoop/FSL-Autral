@@ -14,11 +14,73 @@ import json
 
 BASE_DIR = "/Users/lousix/Desktop/华为杯/提交/code/WebGoat-fuzz"
 FINDINGS_DIR = f"{BASE_DIR}/src/test/resources/org/owasp/webgoat/fuzz/FuzzTemplateInputs/fuzzTemplateTest/"
-FUZZ_DIR = ""
+FUZZ_FILE = "/Users/lousix/Desktop/华为杯/提交/code/WebGoat-fuzz/src/test/java/org/owasp/webgoat/fuzz/FuzzTemplate.java"
 SEED_DIR = f"{BASE_DIR}/seed-init"
 FUZZ_PATH = "org.owasp.webgoat.fuzz.FuzzTemplate"
 
 separate_words = [r"\xdc.",r"\x5c."]
+
+FUZZ_TEMPALATE = """package org.owasp.webgoat.fuzz;
+import com.code_intelligence.jazzer.api.FuzzedDataProvider;
+import com.code_intelligence.jazzer.junit.FuzzTest;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.owasp.webgoat.container.plugins.LessonTest;
+import org.owasp.webgoat.fuzz.entity.Param;
+import org.owasp.webgoat.fuzz.entity.Route;
+import org.owasp.webgoat.lessons.challenges.challenge5.Challenge5;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpMethod;
+import org.springframework.test.web.servlet.MvcResult;
+import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.util.LinkedMultiValueMap;
+import org.springframework.util.MultiValueMap;
+import org.springframework.http.MediaType;
+import java.io.File;
+import java.io.IOException;
+import java.lang.reflect.Method;
+
+import static org.mockito.Mockito.when;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.request;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
+
+public class FuzzTemplate extends LessonTest {
+
+
+    String CLASS_TYPE_STRING = "String";
+    String CLASS_TYPE_INT = "int";
+    String CLASS_TYPE_MULTIPARTFILE = "MultipartFile";
+
+    protected Route route;
+    protected HttpHeaders headers = new HttpHeaders();
+    protected MultiValueMap<String,String> parameters = new LinkedMultiValueMap<>();
+    protected String url;
+
+    @BeforeEach
+    public void setup() throws Exception {
+        when(webSession.getCurrentLesson()).thenReturn(new Challenge5());
+        this.mockMvc = MockMvcBuilders.webAppContextSetup(this.wac).build();
+    }
+
+    @FuzzTest
+    public void fuzzTemplateTest(FuzzedDataProvider data) throws Exception {
+            %s
+            url = "%s";
+            HttpMethod method = HttpMethod.valueOf("%s".toUpperCase());
+
+            %s
+
+            %s
+            
+            mockMvc.perform(request(method, url)
+                         .params(parameters).headers(headers)
+            ).andExpect(status().isOk());
+    }
+}
+"""
 
 def set_seed():
     print(f"rm -r {BASE_DIR}/seed/ && cp -r {BASE_DIR}/seed-init/ {BASE_DIR}/seed/")
@@ -56,6 +118,89 @@ def seperate_corpus(corpus_list):
         corpus_list_new.append(corpus.split('[sepword]'))
     return corpus_list_new
 
+def gen_assign(data):
+    assign_content = ""
+    pathParams = data['pathParams']
+    getParams = data['getParams']
+    postParams = data['postParams']
+
+    for params in [pathParams,getParams,postParams]:
+        for param in params:
+            if param['property'] == []:
+                assign_content += f"String {param['name']} = data.consumeAsciiString(30);\n"
+            else:
+                for property in param['property']:
+                    assign_content += f"String {property} = data.consumeAsciiString(30);\n"
+    
+    # print(assign_content)
+    return assign_content
+
+def gen_fuzz_url(routeName, pathParams):
+    url = routeName
+    for path in pathParams:
+        url = url.replace("{"+path+"}", f"\"+{path}+\"")
+    # print(f"\"{url}\"")
+    return url
+
+def gen_fuzz_headers(header_data):
+    header_content = ""
+    for header in header_data.keys():
+        header_content += f"headers.add(\"{header}\",\"{header_data[header]}\");\n"
+    # print(header_content)
+    return header_content
+
+def gen_fuzz_params(param_data):
+    param_content = ""
+    for param in param_data:
+        if param['property'] == []:
+            param_content += f"parameters.add(\"{param['name']}\",{param['name']});\n"
+        else:
+            for property in param['property']:
+                param_content += f"parameters.add(\"{property}\",{property});\n"
+    # print(param_content)
+    return param_content
+
+def update_fuzz_url(url, param_data):
+    if param_data==[]:
+        print(url)
+        return url
+    url += "?"
+    for param in param_data:
+        if param['property'] == []:
+            url += f'{param["name"]}=" + {param["name"]} + "&'
+        else:
+            for property in param['property']:
+                url += f'{property}=" + {property} + "&'
+    # print("\""  + url[:-1] + "\"")
+    return url[:-1]
+
+def gen_fuzz_engine(data):
+    url = gen_fuzz_url(data['routeName'], data['pathParams'])
+    method = data['method'].upper()
+    assign = gen_assign(data)
+    params = ""
+    if method == "GET":
+        params = gen_fuzz_params(data['getParams'])
+    elif method == "POST":
+        params = gen_fuzz_params(data['postParams'])
+        url = update_fuzz_url(url, data['getParams'])
+
+    headers = gen_fuzz_headers(data['headers'])
+
+    return assign, url, method, headers, params
+
+def gen_fuzz_content(data):
+    assign, url, method, headers, params = gen_fuzz_engine(data)
+    # print(assign)
+    # print(url)
+    # print(method)
+    # print(headers)
+    # print(params)
+    with open(FUZZ_FILE, "w") as f:
+        f.write(FUZZ_TEMPALATE % (assign, url, method, headers, params))
+
+    
+
 
 def find_all_subsequence(strs):
     
@@ -63,35 +208,48 @@ def find_all_subsequence(strs):
 
 if __name__ == "__main__":
 
-    with open("data.json", "r") as file:
+    with open("test.json", "r") as file:
         data = json.load(file)
     
-    clean()
-    set_seed()
+    # clean()
+    # set_seed()
 
     print(len(data))
     for item in data:
         if item['sinks'] == {}:
             continue
+        print("=======================")
+        print(gen_fuzz_content(item))
+        print("=======================")
         fuzz_single_route(item)
-        corpus_list = get_corpus(FINDINGS_DIR)
-        output = {}
-        output["routeName"] = item["routeName"]
-        output["sinks"] = item["sinks"]
-        # output["corpus"] = corpus_list
-        print(output)
-        print(corpus_list)
-        with open("result_fuzz.json", "ab+") as f:
-            f.write(json.dumps(output, indent=4).encode())
-            f.write(b"\n")
-            # for item in corpus_list:
-            #     f.write(item)
-            #     f.write(b",")
-            f.write(b",".join(corpus_list))
-            f.write(b"\n\n")
-        print(output)
-        clean()
-        set_seed()
+        # corpus_list = get_corpus(FINDINGS_DIR)
+        # output = {}
+        # output["routeName"] = item["routeName"]
+        # output["sinks"] = item["sinks"]
+        # # output["corpus"] = corpus_list
+        # print(output)
+        # print(corpus_list)
+        # with open("result_fuzz.json", "ab+") as f:
+        #     f.write(json.dumps(output, indent=4).encode())
+        #     f.write(b"\n")
+        #     # for item in corpus_list:
+        #     #     f.write(item)
+        #     #     f.write(b",")
+        #     f.write(b",".join(corpus_list))
+        #     f.write(b"\n\n")
+        # print(output)
+        # clean()
+        # set_seed()
+
+
+
+
+
+
+
+
+
+
 
 
 
