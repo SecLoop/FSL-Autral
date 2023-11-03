@@ -22,7 +22,7 @@ where
   (
     not exists(SetMessageInterpolatorCall call)
     or
-    exists(SetMessageInterpolatorCall call | not c.isSafe())
+    exists(SetMessageInterpolatorCall call | not call.isSafe())
   ) and
   BeanValidationFlow::flowPath(source, sink)
   and

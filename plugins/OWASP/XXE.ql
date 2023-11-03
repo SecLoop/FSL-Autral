@@ -17,9 +17,16 @@ import java
 import semmle.code.java.dataflow.DataFlow
 import semmle.code.java.security.XxeRemoteQuery
 import XxeFlow::PathGraph
+import SpringRelated.SpringController
+import SpringRelated.SpringParam
 
-from XxeFlow::PathNode source, XxeFlow::PathNode sink
+
+from XxeFlow::PathNode source, XxeFlow::PathNode sink, Class c, Method m
 where XxeFlow::flowPath(source, sink)
-select sink.getNode(), source, sink,
+and
+m = c.getAMethod() 
+and
+getControllerFunc(source.getNode().getEnclosingCallable()) = m
+select c, m, source, sink, "XXE",sink.getNode(), source, sink,
   "XML parsing depends on a $@ without guarding against external entity expansion.",
   source.getNode(), "user-provided value"

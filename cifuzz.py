@@ -1,18 +1,28 @@
+#! -*- coding:utf-8 -*-
 import os
 import re
 import json
 
 
-FINDINGS_DIR = "/Users/lousix/sec/CodeQL/JavaProject/Hello-Java-Sec-bak/src/test/resources/com/best/fuzz/FuzzTemplateInputs/fuzzTemplateTest"
+# FINDINGS_DIR = "/Users/lousix/sec/CodeQL/JavaProject/Hello-Java-Sec-bak/src/test/resources/com/best/fuzz/FuzzTemplateInputs/fuzzTemplateTest"
 
-BASE_DIR = "/Users/lousix/sec/CodeQL/JavaProject/Hello-Java-Sec-bak"
+# BASE_DIR = "/Users/lousix/sec/CodeQL/JavaProject/Hello-Java-Sec-bak"
+# FUZZ_DIR = ""
+# SEED_DIR = "/Users/lousix/sec/CodeQL/JavaProject/Hello-Java-Sec-bak/seed-init"
+# FUZZ_PATH = "com.best.fuzz.FuzzTemplate"
+
+
+BASE_DIR = "/Users/lousix/Desktop/华为杯/提交/code/WebGoat-fuzz"
+FINDINGS_DIR = f"{BASE_DIR}/src/test/resources/org/owasp/webgoat/fuzz/FuzzTemplateInputs/fuzzTemplateTest/"
 FUZZ_DIR = ""
-SEED_DIR = "/Users/lousix/sec/CodeQL/JavaProject/Hello-Java-Sec-bak/seed-init"
-FUZZ_PATH = "com.best.fuzz.FuzzTemplate"
+SEED_DIR = f"{BASE_DIR}/seed-init"
+FUZZ_PATH = "org.owasp.webgoat.fuzz.FuzzTemplate"
+
 separate_words = [r"\xdc.",r"\x5c."]
 
 def set_seed():
-    os.system(f"cd {BASE_DIR} && rm -r seed/ && cp -r seed-init/ seed/")
+    print(f"rm -r {BASE_DIR}/seed/ && cp -r {BASE_DIR}/seed-init/ {BASE_DIR}/seed/")
+    os.system(f"rm -r {BASE_DIR}/seed/; cp -r {BASE_DIR}/seed-init/ {BASE_DIR}/seed/")
 
 
 def fuzz_single_route(data):
@@ -38,7 +48,7 @@ def get_corpus(filepath):
             corpus.append(f.read())
     return corpus
 
-def seperate_corpus(corpus_list):
+def seperate_corpus(corpus_list):   
     corpus_list_new = []
     for corpus in corpus_list:
         for word in separate_words:
@@ -56,8 +66,13 @@ if __name__ == "__main__":
     with open("data.json", "r") as file:
         data = json.load(file)
     
+    clean()
+    set_seed()
+
     print(len(data))
     for item in data:
+        if item['sinks'] == {}:
+            continue
         fuzz_single_route(item)
         corpus_list = get_corpus(FINDINGS_DIR)
         output = {}
@@ -76,6 +91,7 @@ if __name__ == "__main__":
             f.write(b"\n\n")
         print(output)
         clean()
+        set_seed()
 
 
 

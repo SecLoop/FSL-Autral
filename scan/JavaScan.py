@@ -47,7 +47,7 @@ class JavaScan(Scan):
         # result_file = time.strftime(database + '_%Y-%m-%d', time.localtime(time.time())) + "_" + str(int(time.time()))
         result_file = database[-1]
         result_path = "out/result/"+result_file+"/"
-        #result_flag = self.run_once("SpringController", db, result_file, result_path)
+        result_flag = self.run_once("SpringController", db, result_file, result_path)
         result_flag = self.run_once("OWASP", db, result_file, result_path)
         print("Scan Over")
 
