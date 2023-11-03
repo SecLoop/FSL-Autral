@@ -1,0 +1,21 @@
+name: poc-yaml-example-com
+transport: http
+rules:
+    r1:
+        request:
+            cache: true
+            method: POST
+            headers:
+                Content-Type: application/json
+                Cookies: 
+            path: /XStream/vul
+            body: POST_Data=
+            follow_redirects: true
+        expression: |
+            reverse.wait(5)
+expression:
+    r1()
+detail:
+    author: Lousix123
+    links:
+        - https://docs.xray.cool/

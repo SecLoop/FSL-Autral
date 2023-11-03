@@ -1,0 +1,21 @@
+name: poc-yaml-example-com
+transport: http
+rules:
+    r1:
+        request:
+            cache: true
+            method: POST
+            headers:
+                Content-Type: {{ContentType | default('application/x-www-form-urlcoded')}}
+                Cookies: {{Cookies | default('')}}
+            path: {{path | default('/')}}
+            body: {{body | default('')}}
+            follow_redirects: true
+        expression: |
+            3xpr3ss10n
+expression:
+    r1()
+detail:
+    author: Lousix123
+    links:
+        - https://docs.xray.cool/
