@@ -1,0 +1,44 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "[egova-base-1.0.1-mysql source archive]",
+			"uri": "codeql-zip-archive://0-77/Users/lousix/sec/CodeQL/CodeQLpy/out/database/egova-base-1.0.1-mysql/src.zip"
+		},
+		{
+			"name": "[egova-bizbase-biz-1.0.1-mysql source archive]",
+			"uri": "codeql-zip-archive://0-84/Users/lousix/sec/CodeQL/CodeQLpy/out/database/egova-bizbase-biz-1.0.1-mysql/src.zip"
+		},
+		{
+			"name": "[S1 source archive]",
+			"uri": "codeql-zip-archive://0-57/Users/lousix/sec/CodeQL/CodeQLpy/out/database/S1/src.zip"
+		},
+		{
+			"name": "[micro_service_seclab source archive]",
+			"uri": "codeql-zip-archive://0-62/Users/lousix/sec/CodeQL/database/micro_service_seclab/src.zip"
+		},
+		{
+			"name": "[manjing-ywdx-api source archive]",
+			"uri": "codeql-zip-archive://0-71/Users/lousix/sec/CodeQL/CodeQLpy/out/database/manjing-ywdx-api/src.zip"
+		},
+		{
+			"name": "[admin-8080 source archive]",
+			"uri": "codeql-zip-archive://0-65/Users/lousix/sec/CodeQL/CodeQLpy/out/database/admin-8080/src.zip"
+		},
+		{
+			"name": "[java-sec-code source archive]",
+			"uri": "codeql-zip-archive://0-55/Users/lousix/sec/CodeQL/database/java-sec-code/src.zip"
+		},
+		{
+			"name": "[webgoat source archive]",
+			"uri": "codeql-zip-archive://0-49/Users/lousix/sec/CodeQL/database/webgoat/src.zip"
+		},
+		{
+			"name": "[java-sec-code source archive]",
+			"uri": "codeql-zip-archive://0-89/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/CodeQLpy/out/database/java-sec-code/src.zip"
+		}
+	],
+	"settings": {}
+}

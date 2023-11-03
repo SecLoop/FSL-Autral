@@ -1,0 +1,2 @@
+"c","m","source","sink","col4","col5","col6","col7","col8"
+"SSRFTask2","completed","url : String","new URL(...)","RequestForgery.ql","url","Potential server-side request forgery due to a $@.","url","user-provided value"

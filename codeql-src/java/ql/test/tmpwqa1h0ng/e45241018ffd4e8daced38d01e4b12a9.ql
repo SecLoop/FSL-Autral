@@ -1,0 +1,31 @@
+/**
+ * @name Query built from user-controlled sources
+ * @description Building a SQL or Java Persistence query from user-controlled sources is vulnerable to insertion of
+ *              malicious code by the user.
+ * @kind path-problem
+ * @problem.severity error
+ * @security-severity 8.8
+ * @precision high
+ * @id java/sql-injection
+ * @tags security
+ *       external/cwe/cwe-089
+ *       external/cwe/cwe-564
+ */
+
+import java
+import semmle.code.java.dataflow.FlowSources
+import semmle.code.java.security.SqlInjectionQuery
+import QueryInjectionFlow::PathGraph
+private import semmle.code.java.dataflow.ExternalFlow
+import SpringRelated.SpringController
+import SpringRelated.SpringParam
+
+
+from
+  QueryInjectionSink query, QueryInjectionFlow::PathNode source, QueryInjectionFlow::PathNode sink,Class c, Method m
+where queryIsTaintedBy(query, source, sink)
+and
+m = c.getAMethod() 
+and
+getControllerFunc(source.getNode().getEnclosingCallable()) = m
+select c, m, source, sink, "SqlTainted.ql", getParam(source.getNode()), "This query depends on a $@.", source.getNode(), "user-provided value", query
