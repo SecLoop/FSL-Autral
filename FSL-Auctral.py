@@ -19,8 +19,8 @@ res_path = current_directory + '/out/data4.json'
 xray_path = '/Users/bianzhenkun/Desktop/'
 xray_plus_path = '/Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/'
 xray_config_path = '/Users/bianzhenkun/Desktop/xray_config/'
-base_website_url = 'http://localhost:8888'
-init_cookie = 'JSESSIONID=F580851EAF903144F79B296ED3C52C8B; JWT_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTkxNzQ1OTksImV4cCI6MTY5OTI2MDk5OSwidXNlcm5hbWUiOiJhZG1pbiJ9.vRIDiwUJIH8ffqqpZg6A8srUF15h4-hR1BJrTgcfJNA'
+base_website_url = 'http://localhost:8080'
+init_cookie = ''
 folder_path = '/Users/bianzhenkun/Downloads/Hello-Java-Sec-1.11'
 yaml_path = current_directory + '/poc/Templates/output.yaml'
 extract_element_path = base_url+'/result/mytest/ExtractElement/result_Hello-Java-Sec-1.11.csv'
@@ -340,7 +340,6 @@ def initPocDict():
         pocs = f.readlines()
     for line in pocs:
         poc_data = line.split('—')
-        print(poc_data)
         poc_dict[poc_data[0]] = [poc_data[1],poc_data[2]]
     # print(poc_dict)
 
@@ -374,7 +373,7 @@ def xrayFuzzWithPocs():
         # for i in str(item['pathParams']):
         #     path += '/' + i
         if len(item['getParams']) >0:
-            path += '?
+            path += '?'
             for i in item['getParams']:
                 if i['name'] == sink_param:
                     path += i['name'] + '=p4yl04d&'
@@ -424,7 +423,7 @@ def sendYaml2Xray(url,request_method,body,config,poc):
 
     
 def mergeSinkCsvs():
-    merged_csv_path = "/Users/bianzhenkun/Downloads/newsink3.csv"
+    merged_csv_path = "/Users/bianzhenkun/Downloads/newsink.csv"
     main_folder = "/Users/bianzhenkun/Downloads/Hello-Java-Sec-1.11"
     merged_data = pd.DataFrame()
 
@@ -485,15 +484,16 @@ def cifuzz(data):
 if __name__ == '__main__':
     # 1. 初始化环境
     params_data = initEnv()
-    # mergeSinkCsvs()
+    mergeSinkCsvs()
     # # 2. 对codeql的结果进行处理，生成data.json
-    # groupData(params_data)
-    # saveJsonData()
+    groupData(params_data)
+    saveJsonData()
     # # 3. Fuzz Stage1，xray黑盒测试
-    # xrayFuzz()
+    xrayFuzz()
     # # 4. Fuzz Stage2，加载poc list，根据sink，自动化生成针对性的xray yaml，发送到xray测试
     initPocDict()
     xrayFuzzWithPocs()
+    cifuzz()
     
     
     
