@@ -1,0 +1,91 @@
+[2023-09-12 15:38:27] This is codeql execute queries -J-Xmx2048M --off-heap-ram=2048 --verbosity=progress --logdir=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/log --evaluator-log-level=5 --warnings=show --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --output=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/query-results.bqrs -- /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/db-java path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql
+[2023-09-12 15:38:27] Calling plumbing command: codeql resolve queries --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --format=json -- path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql
+[2023-09-12 15:38:27] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql) at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController.
+[2023-09-12 15:38:27] Plumbing command codeql resolve queries completed:
+                      [
+                        "/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql"
+                      ]
+[2023-09-12 15:38:27] Refusing fancy output: $CODEQL_ISATTY terminal indication is missing
+[2023-09-12 15:38:27] Creating executor with 1 threads.
+[2023-09-12 15:38:28] Calling plumbing command: codeql resolve extensions --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql
+[2023-09-12 15:38:28] Calling plumbing command: codeql resolve queries --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --allow-library-packs --format startingpacks -- path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql
+[2023-09-12 15:38:28] [PROGRESS] resolve queries> Recording pack reference (anonymous QL pack at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql) at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController.
+[2023-09-12 15:38:28] Plumbing command codeql resolve queries completed:
+                      [
+                        "/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController"
+                      ]
+[2023-09-12 15:38:28] Calling plumbing command: codeql resolve extensions-by-pack --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml -- /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController
+[2023-09-12 15:38:28] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2023-09-12 15:38:28] [SPAMMY] resolve extensions-by-pack> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2023-09-12 15:38:28] [SPAMMY] resolve extensions-by-pack> [DECISION 1] <anonymous pack>: 0.0.0
+[2023-09-12 15:38:28] Plumbing command codeql resolve extensions-by-pack completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2023-09-12 15:38:28] Plumbing command codeql resolve extensions completed:
+                      {
+                        "models" : [ ],
+                        "data" : { },
+                        "extensionPacks" : [ ]
+                      }
+[2023-09-12 15:38:28] [DETAILS] execute queries> Did not find any ML models.
+[2023-09-12 15:38:28] Calling plumbing command: codeql resolve library-path --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --query=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql --format=json
+[2023-09-12 15:38:28] [DETAILS] resolve library-path> Resolving query at normalized path /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql.
+[2023-09-12 15:38:28] [DETAILS] resolve library-path> Found no pack; trying after symlink resolution with /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql.
+[2023-09-12 15:38:28] [DETAILS] resolve library-path> Found enclosing pack 'SpringController' at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController.
+[2023-09-12 15:38:28] [DETAILS] resolve library-path> Adding compilation cache at /Users/bianzhenkun/.codeql/compile-cache.
+[2023-09-12 15:38:28] [DETAILS] resolve library-path> Resolving library dependencies from /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql.
+[2023-09-12 15:38:28] [SPAMMY] resolve library-path> [INCOMPATIBILITY] <anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}
+[2023-09-12 15:38:28] [SPAMMY] resolve library-path> [DERIVATION] <anonymous pack>: 0.0.0 {<anonymous pack>: not 0.0.0 {root: <anonymous pack>@0.0.0}}
+[2023-09-12 15:38:28] [SPAMMY] resolve library-path> [DECISION 1] <anonymous pack>: 0.0.0
+[2023-09-12 15:38:28] [DETAILS] resolve library-path> QL pack dependencies for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController resolved OK.
+[2023-09-12 15:38:28] [DETAILS] resolve library-path> Found no dbscheme through dependencies.
+[2023-09-12 15:38:28] Plumbing command codeql resolve library-path completed:
+                      {
+                        "libraryPath" : [
+                          "/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController"
+                        ],
+                        "compilationCache" : [
+                          "/Users/bianzhenkun/.codeql/compile-cache"
+                        ],
+                        "relativeName" : "SpringController/SpringController.ql",
+                        "possibleAdvice" : "There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory.",
+                        "qlPackName" : "SpringController"
+                      }
+[2023-09-12 15:38:28] [PROGRESS] execute queries> Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql.
+[2023-09-12 15:38:28] [DETAILS] execute queries> Resolving imports for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql.
+[2023-09-12 15:38:28] Resolved file set for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql hashes to 182d94b5db5e6aeb7ed14ab5dd812626a8a15294.
+[2023-09-12 15:38:28] [DETAILS] execute queries> Checking QL for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql.
+[2023-09-12 15:38:28] ExternalModuleBindingPass ...
+[2023-09-12 15:38:28] ExternalModuleBindingPass time: 00:00.007
+[2023-09-12 15:38:28] DeclarationBindingPass ...
+[2023-09-12 15:38:28] DeclarationBindingPass time: 00:00.005
+[2023-09-12 15:38:28] LanguagePragmaPropagationPass ...
+[2023-09-12 15:38:28] LanguagePragmaPropagationPass ...
+[2023-09-12 15:38:28] LanguagePragmaPropagationPass time: 00:00.007
+[2023-09-12 15:38:28] LanguagePragmaPropagationPass time: 00:00.008
+[2023-09-12 15:38:28] Fixed point ...
+[2023-09-12 15:38:28] Fixed point time: 00:00.026
+[2023-09-12 15:38:28] ReferenceBindingPass ...
+[2023-09-12 15:38:28] ReferenceBindingPass time: 00:00.000
+[2023-09-12 15:38:28] PredicateBodyBindingPass ...
+[2023-09-12 15:38:29] PredicateBodyBindingPass time: 00:00.058
+[2023-09-12 15:38:29] Ambiguity checks ...
+[2023-09-12 15:38:29] Ambiguity checks time: 00:00.005
+[2023-09-12 15:38:29] Ql checks ...
+[2023-09-12 15:38:29] Ql checks time: 00:00.029
+[2023-09-12 15:38:29] [ERROR] execute queries> ERROR: Could not resolve module semmle.code.java.dataflow.FlowSources. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:7,8-45)
+[2023-09-12 15:38:29] [ERROR] execute queries> ERROR: Could not resolve module semmle.code.java.dataflow.ExternalFlow. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:8,16-54)
+[2023-09-12 15:38:29] [ERROR] execute queries> ERROR: Could not resolve module SpringRelated.SpringController. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:9,8-38)
+[2023-09-12 15:38:29] [ERROR] execute queries> ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:16,5-23)
+[2023-09-12 15:38:29] [ERROR] execute queries> ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:18,2-18)
+[2023-09-12 15:38:29] [ERROR] execute queries> ERROR: Could not resolve module java. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:6,8-12)
+[2023-09-12 15:38:29] [ERROR] execute queries> ERROR: Could not resolve type Class (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:11,7-12)
+[2023-09-12 15:38:29] [ERROR] execute queries> ERROR: Could not resolve type Method (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:11,16-22)
+[2023-09-12 15:38:29] Sequence stamp origin is -6276045407740997039
+[2023-09-12 15:38:29] Pausing evaluation to close the cache at sequence stamp o+0
+[2023-09-12 15:38:29] The disk cache is freshly trimmed; leave it be.
+[2023-09-12 15:38:29] Unpausing evaluation
+[2023-09-12 15:38:29] Exiting with code 2

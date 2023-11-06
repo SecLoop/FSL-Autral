@@ -1,0 +1,11 @@
+[2023-09-12 09:56:21] This is codeql query run -d out/database/S1 /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpeil6gc_7/5809d072cc1444f9ac433a21d172dc7d.ql
+[2023-09-12 09:56:21] Log file was started late.
+[2023-09-12 09:56:21] Calling plumbing command: codeql resolve ram --format=json
+[2023-09-12 09:56:21] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx2048M",
+                        "--off-heap-ram=2048"
+                      ]
+[2023-09-12 09:56:21] Spawning plumbing command: execute queries -J-Xmx2048M --off-heap-ram=2048 --verbosity=progress --logdir=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/log --evaluator-log-level=5 --warnings=show --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml -- /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/db-java path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpeil6gc_7/5809d072cc1444f9ac433a21d172dc7d.ql
+[2023-09-12 09:56:52] Plumbing command codeql execute queries terminated with status 0.
+[2023-09-12 09:56:52] Exiting with code 0

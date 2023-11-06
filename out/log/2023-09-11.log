@@ -1,0 +1,259 @@
+2023/09/11 22:47:00 functions.py WARNING 
+2023/09/11 22:47:00 functions.py WARNING 
+2023/09/11 22:47:26 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpngv4rpi2/69d89551c9334eb298dc87996a897875.ql.
+[1/1 comp 19.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpngv4rpi2/69d89551c9334eb298dc87996a897875.ql.
+Starting evaluation of codeql/java-tests/tmpngv4rpi2/69d89551c9334eb298dc87996a897875.ql.
+Evaluation completed (72ms).
+Shutting down query evaluator.
+
+2023/09/11 22:49:02 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbavmrvb3/53d42f1502054e228b33493c412a2dd0.ql.
+WARNING: A path-problem query must define the @id property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbavmrvb3/53d42f1502054e228b33493c412a2dd0.ql:1,1-3,4)
+WARNING: A path-problem query must define the @severity property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbavmrvb3/53d42f1502054e228b33493c412a2dd0.ql:1,1-3,4)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbavmrvb3/53d42f1502054e228b33493c412a2dd0.ql:11,7-21)
+[1/1 comp 49.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbavmrvb3/53d42f1502054e228b33493c412a2dd0.ql.
+Starting evaluation of codeql/java-tests/tmpbavmrvb3/53d42f1502054e228b33493c412a2dd0.ql.
+[1/1 eval 36.5s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 22:49:04 common.py WARNING 
+2023/09/11 22:49:05 common.py WARNING 
+2023/09/11 22:50:17 functions.py WARNING 
+2023/09/11 22:50:17 functions.py WARNING 
+2023/09/11 22:50:40 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpf3s6m041/4bc157aa622f4b468ada40a82a4dbcd3.ql.
+[1/1 comp 15.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpf3s6m041/4bc157aa622f4b468ada40a82a4dbcd3.ql.
+Starting evaluation of codeql/java-tests/tmpf3s6m041/4bc157aa622f4b468ada40a82a4dbcd3.ql.
+Evaluation completed (81ms).
+Shutting down query evaluator.
+
+2023/09/11 22:51:24 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpn4y0a3_i/ba80fce9755741abb0056bc870a2cae5.ql.
+WARNING: A path-problem query must define the @id property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpn4y0a3_i/ba80fce9755741abb0056bc870a2cae5.ql:1,1-3,4)
+WARNING: A path-problem query must define the @severity property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpn4y0a3_i/ba80fce9755741abb0056bc870a2cae5.ql:1,1-3,4)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpn4y0a3_i/ba80fce9755741abb0056bc870a2cae5.ql:11,7-21)
+[1/1 comp 22.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpn4y0a3_i/ba80fce9755741abb0056bc870a2cae5.ql.
+Starting evaluation of codeql/java-tests/tmpn4y0a3_i/ba80fce9755741abb0056bc870a2cae5.ql.
+[1/1 eval 13.2s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 22:51:25 common.py WARNING 
+2023/09/11 22:51:26 common.py WARNING 
+2023/09/11 23:25:13 functions.py WARNING 
+2023/09/11 23:25:13 functions.py WARNING 
+2023/09/11 23:25:35 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpp57d4194/f489813cbd004d2ba96fc5065835a718.ql.
+[1/1 comp 14.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpp57d4194/f489813cbd004d2ba96fc5065835a718.ql.
+Starting evaluation of codeql/java-tests/tmpp57d4194/f489813cbd004d2ba96fc5065835a718.ql.
+Evaluation completed (80ms).
+Shutting down query evaluator.
+
+2023/09/11 23:26:15 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpw9_dw2vf/c08f7402ed694c488ef05f3c2ed9bc4a.ql.
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpw9_dw2vf/c08f7402ed694c488ef05f3c2ed9bc4a.ql:20,7-21)
+[1/1 comp 19.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpw9_dw2vf/c08f7402ed694c488ef05f3c2ed9bc4a.ql.
+Starting evaluation of codeql/java-tests/tmpw9_dw2vf/c08f7402ed694c488ef05f3c2ed9bc4a.ql.
+[1/1 eval 14.7s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:26:16 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected one of the patterns to start with [entity, entity, entity, string] columns. [INVALID_RESULT_PATTERNS]
+
+2023/09/11 23:28:26 functions.py WARNING 
+2023/09/11 23:28:27 functions.py WARNING 
+2023/09/11 23:28:48 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpa86kpqoo/649ee23cf1344d48b471c980267afcf8.ql.
+[1/1 comp 15.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpa86kpqoo/649ee23cf1344d48b471c980267afcf8.ql.
+Starting evaluation of codeql/java-tests/tmpa86kpqoo/649ee23cf1344d48b471c980267afcf8.ql.
+Evaluation completed (74ms).
+Shutting down query evaluator.
+
+2023/09/11 23:29:31 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp7lvc_waq/2fb9357ce7724c0dabac456d19ba1698.ql.
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp7lvc_waq/2fb9357ce7724c0dabac456d19ba1698.ql:20,7-21)
+[1/1 comp 21.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp7lvc_waq/2fb9357ce7724c0dabac456d19ba1698.ql.
+Starting evaluation of codeql/java-tests/tmp7lvc_waq/2fb9357ce7724c0dabac456d19ba1698.ql.
+[1/1 eval 14.3s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:29:31 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected one of the patterns to start with [entity, entity, entity, string] columns. [INVALID_RESULT_PATTERNS]
+
+2023/09/11 23:30:22 functions.py WARNING 
+2023/09/11 23:30:22 functions.py WARNING 
+2023/09/11 23:30:43 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpfy7gq6dl/17ce2e13d4ba4f4a917c078f6b5a213a.ql.
+[1/1 comp 15.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpfy7gq6dl/17ce2e13d4ba4f4a917c078f6b5a213a.ql.
+Starting evaluation of codeql/java-tests/tmpfy7gq6dl/17ce2e13d4ba4f4a917c078f6b5a213a.ql.
+Evaluation completed (77ms).
+Shutting down query evaluator.
+
+2023/09/11 23:31:22 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpue0lwx5z/8cdf6c3724f44010bcb4eff7ed7768d7.ql.
+WARNING: A path-problem query must define the @id property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpue0lwx5z/8cdf6c3724f44010bcb4eff7ed7768d7.ql:1,1-3,4)
+WARNING: A path-problem query must define the @severity property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpue0lwx5z/8cdf6c3724f44010bcb4eff7ed7768d7.ql:1,1-3,4)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpue0lwx5z/8cdf6c3724f44010bcb4eff7ed7768d7.ql:11,7-21)
+[1/1 comp 20s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpue0lwx5z/8cdf6c3724f44010bcb4eff7ed7768d7.ql.
+Starting evaluation of codeql/java-tests/tmpue0lwx5z/8cdf6c3724f44010bcb4eff7ed7768d7.ql.
+[1/1 eval 12.2s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:31:23 common.py WARNING 
+2023/09/11 23:31:24 common.py WARNING 
+2023/09/11 23:31:52 functions.py WARNING 
+2023/09/11 23:31:52 functions.py WARNING 
+2023/09/11 23:32:17 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptvrpcnd7/ecbd1095113f410aab1f1eb2e0eac234.ql.
+[1/1 comp 18.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptvrpcnd7/ecbd1095113f410aab1f1eb2e0eac234.ql.
+Starting evaluation of codeql/java-tests/tmptvrpcnd7/ecbd1095113f410aab1f1eb2e0eac234.ql.
+Evaluation completed (73ms).
+Shutting down query evaluator.
+
+2023/09/11 23:32:56 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9rrqwawb/4fedd79c57094f808116adea24e2cfd4.ql.
+WARNING: A path-problem query must define the @id property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9rrqwawb/4fedd79c57094f808116adea24e2cfd4.ql:1,1-3,4)
+WARNING: A path-problem query must define the @severity property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9rrqwawb/4fedd79c57094f808116adea24e2cfd4.ql:1,1-3,4)
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9rrqwawb/4fedd79c57094f808116adea24e2cfd4.ql:21,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9rrqwawb/4fedd79c57094f808116adea24e2cfd4.ql:21,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9rrqwawb/4fedd79c57094f808116adea24e2cfd4.ql:19,1-22,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9rrqwawb/4fedd79c57094f808116adea24e2cfd4.ql:20,7-21)
+[1/1 comp 18.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9rrqwawb/4fedd79c57094f808116adea24e2cfd4.ql.
+Starting evaluation of codeql/java-tests/tmp9rrqwawb/4fedd79c57094f808116adea24e2cfd4.ql.
+[1/1 eval 12.7s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:32:56 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected one of the patterns to start with [entity, entity, entity, string] columns. [INVALID_RESULT_PATTERNS]
+
+2023/09/11 23:34:03 functions.py WARNING 
+2023/09/11 23:34:03 functions.py WARNING 
+2023/09/11 23:34:23 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp4rpnn3az/9b5aa8f4ad4548c7aa1abf19cac39a94.ql.
+[1/1 comp 14.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp4rpnn3az/9b5aa8f4ad4548c7aa1abf19cac39a94.ql.
+Starting evaluation of codeql/java-tests/tmp4rpnn3az/9b5aa8f4ad4548c7aa1abf19cac39a94.ql.
+Evaluation completed (64ms).
+Shutting down query evaluator.
+
+2023/09/11 23:35:06 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_y6qlz5e/a96099fdd45842c4b0286640bbeefb1b.ql.
+WARNING: A path-problem query must define the @id property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_y6qlz5e/a96099fdd45842c4b0286640bbeefb1b.ql:1,1-3,4)
+WARNING: A path-problem query must define the @severity property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_y6qlz5e/a96099fdd45842c4b0286640bbeefb1b.ql:1,1-3,4)
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_y6qlz5e/a96099fdd45842c4b0286640bbeefb1b.ql:21,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_y6qlz5e/a96099fdd45842c4b0286640bbeefb1b.ql:21,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_y6qlz5e/a96099fdd45842c4b0286640bbeefb1b.ql:19,1-22,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_y6qlz5e/a96099fdd45842c4b0286640bbeefb1b.ql:20,7-21)
+[1/1 comp 20.8s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_y6qlz5e/a96099fdd45842c4b0286640bbeefb1b.ql.
+Starting evaluation of codeql/java-tests/tmp_y6qlz5e/a96099fdd45842c4b0286640bbeefb1b.ql.
+[1/1 eval 15.3s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:35:07 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected one of the patterns to start with [entity, entity, entity, string] columns. [INVALID_RESULT_PATTERNS]
+
+2023/09/11 23:37:16 functions.py WARNING 
+2023/09/11 23:37:16 functions.py WARNING 
+2023/09/11 23:37:40 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1nlzo7vj/05fe44d2376e4fb2aa2fbbda6e4bdd25.ql.
+[1/1 comp 16.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1nlzo7vj/05fe44d2376e4fb2aa2fbbda6e4bdd25.ql.
+Starting evaluation of codeql/java-tests/tmp1nlzo7vj/05fe44d2376e4fb2aa2fbbda6e4bdd25.ql.
+Evaluation completed (66ms).
+Shutting down query evaluator.
+
+2023/09/11 23:38:21 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1s4597ie/2e32f9fc0e0a49019c540fcea93e4ef7.ql.
+WARNING: The @id property should be a valid query identifier. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1s4597ie/2e32f9fc0e0a49019c540fcea93e4ef7.ql:1,1-5,4)
+WARNING: A path-problem query must define the @severity property. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1s4597ie/2e32f9fc0e0a49019c540fcea93e4ef7.ql:1,1-5,4)
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1s4597ie/2e32f9fc0e0a49019c540fcea93e4ef7.ql:23,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1s4597ie/2e32f9fc0e0a49019c540fcea93e4ef7.ql:23,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1s4597ie/2e32f9fc0e0a49019c540fcea93e4ef7.ql:21,1-24,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1s4597ie/2e32f9fc0e0a49019c540fcea93e4ef7.ql:22,7-21)
+[1/1 comp 20s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1s4597ie/2e32f9fc0e0a49019c540fcea93e4ef7.ql.
+Starting evaluation of codeql/java-tests/tmp1s4597ie/2e32f9fc0e0a49019c540fcea93e4ef7.ql.
+[1/1 eval 13.9s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:38:22 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected one of the patterns to start with [entity, entity, entity, string] columns. [INVALID_RESULT_PATTERNS]
+
+2023/09/11 23:43:47 functions.py WARNING 
+2023/09/11 23:43:47 functions.py WARNING 
+2023/09/11 23:44:08 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpkb4kzmg_/06fa03467dd64bb09f3da516d122b3c8.ql.
+[1/1 comp 14.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpkb4kzmg_/06fa03467dd64bb09f3da516d122b3c8.ql.
+Starting evaluation of codeql/java-tests/tmpkb4kzmg_/06fa03467dd64bb09f3da516d122b3c8.ql.
+Evaluation completed (70ms).
+Shutting down query evaluator.
+
+2023/09/11 23:44:56 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprmyjvdvb/741697093bf94fc6bb547c700827b341.ql.
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprmyjvdvb/741697093bf94fc6bb547c700827b341.ql:31,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprmyjvdvb/741697093bf94fc6bb547c700827b341.ql:31,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprmyjvdvb/741697093bf94fc6bb547c700827b341.ql:29,1-32,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprmyjvdvb/741697093bf94fc6bb547c700827b341.ql:30,7-21)
+[1/1 comp 22.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprmyjvdvb/741697093bf94fc6bb547c700827b341.ql.
+Starting evaluation of codeql/java-tests/tmprmyjvdvb/741697093bf94fc6bb547c700827b341.ql.
+[1/1 eval 16.2s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:44:57 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected one of the patterns to start with [entity, entity, entity, string] columns. [INVALID_RESULT_PATTERNS]
+
+2023/09/11 23:50:50 functions.py WARNING 
+2023/09/11 23:50:50 functions.py WARNING 
+2023/09/11 23:51:15 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp11yi7z6l/b57122458bae4071a91bebbde4b26805.ql.
+[1/1 comp 18.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp11yi7z6l/b57122458bae4071a91bebbde4b26805.ql.
+Starting evaluation of codeql/java-tests/tmp11yi7z6l/b57122458bae4071a91bebbde4b26805.ql.
+Evaluation completed (93ms).
+Shutting down query evaluator.
+
+2023/09/11 23:51:58 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi_n0u3lu/326cdb899d0f44269a7414cbcf5112f9.ql.
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi_n0u3lu/326cdb899d0f44269a7414cbcf5112f9.ql:31,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi_n0u3lu/326cdb899d0f44269a7414cbcf5112f9.ql:31,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi_n0u3lu/326cdb899d0f44269a7414cbcf5112f9.ql:29,1-32,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi_n0u3lu/326cdb899d0f44269a7414cbcf5112f9.ql:30,7-21)
+[1/1 comp 20.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi_n0u3lu/326cdb899d0f44269a7414cbcf5112f9.ql.
+Starting evaluation of codeql/java-tests/tmpi_n0u3lu/326cdb899d0f44269a7414cbcf5112f9.ql.
+[1/1 eval 15.5s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:51:59 common.py WARNING 
+2023/09/11 23:52:19 functions.py WARNING 
+2023/09/11 23:52:20 functions.py WARNING 
+2023/09/11 23:52:43 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpy8w24yag/e26f5969134749a8ae049a95ce209a64.ql.
+[1/1 comp 15.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpy8w24yag/e26f5969134749a8ae049a95ce209a64.ql.
+Starting evaluation of codeql/java-tests/tmpy8w24yag/e26f5969134749a8ae049a95ce209a64.ql.
+Evaluation completed (64ms).
+Shutting down query evaluator.
+
+2023/09/11 23:53:21 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1zpbldri/ad60f3a464254b19b0e1c04f4f470e5b.ql.
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1zpbldri/ad60f3a464254b19b0e1c04f4f470e5b.ql:31,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1zpbldri/ad60f3a464254b19b0e1c04f4f470e5b.ql:31,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1zpbldri/ad60f3a464254b19b0e1c04f4f470e5b.ql:29,1-32,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1zpbldri/ad60f3a464254b19b0e1c04f4f470e5b.ql:30,7-21)
+[1/1 comp 19.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1zpbldri/ad60f3a464254b19b0e1c04f4f470e5b.ql.
+Starting evaluation of codeql/java-tests/tmp1zpbldri/ad60f3a464254b19b0e1c04f4f470e5b.ql.
+[1/1 eval 13.1s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:53:22 common.py WARNING 
+2023/09/11 23:53:54 functions.py WARNING 
+2023/09/11 23:53:54 functions.py WARNING 
+2023/09/11 23:54:18 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpofz3m8rz/c5bb20f10ac24f19b71ea22743c50c38.ql.
+[1/1 comp 17.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpofz3m8rz/c5bb20f10ac24f19b71ea22743c50c38.ql.
+Starting evaluation of codeql/java-tests/tmpofz3m8rz/c5bb20f10ac24f19b71ea22743c50c38.ql.
+Evaluation completed (85ms).
+Shutting down query evaluator.
+
+2023/09/11 23:55:02 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9r3x75w9/ad677fd8641e49feb51193854f4b3956.ql.
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9r3x75w9/ad677fd8641e49feb51193854f4b3956.ql:31,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9r3x75w9/ad677fd8641e49feb51193854f4b3956.ql:31,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9r3x75w9/ad677fd8641e49feb51193854f4b3956.ql:29,1-32,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9r3x75w9/ad677fd8641e49feb51193854f4b3956.ql:30,7-21)
+[1/1 comp 24s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9r3x75w9/ad677fd8641e49feb51193854f4b3956.ql.
+Starting evaluation of codeql/java-tests/tmp9r3x75w9/ad677fd8641e49feb51193854f4b3956.ql.
+[1/1 eval 13s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:55:03 common.py WARNING 
+2023/09/11 23:55:31 functions.py WARNING 
+2023/09/11 23:55:32 functions.py WARNING 
+2023/09/11 23:55:55 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpuftzecdh/cd8c3b1b2ec745dfa59ae97bdc54695d.ql.
+[1/1 comp 16s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpuftzecdh/cd8c3b1b2ec745dfa59ae97bdc54695d.ql.
+Starting evaluation of codeql/java-tests/tmpuftzecdh/cd8c3b1b2ec745dfa59ae97bdc54695d.ql.
+Evaluation completed (73ms).
+Shutting down query evaluator.
+
+2023/09/11 23:56:36 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpkf9g2hnj/cbbd4a88710d41a1b28ae6b4f7618658.ql.
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpkf9g2hnj/cbbd4a88710d41a1b28ae6b4f7618658.ql:31,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpkf9g2hnj/cbbd4a88710d41a1b28ae6b4f7618658.ql:31,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpkf9g2hnj/cbbd4a88710d41a1b28ae6b4f7618658.ql:29,1-32,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpkf9g2hnj/cbbd4a88710d41a1b28ae6b4f7618658.ql:30,7-21)
+[1/1 comp 20.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpkf9g2hnj/cbbd4a88710d41a1b28ae6b4f7618658.ql.
+Starting evaluation of codeql/java-tests/tmpkf9g2hnj/cbbd4a88710d41a1b28ae6b4f7618658.ql.
+[1/1 eval 14.3s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/11 23:56:37 common.py WARNING 

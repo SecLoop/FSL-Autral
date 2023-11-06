@@ -1,0 +1,127 @@
+2023/09/14 17:33:22 functions.py WARNING /bin/sh: codeql: command not found
+
+2023/09/14 17:33:22 check.py ERROR codeql is not install or the codeql path is not in environment path
+2023/09/14 17:34:04 functions.py WARNING /bin/sh: codeql: command not found
+
+2023/09/14 17:34:04 check.py ERROR codeql is not install or the codeql path is not in environment path
+2023/09/14 17:35:07 functions.py WARNING /bin/sh: codeql: command not found
+
+2023/09/14 17:35:07 check.py ERROR codeql is not install or the codeql path is not in environment path
+2023/09/14 17:36:52 functions.py WARNING /bin/sh: codeql: command not found
+
+2023/09/14 17:36:52 check.py ERROR codeql is not install or the codeql path is not in environment path
+2023/09/14 17:37:47 functions.py WARNING /bin/sh: codeql: command not found
+
+2023/09/14 17:37:47 check.py ERROR codeql is not install or the codeql path is not in environment path
+2023/09/14 17:38:13 functions.py WARNING 
+2023/09/14 17:38:14 functions.py WARNING 
+2023/09/14 17:38:37 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp62ndr3il/561aab3ea758487b8e6dd57af41dd383.ql.
+[1/1 comp 16.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp62ndr3il/561aab3ea758487b8e6dd57af41dd383.ql.
+Starting evaluation of codeql/java-tests/tmp62ndr3il/561aab3ea758487b8e6dd57af41dd383.ql.
+Evaluation completed (86ms).
+Shutting down query evaluator.
+
+2023/09/14 17:40:15 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp21861lb4/29e8934d786a466f8e8288ac8332fa3f.ql.
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp21861lb4/29e8934d786a466f8e8288ac8332fa3f.ql:21,7-21)
+[1/1 comp 1m13s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp21861lb4/29e8934d786a466f8e8288ac8332fa3f.ql.
+Starting evaluation of codeql/java-tests/tmp21861lb4/29e8934d786a466f8e8288ac8332fa3f.ql.
+[1/1 eval 17.7s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/14 17:40:17 common.py WARNING 
+2023/09/14 17:40:18 common.py WARNING 
+2023/09/14 17:40:39 functions.py WARNING 
+2023/09/14 17:40:40 functions.py WARNING 
+2023/09/14 17:41:21 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp3tmzt_94/a39ae20415334027b3f6de5fe895e9dc.ql.
+[1/1 comp 32.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp3tmzt_94/a39ae20415334027b3f6de5fe895e9dc.ql.
+Starting evaluation of codeql/java-tests/tmp3tmzt_94/a39ae20415334027b3f6de5fe895e9dc.ql.
+Evaluation completed (135ms).
+Shutting down query evaluator.
+
+2023/09/14 17:42:00 functions.py WARNING 
+2023/09/14 17:42:01 functions.py WARNING 
+2023/09/14 17:42:29 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptdkvrqas/38d0bc0a9c154b7087064d8b1379ab01.ql.
+[1/1 comp 21s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptdkvrqas/38d0bc0a9c154b7087064d8b1379ab01.ql.
+Starting evaluation of codeql/java-tests/tmptdkvrqas/38d0bc0a9c154b7087064d8b1379ab01.ql.
+Evaluation completed (109ms).
+Shutting down query evaluator.
+
+2023/09/14 17:43:01 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp54ulwzcw/1feab1cd3a774fbf82bdb2c95c80dcde.ql.
+[1/1 comp 19.8s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp54ulwzcw/1feab1cd3a774fbf82bdb2c95c80dcde.ql.
+Starting evaluation of codeql/java-tests/tmp54ulwzcw/1feab1cd3a774fbf82bdb2c95c80dcde.ql.
+[1/1 eval 3.9s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/14 17:43:02 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/14 17:45:28 functions.py WARNING 
+2023/09/14 17:45:29 functions.py WARNING 
+2023/09/14 17:45:53 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi75c55_y/4cbfb971eeac4b0289ec202d7a8d2de1.ql.
+[1/1 comp 16.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi75c55_y/4cbfb971eeac4b0289ec202d7a8d2de1.ql.
+Starting evaluation of codeql/java-tests/tmpi75c55_y/4cbfb971eeac4b0289ec202d7a8d2de1.ql.
+Evaluation completed (96ms).
+Shutting down query evaluator.
+
+2023/09/14 17:46:23 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpeh8jc4dq/2ef6b8d2ac52442ba05e7e439b06708f.ql.
+[1/1 comp 19s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpeh8jc4dq/2ef6b8d2ac52442ba05e7e439b06708f.ql.
+Starting evaluation of codeql/java-tests/tmpeh8jc4dq/2ef6b8d2ac52442ba05e7e439b06708f.ql.
+[1/1 eval 3.8s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/14 17:46:24 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/14 18:50:07 functions.py WARNING 
+2023/09/14 18:50:07 functions.py WARNING 
+2023/09/14 18:50:31 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpe2g5_3ha/5191fe611e0247da9aa677cee7ae04df.ql.
+[1/1 comp 16.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpe2g5_3ha/5191fe611e0247da9aa677cee7ae04df.ql.
+Starting evaluation of codeql/java-tests/tmpe2g5_3ha/5191fe611e0247da9aa677cee7ae04df.ql.
+Evaluation completed (85ms).
+Shutting down query evaluator.
+
+2023/09/14 18:51:03 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpg15dphti/11056a55df0a4120b2e4c51f781b3e92.ql.
+[1/1 comp 19.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpg15dphti/11056a55df0a4120b2e4c51f781b3e92.ql.
+Starting evaluation of codeql/java-tests/tmpg15dphti/11056a55df0a4120b2e4c51f781b3e92.ql.
+[1/1 eval 3.5s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/14 18:51:04 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/14 18:52:08 functions.py WARNING 
+2023/09/14 18:52:08 functions.py WARNING 
+2023/09/14 18:52:37 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmplugk6cc_/ab4d90e67c7846919e303892e30aa701.ql.
+[1/1 comp 20.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmplugk6cc_/ab4d90e67c7846919e303892e30aa701.ql.
+Starting evaluation of codeql/java-tests/tmplugk6cc_/ab4d90e67c7846919e303892e30aa701.ql.
+Evaluation completed (81ms).
+Shutting down query evaluator.
+
+2023/09/14 18:53:08 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpu3qmx420/c4a5b31adb0d4c60a1b71a23ed12b208.ql.
+[1/1 comp 19.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpu3qmx420/c4a5b31adb0d4c60a1b71a23ed12b208.ql.
+Starting evaluation of codeql/java-tests/tmpu3qmx420/c4a5b31adb0d4c60a1b71a23ed12b208.ql.
+[1/1 eval 3.4s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/14 18:53:08 common.py WARNING 
+2023/09/14 20:30:24 functions.py WARNING 
+2023/09/14 20:30:24 functions.py WARNING 
+2023/09/14 20:30:27 functions.py WARNING A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/CodeQLpy/out/database/java-sec-code/db-java/default/cache/.lock
+(eventual cause: OverlappingFileLockException)
+
+2023/09/14 20:30:27 check.py ERROR database or codeql is error.
+2023/09/14 20:31:02 functions.py WARNING 
+2023/09/14 20:31:02 functions.py WARNING 
+2023/09/14 20:31:31 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptlm91ec6/ff9c7ab49f7b496da4e4e076fe181abb.ql.
+[1/1 comp 18.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptlm91ec6/ff9c7ab49f7b496da4e4e076fe181abb.ql.
+Starting evaluation of codeql/java-tests/tmptlm91ec6/ff9c7ab49f7b496da4e4e076fe181abb.ql.
+Evaluation completed (91ms).
+Shutting down query evaluator.
+
+2023/09/14 20:32:04 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2pmhlicz/44556b157d0f488aa9315744151ed096.ql.
+[1/1 comp 21.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2pmhlicz/44556b157d0f488aa9315744151ed096.ql.
+Starting evaluation of codeql/java-tests/tmp2pmhlicz/44556b157d0f488aa9315744151ed096.ql.
+[1/1 eval 3.8s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/14 20:32:05 common.py WARNING 

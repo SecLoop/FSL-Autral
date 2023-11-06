@@ -1,0 +1,887 @@
+[{
+        "routeName": "/fastjson/create",
+        "filePath": "",
+        "className": "FastJsonController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "POST_Data",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/rce/one",
+        "filePath": "",
+        "className": "RceController",
+        "method": "GET",
+        "getParams": [{
+            "name": "command",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/rce/one",
+        "filePath": "",
+        "className": "RceController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "command",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/rce/two",
+        "filePath": "",
+        "className": "RceController",
+        "method": "GET",
+        "getParams": [{
+            "name": "command",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/rce/two",
+        "filePath": "",
+        "className": "RceController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "command",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/in",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/jpaWithAnnotations",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "name",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/jpaWithAnnotations",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "name",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/jpaone",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "name",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/jpaone",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "name",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/longin",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/myBatis",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "name",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/myBatis",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "name",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/myBatisWithAnnotations",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "name",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/myBatisWithAnnotations",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "name",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/object",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "Student",
+            "pos": "POST",
+            "classType": "Student",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/object_lombok",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "Teacher",
+            "pos": "POST",
+            "classType": "Teacher",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/objectint",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "Student",
+            "pos": "POST",
+            "classType": "Student",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/one",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "username",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/one",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "username",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/optinal_like",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "username",
+            "pos": "GET",
+            "classType": "Optional<String>",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/optinal_like",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "username",
+            "pos": "POST",
+            "classType": "Optional<String>",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody1",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "name",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody1",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "name",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody2",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody2",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "id",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody3",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "name",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody3",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "name",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody4",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "name",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody4",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "name",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody5",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody5",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "id",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/sqlinjection/paramInBody6",
+        "filePath": "",
+        "className": "IndexController",
+        "method": "GET",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "name": ""
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/five",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/five",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "url",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/four",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/four",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "url",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/one",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/one",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "url",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/three",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/three",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "url",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/two",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ssrf/two",
+        "filePath": "",
+        "className": "SSRFController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "url",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/xxe/one",
+        "filePath": "",
+        "className": "XXEController",
+        "method": "GET",
+        "getParams": [{
+            "name": "xml_str",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/xxe/one",
+        "filePath": "",
+        "className": "XXEController",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "xml_str",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    }
+]

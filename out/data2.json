@@ -1,0 +1,2258 @@
+[{
+        "routeName": "/*.lesson",
+        "filePath": "",
+        "className": "StartLesson",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "request",
+            "pos": "POST",
+            "classType": "HttpServletRequest",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/BypassRestrictions/FieldRestrictions",
+        "filePath": "",
+        "className": "BypassRestrictionsFieldRestrictions",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "select",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "radio",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "checkbox",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "shortInput",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "readOnlyInput",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/BypassRestrictions/frontendValidation",
+        "filePath": "",
+        "className": "BypassRestrictionsFrontendValidation",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "error",
+                "pos": "POST",
+                "classType": "Integer",
+                "property": []
+            },
+            {
+                "name": "field1",
+                "pos": "POST",
+                "classType": "Integer",
+                "property": []
+            },
+            {
+                "name": "field2",
+                "pos": "POST",
+                "classType": "Integer",
+                "property": []
+            },
+            {
+                "name": "field3",
+                "pos": "POST",
+                "classType": "Integer",
+                "property": []
+            },
+            {
+                "name": "field4",
+                "pos": "POST",
+                "classType": "Integer",
+                "property": []
+            },
+            {
+                "name": "field5",
+                "pos": "POST",
+                "classType": "Integer",
+                "property": []
+            },
+            {
+                "name": "field6",
+                "pos": "POST",
+                "classType": "Integer",
+                "property": []
+            },
+            {
+                "name": "field7",
+                "pos": "POST",
+                "classType": "Integer",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ChromeDevTools/dummy",
+        "filePath": "",
+        "className": "NetworkDummy",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "successMessage",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/ChromeDevTools/network",
+        "filePath": "",
+        "className": "NetworkLesson",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "number",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "network_num",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScripting/attack1",
+        "filePath": "",
+        "className": "CrossSiteScriptingLesson1",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "checkboxAttack1",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScripting/attack3",
+        "filePath": "",
+        "className": "CrossSiteScriptingLesson3",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "editor",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScripting/attack4",
+        "filePath": "",
+        "className": "CrossSiteScriptingLesson4",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "editor2",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScripting/attack5a",
+        "filePath": "",
+        "className": "CrossSiteScriptingLesson5a",
+        "method": "GET",
+        "getParams": [{
+                "name": "field1",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "field2",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "QTY1",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "QTY2",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "QTY3",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "QTY4",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScripting/attack6a",
+        "filePath": "",
+        "className": "CrossSiteScriptingLesson6a",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "DOMTestRoute",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScripting/dom-follow-up",
+        "filePath": "",
+        "className": "DOMCrossSiteScriptingVerifier",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "successMessage",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScripting/phone-home-xss",
+        "filePath": "",
+        "className": "DOMCrossSiteScripting",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "request",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "param1",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "param2",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScripting/quiz",
+        "filePath": "",
+        "className": "CrossSiteScriptingQuiz",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "question_0_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_1_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_2_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_3_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_4_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScriptingStored/stored-xss",
+        "filePath": "",
+        "className": "StoredXssComments",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "POST_Data",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/CrossSiteScriptingStored/stored-xss-follow-up",
+        "filePath": "",
+        "className": "StoredCrossSiteScriptingVerifier",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "successMessage",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/HtmlTampering/task",
+        "filePath": "",
+        "className": "HtmlTamperingTask",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "QTY",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "Total",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/HttpBasics/attack1",
+        "filePath": "",
+        "className": "HttpBasicsLesson",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "person",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/HttpBasics/attack2",
+        "filePath": "",
+        "className": "HttpBasicsQuiz",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "answer",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "magic_answer",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "magic_num",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/IDOR/diff-attributes",
+        "filePath": "",
+        "className": "IDORDiffAttributes",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "attributes",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/IDOR/login",
+        "filePath": "",
+        "className": "IDORLogin",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "username",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/IDOR/profile/alt-path",
+        "filePath": "",
+        "className": "IDORViewOwnProfileAltUrl",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "url",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/InsecureDeserialization/task",
+        "filePath": "",
+        "className": "InsecureDeserializationTask",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "token",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "token",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/InsecureLogin/task",
+        "filePath": "",
+        "className": "InsecureLoginTask",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "username",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/decode",
+        "filePath": "",
+        "className": "JWTDecodeEndpoint",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "jwt-encode-user",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/jku/delete",
+        "filePath": "",
+        "className": "JWTHeaderJKUEndpoint",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "token",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/jku/follow/{user}/",
+        "filePath": "",
+        "className": "JWTHeaderJKUEndpoint",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [{
+            "name": "/JWT/jku/follow/{user}/",
+            "pos": "Path",
+            "classType": "String",
+            "property": []
+        }],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/kid/delete",
+        "filePath": "",
+        "className": "JWTHeaderKIDEndpoint",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "token",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/kid/follow/{user}/",
+        "filePath": "",
+        "className": "JWTHeaderKIDEndpoint",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [{
+            "name": "/JWT/kid/follow/{user}/",
+            "pos": "Path",
+            "classType": "String",
+            "property": []
+        }],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/quiz",
+        "filePath": "",
+        "className": "JWTQuiz",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "question_0_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_1_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/refresh/checkout",
+        "filePath": "",
+        "className": "JWTRefreshEndpoint",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "Authorization",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/secret",
+        "filePath": "",
+        "className": "JWTSecretKeyEndpoint",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "token",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/votings",
+        "filePath": "",
+        "className": "JWTVotesEndpoint",
+        "method": "GET",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "access_token=;access_token",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/votings/login",
+        "filePath": "",
+        "className": "JWTVotesEndpoint",
+        "method": "GET",
+        "getParams": [{
+                "name": "response",
+                "pos": "GET",
+                "classType": "HttpServletResponse",
+                "property": []
+            },
+            {
+                "name": "user",
+                "pos": "GET",
+                "classType": "HttpServletResponse",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/votings/{title}/",
+        "filePath": "",
+        "className": "JWTVotesEndpoint",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [{
+            "name": "/JWT/votings/{title}/",
+            "pos": "Path",
+            "classType": "String",
+            "property": []
+        }],
+        "headers": {
+            "Cookies": "access_token",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/LogSpoofing/log-bleeding",
+        "filePath": "",
+        "className": "LogBleedingTask",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "username",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/LogSpoofing/log-spoofing",
+        "filePath": "",
+        "className": "LogSpoofingTask",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "username",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/PasswordReset/ForgotPassword/create-password-reset-link",
+        "filePath": "",
+        "className": "ResetLinkAssignmentForgotPassword",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "email",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "request",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "webWolfMailURL",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "mail",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "httpEntity",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "format(...)",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "HttpMethod.GET",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "Object.class",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "Void.class",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/PasswordReset/SecurityQuestions",
+        "filePath": "",
+        "className": "SecurityQuestionAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "question",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/PasswordReset/reset/change-password",
+        "filePath": "",
+        "className": "ResetLinkAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "form",
+            "pos": "POST",
+            "classType": "PasswordChangeForm",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/PasswordReset/reset/login",
+        "filePath": "",
+        "className": "ResetLinkAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "email",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/PasswordReset/reset/reset-password/{link}/",
+        "filePath": "",
+        "className": "ResetLinkAssignment",
+        "method": "GET",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [{
+            "name": "/PasswordReset/reset/reset-password/{link}/",
+            "pos": "Path",
+            "classType": "String",
+            "property": []
+        }],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/PasswordReset/simple-mail/reset",
+        "filePath": "",
+        "className": "SimpleMailAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "emailReset",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "webWolfURL",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "mailEvent",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "Object.class",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/PathTraversal/profile-upload",
+        "filePath": "",
+        "className": "ProfileUpload",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "MultipartFile",
+                "pos": "POST",
+                "classType": "MultipartFile",
+                "property": []
+            },
+            {
+                "name": "fullName",
+                "pos": "POST",
+                "classType": "MultipartFile",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "ALL_VALUE"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/PathTraversal/profile-upload-fix",
+        "filePath": "",
+        "className": "ProfileUploadFix",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "MultipartFile",
+                "pos": "POST",
+                "classType": "MultipartFile",
+                "property": []
+            },
+            {
+                "name": "fullNameFix",
+                "pos": "POST",
+                "classType": "MultipartFile",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "ALL_VALUE"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/PathTraversal/profile-upload-remove-user-input",
+        "filePath": "",
+        "className": "ProfileUploadRemoveUserInput",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "MultipartFile",
+                "pos": "POST",
+                "classType": "MultipartFile",
+                "property": []
+            },
+            {
+                "name": "getOriginalFilename(...)",
+                "pos": "POST",
+                "classType": "MultipartFile",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "ALL_VALUE"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/task1",
+        "filePath": "",
+        "className": "SSRFTask1",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "url",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/task2",
+        "filePath": "",
+        "className": "SSRFTask2",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "url",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "url",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "RequestForgery"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SecurePasswords/assignment",
+        "filePath": "",
+        "className": "SecurePasswordsAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "password",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/assignment5a",
+        "filePath": "",
+        "className": "SqlInjectionLesson5a",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "operator",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "account",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "injection",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "injection",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/assignment5a",
+        "filePath": "",
+        "className": "SqlInjectionLesson5a",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "operator",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "account",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "injection",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "account",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/assignment5a",
+        "filePath": "",
+        "className": "SqlInjectionLesson5a",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "operator",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "account",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "injection",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "operator",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/assignment5b",
+        "filePath": "",
+        "className": "SqlInjectionLesson5b",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "request",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "login_count",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "userid",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "userid",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/attack10",
+        "filePath": "",
+        "className": "SqlInjectionLesson10",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "action_string",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "action_string",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/attack2",
+        "filePath": "",
+        "className": "SqlInjectionLesson2",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "query",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "query",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/attack3",
+        "filePath": "",
+        "className": "SqlInjectionLesson3",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "query",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "query",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/attack4",
+        "filePath": "",
+        "className": "SqlInjectionLesson4",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "query",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "query",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/attack5",
+        "filePath": "",
+        "className": "SqlInjectionLesson5",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "query",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "query",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/attack8",
+        "filePath": "",
+        "className": "SqlInjectionLesson8",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "name",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "auth_tan",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "auth_tan",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/attack8",
+        "filePath": "",
+        "className": "SqlInjectionLesson8",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "name",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "auth_tan",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "name",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/attack9",
+        "filePath": "",
+        "className": "SqlInjectionLesson9",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "name",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "auth_tan",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "auth_tan",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjection/attack9",
+        "filePath": "",
+        "className": "SqlInjectionLesson9",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "name",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "auth_tan",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "name",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjectionAdvanced/attack6a",
+        "filePath": "",
+        "className": "SqlInjectionLesson6a",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "userid_6a",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "userId",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjectionAdvanced/attack6b",
+        "filePath": "",
+        "className": "SqlInjectionLesson6b",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "userid_6b",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjectionAdvanced/challenge_Login",
+        "filePath": "",
+        "className": "SqlInjectionChallengeLogin",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "username_login",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password_login",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjectionAdvanced/quiz",
+        "filePath": "",
+        "className": "SqlInjectionQuiz",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "question_0_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_1_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_2_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_3_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_4_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlInjectionMitigations/attack10b",
+        "filePath": "",
+        "className": "SqlInjectionLesson10b",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "editor",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlOnlyInputValidation/attack",
+        "filePath": "",
+        "className": "SqlOnlyInputValidation",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "userid_sql_only_input_validation",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "userId",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SqlOnlyInputValidationOnKeywords/attack",
+        "filePath": "",
+        "className": "SqlOnlyInputValidationOnKeywords",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "userid_sql_only_input_validation_on_keywords",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "userId",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/VulnerableComponents/attack1",
+        "filePath": "",
+        "className": "VulnerableComponentsLesson",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "payload",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "payload",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/WebWolf/landing",
+        "filePath": "",
+        "className": "LandingAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "uniqueCode",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/WebWolf/landing/password-reset",
+        "filePath": "",
+        "className": "LandingAssignment",
+        "method": "GET",
+        "getParams": [{
+            "name": "request",
+            "pos": "GET",
+            "classType": "HttpServletRequest",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/WebWolf/mail",
+        "filePath": "",
+        "className": "MailAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "uniqueCode",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/WebWolf/mail/send",
+        "filePath": "",
+        "className": "MailAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "email",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "webWolfURL",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "mailEvent",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "Object.class",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/cia/quiz",
+        "filePath": "",
+        "className": "CIAQuiz",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "question_0_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_1_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_2_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            },
+            {
+                "name": "question_3_solution",
+                "pos": "POST",
+                "classType": "String[]",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/clientSideFiltering/attack1",
+        "filePath": "",
+        "className": "ClientSideFilteringAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "answer",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/clientSideFiltering/getItForFree",
+        "filePath": "",
+        "className": "ClientSideFilteringFreeAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "checkoutCode",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/crypto/encoding/basic-auth",
+        "filePath": "",
+        "className": "EncodingAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "request",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "answer_user",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "answer_pwd",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/crypto/encoding/xor",
+        "filePath": "",
+        "className": "XOREncodingAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "answer_pwd1",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/crypto/hashing",
+        "filePath": "",
+        "className": "HashingAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "request",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "answer_pwd1",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "answer_pwd2",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/crypto/secure/defaults",
+        "filePath": "",
+        "className": "SecureDefaultsAssignment",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "secretText",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "secretFileName",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/csrf/feedback/message",
+        "filePath": "",
+        "className": "CSRFFeedback",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "request",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "POST_Data",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/csrf/review",
+        "filePath": "",
+        "className": "ForgedReviews",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "request",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "reviewText",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "stars",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            },
+            {
+                "name": "validateReq",
+                "pos": "POST",
+                "classType": "HttpServletRequest",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    }
+]

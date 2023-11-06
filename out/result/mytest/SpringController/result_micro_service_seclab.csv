@@ -1,0 +1,27 @@
+controller,method,route,col3,col4,param,col6,annotation,request
+FastJsonController,createActivity,/fastjson/create,application/json,PostMapping,POST Data,String,RequestBody,
+IndexController,one,/sqlinjection/one,application/x-www-form-urlencoded,RequestMapping,"""username""",String,RequestParam,
+IndexController,in,/sqlinjection/in,application/json,PostMapping,POST Data,List<String>,RequestBody,
+IndexController,longin,/sqlinjection/longin,application/json,PostMapping,POST Data,List<Long>,RequestBody,
+IndexController,objectParam,/sqlinjection/object,application/json,PostMapping,POST Data,Student,RequestBody,
+IndexController,objectIntParam,/sqlinjection/objectint,application/json,PostMapping,POST Data,Student,RequestBody,
+IndexController,objectLomBok,/sqlinjection/object_lombok,application/json,PostMapping,POST Data,Teacher,RequestBody,
+IndexController,optionalLike,/sqlinjection/optinal_like,application/x-www-form-urlencoded,RequestMapping,"""username""",Optional<String>,RequestParam,
+IndexController,myBatis,/sqlinjection/myBatis,application/x-www-form-urlencoded,RequestMapping,"""name""",String,RequestParam,
+IndexController,myBatisWithAnnotations,/sqlinjection/myBatisWithAnnotations,application/x-www-form-urlencoded,RequestMapping,"""name""",String,RequestParam,
+IndexController,jpaOne,/sqlinjection/jpaone,application/x-www-form-urlencoded,RequestMapping,"""name""",String,RequestParam,
+IndexController,jpawithAnnotations,/sqlinjection/jpaWithAnnotations,application/x-www-form-urlencoded,RequestMapping,"""name""",String,RequestParam,
+IndexController,paramInBody1,/sqlinjection/paramInBody1,application/x-www-form-urlencoded,RequestMapping,"""name""",String,no AnAnnotation,getParameter(...)
+IndexController,paramInBody2,/sqlinjection/paramInBody2,application/x-www-form-urlencoded,RequestMapping,"""id""",String,no AnAnnotation,getParameter(...)
+IndexController,paramInBody3,/sqlinjection/paramInBody3,application/x-www-form-urlencoded,RequestMapping,"""name""",String,no AnAnnotation,getParameter(...)
+IndexController,paramInBody4,/sqlinjection/paramInBody4,application/x-www-form-urlencoded,RequestMapping,"""name""",String,no AnAnnotation,getParameter(...)
+IndexController,paramInBody5,/sqlinjection/paramInBody5,application/x-www-form-urlencoded,RequestMapping,"""id""",String,no AnAnnotation,getParameter(...)
+IndexController,paramInBody6,/sqlinjection/paramInBody6,application/x-www-form-urlencoded,RequestMapping,"""name""",String,no AnAnnotation,getHeader(...)
+RceController,One,/rce/one,application/x-www-form-urlencoded,RequestMapping,"""command""",String,RequestParam,
+RceController,Two,/rce/two,application/x-www-form-urlencoded,RequestMapping,"""command""",String,RequestParam,
+SSRFController,One,/ssrf/one,application/x-www-form-urlencoded,RequestMapping,"""url""",String,RequestParam,
+SSRFController,Two,/ssrf/two,application/x-www-form-urlencoded,RequestMapping,"""url""",String,RequestParam,
+SSRFController,Three,/ssrf/three,application/x-www-form-urlencoded,RequestMapping,"""url""",String,RequestParam,
+SSRFController,Four,/ssrf/four,application/x-www-form-urlencoded,RequestMapping,"""url""",String,RequestParam,
+SSRFController,Five,/ssrf/five,application/x-www-form-urlencoded,RequestMapping,"""url""",String,RequestParam,
+XXEController,one,/xxe/one,application/x-www-form-urlencoded,RequestMapping,"""xml_str""",String,RequestParam,

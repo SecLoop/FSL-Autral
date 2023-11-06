@@ -1,0 +1,689 @@
+2023/09/12 00:00:42 functions.py WARNING 
+2023/09/12 00:00:43 functions.py WARNING 
+2023/09/12 00:01:08 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmphv56pt9c/61feb557c5be4a159752275bf443ac9b.ql.
+[1/1 comp 18.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmphv56pt9c/61feb557c5be4a159752275bf443ac9b.ql.
+Starting evaluation of codeql/java-tests/tmphv56pt9c/61feb557c5be4a159752275bf443ac9b.ql.
+Evaluation completed (77ms).
+Shutting down query evaluator.
+
+2023/09/12 00:01:49 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp88fozvft/7d4764e1d24e4fe0b606d34ad13bcd60.ql.
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp88fozvft/7d4764e1d24e4fe0b606d34ad13bcd60.ql:31,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp88fozvft/7d4764e1d24e4fe0b606d34ad13bcd60.ql:31,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp88fozvft/7d4764e1d24e4fe0b606d34ad13bcd60.ql:29,1-32,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp88fozvft/7d4764e1d24e4fe0b606d34ad13bcd60.ql:30,7-21)
+[1/1 comp 19.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp88fozvft/7d4764e1d24e4fe0b606d34ad13bcd60.ql.
+Starting evaluation of codeql/java-tests/tmp88fozvft/7d4764e1d24e4fe0b606d34ad13bcd60.ql.
+[1/1 eval 13.6s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 00:01:49 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected one of the patterns to start with [entity, entity, entity, string] columns. [INVALID_RESULT_PATTERNS]
+
+2023/09/12 00:03:32 functions.py WARNING 
+2023/09/12 00:03:32 functions.py WARNING 
+2023/09/12 00:03:56 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpb3jfq087/969508a354974d1dbbd994f8e5f1dafa.ql.
+[1/1 comp 17.8s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpb3jfq087/969508a354974d1dbbd994f8e5f1dafa.ql.
+Starting evaluation of codeql/java-tests/tmpb3jfq087/969508a354974d1dbbd994f8e5f1dafa.ql.
+Evaluation completed (84ms).
+Shutting down query evaluator.
+
+2023/09/12 00:04:40 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp74ts7wu0/9545d7e0abd843468ba327021f43e64b.ql.
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp74ts7wu0/9545d7e0abd843468ba327021f43e64b.ql:31,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp74ts7wu0/9545d7e0abd843468ba327021f43e64b.ql:31,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp74ts7wu0/9545d7e0abd843468ba327021f43e64b.ql:29,1-32,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp74ts7wu0/9545d7e0abd843468ba327021f43e64b.ql:30,7-21)
+[1/1 comp 21.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp74ts7wu0/9545d7e0abd843468ba327021f43e64b.ql.
+Starting evaluation of codeql/java-tests/tmp74ts7wu0/9545d7e0abd843468ba327021f43e64b.ql.
+[1/1 eval 13.9s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 00:04:40 common.py WARNING 
+2023/09/12 00:07:26 functions.py WARNING 
+2023/09/12 00:07:26 functions.py WARNING 
+2023/09/12 00:07:47 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpk6x6pdc1/9347d92b7e5a4921a86e91ecb98151e0.ql.
+[1/1 comp 14.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpk6x6pdc1/9347d92b7e5a4921a86e91ecb98151e0.ql.
+Starting evaluation of codeql/java-tests/tmpk6x6pdc1/9347d92b7e5a4921a86e91ecb98151e0.ql.
+Evaluation completed (70ms).
+Shutting down query evaluator.
+
+2023/09/12 00:08:26 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp509b8dn9/2bab46cfd5b34fcba74bdada5ca2f3ad.ql.
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp509b8dn9/2bab46cfd5b34fcba74bdada5ca2f3ad.ql:31,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp509b8dn9/2bab46cfd5b34fcba74bdada5ca2f3ad.ql:31,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp509b8dn9/2bab46cfd5b34fcba74bdada5ca2f3ad.ql:29,1-32,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp509b8dn9/2bab46cfd5b34fcba74bdada5ca2f3ad.ql:30,7-21)
+[1/1 comp 19.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp509b8dn9/2bab46cfd5b34fcba74bdada5ca2f3ad.ql.
+Starting evaluation of codeql/java-tests/tmp509b8dn9/2bab46cfd5b34fcba74bdada5ca2f3ad.ql.
+[1/1 eval 12.9s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 00:08:27 common.py WARNING 
+2023/09/12 00:08:48 functions.py WARNING 
+2023/09/12 00:08:48 functions.py WARNING 
+2023/09/12 00:09:09 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprplv1hf4/e7349069df5c4a27970f01e6d7522696.ql.
+[1/1 comp 14.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprplv1hf4/e7349069df5c4a27970f01e6d7522696.ql.
+Starting evaluation of codeql/java-tests/tmprplv1hf4/e7349069df5c4a27970f01e6d7522696.ql.
+Evaluation completed (73ms).
+Shutting down query evaluator.
+
+2023/09/12 00:09:49 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpt4sr3pg1/e3fdf570df8d4fca9ec3d5eaaa01526b.ql.
+WARNING: Callable is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpt4sr3pg1/e3fdf570df8d4fca9ec3d5eaaa01526b.ql:31,26-65)
+WARNING: string is incompatible with PathNode (the type of the edge relation). (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpt4sr3pg1/e3fdf570df8d4fca9ec3d5eaaa01526b.ql:31,66-133)
+WARNING: A path-problem query must select an even number of columns. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpt4sr3pg1/e3fdf570df8d4fca9ec3d5eaaa01526b.ql:29,1-32,199)
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpt4sr3pg1/e3fdf570df8d4fca9ec3d5eaaa01526b.ql:30,7-21)
+[1/1 comp 19.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpt4sr3pg1/e3fdf570df8d4fca9ec3d5eaaa01526b.ql.
+Starting evaluation of codeql/java-tests/tmpt4sr3pg1/e3fdf570df8d4fca9ec3d5eaaa01526b.ql.
+[1/1 eval 13.3s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 00:09:49 common.py WARNING 
+2023/09/12 09:22:57 functions.py WARNING 
+2023/09/12 09:22:58 functions.py WARNING 
+2023/09/12 09:23:22 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpffv58idk/0dcb0849a0dd433c95bc2bd7016b86dc.ql.
+[1/1 comp 17.8s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpffv58idk/0dcb0849a0dd433c95bc2bd7016b86dc.ql.
+Starting evaluation of codeql/java-tests/tmpffv58idk/0dcb0849a0dd433c95bc2bd7016b86dc.ql.
+Evaluation completed (102ms).
+Shutting down query evaluator.
+
+2023/09/12 09:24:08 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi9e4v9jz/e694e985d4bf46889ae356a99842f268.ql.
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi9e4v9jz/e694e985d4bf46889ae356a99842f268.ql:21,7-21)
+[1/1 comp 22.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi9e4v9jz/e694e985d4bf46889ae356a99842f268.ql.
+Starting evaluation of codeql/java-tests/tmpi9e4v9jz/e694e985d4bf46889ae356a99842f268.ql.
+[1/1 eval 15.3s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 09:24:10 common.py WARNING 
+2023/09/12 09:24:45 functions.py WARNING 
+2023/09/12 09:24:45 functions.py WARNING 
+2023/09/12 09:25:10 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpr1_6m8dg/eda7fbfbe9fa42f88cdd40f10aed0d79.ql.
+[1/1 comp 18.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpr1_6m8dg/eda7fbfbe9fa42f88cdd40f10aed0d79.ql.
+Starting evaluation of codeql/java-tests/tmpr1_6m8dg/eda7fbfbe9fa42f88cdd40f10aed0d79.ql.
+Evaluation completed (86ms).
+Shutting down query evaluator.
+
+2023/09/12 09:26:19 functions.py WARNING 
+2023/09/12 09:26:19 functions.py WARNING 
+2023/09/12 09:26:50 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpydwkrmc1/4ba83337ecd0489c975581094b83c302.ql.
+[1/1 comp 23.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpydwkrmc1/4ba83337ecd0489c975581094b83c302.ql.
+Starting evaluation of codeql/java-tests/tmpydwkrmc1/4ba83337ecd0489c975581094b83c302.ql.
+Evaluation completed (77ms).
+Shutting down query evaluator.
+
+2023/09/12 09:27:29 functions.py WARNING 
+2023/09/12 09:27:29 functions.py WARNING 
+2023/09/12 09:27:53 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpidrddb70/301318b976c448a397c804aae1608786.ql.
+[1/1 comp 17.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpidrddb70/301318b976c448a397c804aae1608786.ql.
+Starting evaluation of codeql/java-tests/tmpidrddb70/301318b976c448a397c804aae1608786.ql.
+Evaluation completed (84ms).
+Shutting down query evaluator.
+
+2023/09/12 09:28:33 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpluce6shc/2b5208a7368d46b1961739b1b2e78942.ql.
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpluce6shc/2b5208a7368d46b1961739b1b2e78942.ql:21,7-21)
+[1/1 comp 21.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpluce6shc/2b5208a7368d46b1961739b1b2e78942.ql.
+Starting evaluation of codeql/java-tests/tmpluce6shc/2b5208a7368d46b1961739b1b2e78942.ql.
+[1/1 eval 12.4s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 09:28:34 common.py WARNING 
+2023/09/12 09:28:48 functions.py WARNING 
+2023/09/12 09:28:48 functions.py WARNING 
+2023/09/12 09:29:13 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpm5zb5gqb/20def1546816415b82780a3debdb9b35.ql.
+[1/1 comp 18.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpm5zb5gqb/20def1546816415b82780a3debdb9b35.ql.
+Starting evaluation of codeql/java-tests/tmpm5zb5gqb/20def1546816415b82780a3debdb9b35.ql.
+Evaluation completed (108ms).
+Shutting down query evaluator.
+
+2023/09/12 09:29:45 functions.py WARNING 
+2023/09/12 09:29:45 functions.py WARNING 
+2023/09/12 09:30:08 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1sp5x8x8/00f05b1a85fb438b8b1529edad6fa3cf.ql.
+[1/1 comp 17.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp1sp5x8x8/00f05b1a85fb438b8b1529edad6fa3cf.ql.
+Starting evaluation of codeql/java-tests/tmp1sp5x8x8/00f05b1a85fb438b8b1529edad6fa3cf.ql.
+Evaluation completed (78ms).
+Shutting down query evaluator.
+
+2023/09/12 09:30:27 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp77kr4grv/d728acd34430402990ea196648b4ba05.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp77kr4grv/d728acd34430402990ea196648b4ba05.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp77kr4grv/d728acd34430402990ea196648b4ba05.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp77kr4grv/d728acd34430402990ea196648b4ba05.ql:18,2-18)
+
+2023/09/12 09:30:28 common.py WARNING 
+2023/09/12 09:30:57 functions.py WARNING 
+2023/09/12 09:30:57 functions.py WARNING 
+2023/09/12 09:31:18 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp05s4l3b9/b632ea4e405e4336888f7e525df59b71.ql.
+[1/1 comp 15.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp05s4l3b9/b632ea4e405e4336888f7e525df59b71.ql.
+Starting evaluation of codeql/java-tests/tmp05s4l3b9/b632ea4e405e4336888f7e525df59b71.ql.
+Evaluation completed (123ms).
+Shutting down query evaluator.
+
+2023/09/12 09:31:35 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpl_o3gwg4/ca016271d1ed4815b5a02cf6bd759b36.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpl_o3gwg4/ca016271d1ed4815b5a02cf6bd759b36.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpl_o3gwg4/ca016271d1ed4815b5a02cf6bd759b36.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpl_o3gwg4/ca016271d1ed4815b5a02cf6bd759b36.ql:18,2-18)
+
+2023/09/12 09:31:35 common.py WARNING 
+2023/09/12 09:33:09 functions.py WARNING 
+2023/09/12 09:33:10 functions.py WARNING 
+2023/09/12 09:33:30 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprbbs4xwy/237476c65be04917b2803249bd6ed9cf.ql.
+[1/1 comp 15.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprbbs4xwy/237476c65be04917b2803249bd6ed9cf.ql.
+Starting evaluation of codeql/java-tests/tmprbbs4xwy/237476c65be04917b2803249bd6ed9cf.ql.
+Evaluation completed (119ms).
+Shutting down query evaluator.
+
+2023/09/12 09:33:47 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp965rjoid/e68f3583b4b84f03878bd5cacb81e5a1.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp965rjoid/e68f3583b4b84f03878bd5cacb81e5a1.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp965rjoid/e68f3583b4b84f03878bd5cacb81e5a1.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp965rjoid/e68f3583b4b84f03878bd5cacb81e5a1.ql:18,2-18)
+
+2023/09/12 09:33:47 common.py WARNING 
+2023/09/12 09:36:07 functions.py WARNING 
+2023/09/12 09:36:08 functions.py WARNING 
+2023/09/12 09:36:29 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnj8udrak/f7d5e1fced3249219e829608b714a1b9.ql.
+[1/1 comp 15.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnj8udrak/f7d5e1fced3249219e829608b714a1b9.ql.
+Starting evaluation of codeql/java-tests/tmpnj8udrak/f7d5e1fced3249219e829608b714a1b9.ql.
+Evaluation completed (101ms).
+Shutting down query evaluator.
+
+2023/09/12 09:36:44 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpdx2xtdym/246db286c8334fae83d9710f5f231cb7.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpdx2xtdym/246db286c8334fae83d9710f5f231cb7.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpdx2xtdym/246db286c8334fae83d9710f5f231cb7.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpdx2xtdym/246db286c8334fae83d9710f5f231cb7.ql:18,2-18)
+
+2023/09/12 09:36:46 common.py WARNING 
+2023/09/12 09:36:46 common.py WARNING 
+2023/09/12 09:38:01 functions.py WARNING 
+2023/09/12 09:38:01 functions.py WARNING 
+2023/09/12 09:38:21 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2am9lz5o/03a7869612e24bec90512dad0ec2ecb7.ql.
+[1/1 comp 14.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2am9lz5o/03a7869612e24bec90512dad0ec2ecb7.ql.
+Starting evaluation of codeql/java-tests/tmp2am9lz5o/03a7869612e24bec90512dad0ec2ecb7.ql.
+Evaluation completed (70ms).
+Shutting down query evaluator.
+
+2023/09/12 09:38:37 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmplvxn04lw/dbf41c9bd40a4c44ab475f5d249f8063.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmplvxn04lw/dbf41c9bd40a4c44ab475f5d249f8063.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmplvxn04lw/dbf41c9bd40a4c44ab475f5d249f8063.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmplvxn04lw/dbf41c9bd40a4c44ab475f5d249f8063.ql:18,2-18)
+
+2023/09/12 09:38:38 common.py WARNING 
+2023/09/12 09:38:38 common.py WARNING 
+2023/09/12 09:52:50 functions.py WARNING 
+2023/09/12 09:52:51 functions.py WARNING 
+2023/09/12 09:53:18 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmps3sl9qdy/29280037b07b4ba09b19732253cacf75.ql.
+[1/1 comp 20.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmps3sl9qdy/29280037b07b4ba09b19732253cacf75.ql.
+Starting evaluation of codeql/java-tests/tmps3sl9qdy/29280037b07b4ba09b19732253cacf75.ql.
+Evaluation completed (80ms).
+Shutting down query evaluator.
+
+2023/09/12 09:53:39 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptmclihy6/c40e214189f3453f949451e31f555d5b.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptmclihy6/c40e214189f3453f949451e31f555d5b.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptmclihy6/c40e214189f3453f949451e31f555d5b.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmptmclihy6/c40e214189f3453f949451e31f555d5b.ql:18,2-18)
+
+2023/09/12 09:53:41 common.py WARNING 
+2023/09/12 09:53:42 common.py WARNING 
+2023/09/12 09:53:43 common.py WARNING 
+2023/09/12 09:53:44 common.py WARNING 
+2023/09/12 09:56:19 functions.py WARNING 
+2023/09/12 09:56:20 functions.py WARNING 
+2023/09/12 09:56:52 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpeil6gc_7/5809d072cc1444f9ac433a21d172dc7d.ql.
+[1/1 comp 22.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpeil6gc_7/5809d072cc1444f9ac433a21d172dc7d.ql.
+Starting evaluation of codeql/java-tests/tmpeil6gc_7/5809d072cc1444f9ac433a21d172dc7d.ql.
+Evaluation completed (80ms).
+Shutting down query evaluator.
+
+2023/09/12 09:57:16 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpghcb6ios/4d81c1dd31554c2b8f97dd8703b2daa7.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpghcb6ios/4d81c1dd31554c2b8f97dd8703b2daa7.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpghcb6ios/4d81c1dd31554c2b8f97dd8703b2daa7.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpghcb6ios/4d81c1dd31554c2b8f97dd8703b2daa7.ql:18,2-18)
+
+2023/09/12 09:57:18 common.py WARNING 
+2023/09/12 09:57:20 common.py WARNING 
+2023/09/12 09:57:22 common.py WARNING 
+2023/09/12 09:57:23 common.py WARNING 
+2023/09/12 10:01:08 functions.py WARNING 
+2023/09/12 10:01:09 functions.py WARNING 
+2023/09/12 10:01:30 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpaz1toc85/18e9f742f1e048b98fbed6f3b6079f34.ql.
+[1/1 comp 14.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpaz1toc85/18e9f742f1e048b98fbed6f3b6079f34.ql.
+Starting evaluation of codeql/java-tests/tmpaz1toc85/18e9f742f1e048b98fbed6f3b6079f34.ql.
+Evaluation completed (74ms).
+Shutting down query evaluator.
+
+2023/09/12 10:01:48 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpzw0jz0_t/50ce3c7c4a224c11aab81da216e9586b.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpzw0jz0_t/50ce3c7c4a224c11aab81da216e9586b.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpzw0jz0_t/50ce3c7c4a224c11aab81da216e9586b.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpzw0jz0_t/50ce3c7c4a224c11aab81da216e9586b.ql:18,2-18)
+
+2023/09/12 10:01:49 common.py WARNING 
+2023/09/12 10:01:50 common.py WARNING 
+2023/09/12 10:04:19 functions.py WARNING 
+2023/09/12 10:04:19 functions.py WARNING 
+2023/09/12 10:04:43 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp97ts09cj/9cc4e745c5464727a12cd7383d1142ec.ql.
+[1/1 comp 15.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp97ts09cj/9cc4e745c5464727a12cd7383d1142ec.ql.
+Starting evaluation of codeql/java-tests/tmp97ts09cj/9cc4e745c5464727a12cd7383d1142ec.ql.
+Evaluation completed (76ms).
+Shutting down query evaluator.
+
+2023/09/12 10:05:02 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp6zuyk6ke/0a429f8c1541402d8a9a94e48695d985.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp6zuyk6ke/0a429f8c1541402d8a9a94e48695d985.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp6zuyk6ke/0a429f8c1541402d8a9a94e48695d985.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp6zuyk6ke/0a429f8c1541402d8a9a94e48695d985.ql:18,2-18)
+
+2023/09/12 10:05:04 common.py WARNING 
+2023/09/12 10:05:05 common.py WARNING 
+2023/09/12 10:05:31 functions.py WARNING 
+2023/09/12 10:05:31 functions.py WARNING 
+2023/09/12 10:05:55 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpug8syze7/b5b23aa9d68d4856a12c697d7482284f.ql.
+[1/1 comp 17.8s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpug8syze7/b5b23aa9d68d4856a12c697d7482284f.ql.
+Starting evaluation of codeql/java-tests/tmpug8syze7/b5b23aa9d68d4856a12c697d7482284f.ql.
+Evaluation completed (94ms).
+Shutting down query evaluator.
+
+2023/09/12 10:06:14 functions.py WARNING 
+2023/09/12 10:06:14 functions.py WARNING 
+2023/09/12 10:06:39 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpcp8z9p1b/40d75989fe214db6ad0a423731e43b28.ql.
+[1/1 comp 17.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpcp8z9p1b/40d75989fe214db6ad0a423731e43b28.ql.
+Starting evaluation of codeql/java-tests/tmpcp8z9p1b/40d75989fe214db6ad0a423731e43b28.ql.
+Evaluation completed (65ms).
+Shutting down query evaluator.
+
+2023/09/12 10:06:58 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp7tpftv14/00041bed50044b0c9d2d7dc5e0be6925.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp7tpftv14/00041bed50044b0c9d2d7dc5e0be6925.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp7tpftv14/00041bed50044b0c9d2d7dc5e0be6925.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp7tpftv14/00041bed50044b0c9d2d7dc5e0be6925.ql:18,2-18)
+
+2023/09/12 10:06:59 common.py WARNING 
+2023/09/12 10:07:00 common.py WARNING 
+2023/09/12 10:09:20 functions.py WARNING 
+2023/09/12 10:09:20 functions.py WARNING 
+2023/09/12 10:09:41 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpqpa07t_c/9511b23b117c438c9180d949a21e5e87.ql.
+[1/1 comp 14.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpqpa07t_c/9511b23b117c438c9180d949a21e5e87.ql.
+Starting evaluation of codeql/java-tests/tmpqpa07t_c/9511b23b117c438c9180d949a21e5e87.ql.
+Evaluation completed (69ms).
+Shutting down query evaluator.
+
+2023/09/12 10:10:01 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpql96nna2/1358926cfc4342278aefe91b5a874265.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpql96nna2/1358926cfc4342278aefe91b5a874265.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpql96nna2/1358926cfc4342278aefe91b5a874265.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpql96nna2/1358926cfc4342278aefe91b5a874265.ql:18,2-18)
+
+2023/09/12 10:10:02 common.py WARNING 
+2023/09/12 10:10:03 common.py WARNING 
+2023/09/12 10:13:02 functions.py WARNING 
+2023/09/12 10:13:03 functions.py WARNING 
+2023/09/12 10:13:22 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpvxq_ce9u/f99cfb3843c143dfa3fec460d8a8c0a7.ql.
+[1/1 comp 13.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpvxq_ce9u/f99cfb3843c143dfa3fec460d8a8c0a7.ql.
+Starting evaluation of codeql/java-tests/tmpvxq_ce9u/f99cfb3843c143dfa3fec460d8a8c0a7.ql.
+Evaluation completed (66ms).
+Shutting down query evaluator.
+
+2023/09/12 10:13:38 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgwb1r5ou/e655e85ea5704f7c843467938c9de233.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgwb1r5ou/e655e85ea5704f7c843467938c9de233.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgwb1r5ou/e655e85ea5704f7c843467938c9de233.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgwb1r5ou/e655e85ea5704f7c843467938c9de233.ql:18,2-18)
+
+2023/09/12 10:13:39 common.py WARNING Unknown option: '--format=csv'
+Try codeql query run --help for usage help.
+
+2023/09/12 10:13:40 common.py WARNING 
+2023/09/12 10:13:41 common.py WARNING 
+2023/09/12 10:14:41 functions.py WARNING 
+2023/09/12 10:14:41 functions.py WARNING 
+2023/09/12 10:15:12 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2ytvbun0/55613eaf823747769d24a5c8834989fc.ql.
+[1/1 comp 22.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2ytvbun0/55613eaf823747769d24a5c8834989fc.ql.
+Starting evaluation of codeql/java-tests/tmp2ytvbun0/55613eaf823747769d24a5c8834989fc.ql.
+Evaluation completed (131ms).
+Shutting down query evaluator.
+
+2023/09/12 10:15:29 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgvsis0fd/ebc9c0371af24b08b26ddb52cadc5c87.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgvsis0fd/ebc9c0371af24b08b26ddb52cadc5c87.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgvsis0fd/ebc9c0371af24b08b26ddb52cadc5c87.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgvsis0fd/ebc9c0371af24b08b26ddb52cadc5c87.ql:18,2-18)
+
+2023/09/12 10:15:30 common.py WARNING Unknown option: '--format=csv'
+Try codeql query run --help for usage help.
+
+2023/09/12 10:15:31 common.py WARNING 
+2023/09/12 10:15:33 common.py WARNING 
+2023/09/12 10:19:23 functions.py WARNING 
+2023/09/12 10:19:23 functions.py WARNING 
+2023/09/12 10:19:48 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp64ea6kj6/04568e00ce204872b262a66d97bf542f.ql.
+[1/1 comp 17.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp64ea6kj6/04568e00ce204872b262a66d97bf542f.ql.
+Starting evaluation of codeql/java-tests/tmp64ea6kj6/04568e00ce204872b262a66d97bf542f.ql.
+Evaluation completed (92ms).
+Shutting down query evaluator.
+
+2023/09/12 10:20:07 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbnee1j43/61b9ecd985374aa1a8fb71719d9dd5d4.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbnee1j43/61b9ecd985374aa1a8fb71719d9dd5d4.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbnee1j43/61b9ecd985374aa1a8fb71719d9dd5d4.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbnee1j43/61b9ecd985374aa1a8fb71719d9dd5d4.ql:18,2-18)
+
+2023/09/12 10:20:08 common.py WARNING Unknown option: '--format=csv'
+Try codeql query run --help for usage help.
+
+2023/09/12 10:20:09 common.py WARNING 
+2023/09/12 10:20:10 common.py WARNING 
+2023/09/12 10:20:42 functions.py WARNING 
+2023/09/12 10:20:42 functions.py WARNING 
+2023/09/12 10:21:07 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmplgrimbfq/f043f11f88964a54bb6ff87c0cace5e4.ql.
+[1/1 comp 17s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmplgrimbfq/f043f11f88964a54bb6ff87c0cace5e4.ql.
+Starting evaluation of codeql/java-tests/tmplgrimbfq/f043f11f88964a54bb6ff87c0cace5e4.ql.
+Evaluation completed (84ms).
+Shutting down query evaluator.
+
+2023/09/12 10:21:27 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprep2jj0j/194bf4adfc8141708341a20fd7d6a7c7.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprep2jj0j/194bf4adfc8141708341a20fd7d6a7c7.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprep2jj0j/194bf4adfc8141708341a20fd7d6a7c7.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprep2jj0j/194bf4adfc8141708341a20fd7d6a7c7.ql:18,2-18)
+
+2023/09/12 10:21:27 common.py WARNING Unknown option: '--format=csv'
+Try codeql query run --help for usage help.
+
+2023/09/12 10:21:29 common.py WARNING 
+2023/09/12 10:21:30 common.py WARNING 
+2023/09/12 10:32:00 functions.py WARNING 
+2023/09/12 10:32:00 functions.py WARNING 
+2023/09/12 10:32:23 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpmt8ari28/f785e1b55dc34253afcc8bd1db904023.ql.
+[1/1 comp 15.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpmt8ari28/f785e1b55dc34253afcc8bd1db904023.ql.
+Starting evaluation of codeql/java-tests/tmpmt8ari28/f785e1b55dc34253afcc8bd1db904023.ql.
+Evaluation completed (71ms).
+Shutting down query evaluator.
+
+2023/09/12 10:32:42 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp582j4oio/4c57e28d7ac94378b70b97e4e4d02375.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp582j4oio/4c57e28d7ac94378b70b97e4e4d02375.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp582j4oio/4c57e28d7ac94378b70b97e4e4d02375.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp582j4oio/4c57e28d7ac94378b70b97e4e4d02375.ql:18,2-18)
+
+2023/09/12 10:32:43 common.py WARNING 
+2023/09/12 10:32:44 common.py WARNING 
+2023/09/12 10:33:12 functions.py WARNING 
+2023/09/12 10:33:12 functions.py WARNING 
+2023/09/12 10:33:35 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpz5fu3tr9/f98faf45d07447faa30d7a6d22f707f1.ql.
+[1/1 comp 16.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpz5fu3tr9/f98faf45d07447faa30d7a6d22f707f1.ql.
+Starting evaluation of codeql/java-tests/tmpz5fu3tr9/f98faf45d07447faa30d7a6d22f707f1.ql.
+Evaluation completed (96ms).
+Shutting down query evaluator.
+
+2023/09/12 10:33:54 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi2umqnuv/7a33edb3a9624db8bdfd200b1aa9c3a0.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi2umqnuv/7a33edb3a9624db8bdfd200b1aa9c3a0.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi2umqnuv/7a33edb3a9624db8bdfd200b1aa9c3a0.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi2umqnuv/7a33edb3a9624db8bdfd200b1aa9c3a0.ql:18,2-18)
+
+2023/09/12 10:33:55 common.py WARNING Unknown option: '--format=csv'
+Try codeql query run --help for usage help.
+
+2023/09/12 10:33:56 common.py WARNING 
+2023/09/12 10:33:57 common.py WARNING 
+2023/09/12 15:18:13 functions.py WARNING 
+2023/09/12 15:18:14 functions.py WARNING 
+2023/09/12 15:18:38 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpl0wbgtz6/1968f44e44424b2dbfb88a2c43e00a56.ql.
+[1/1 comp 17.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpl0wbgtz6/1968f44e44424b2dbfb88a2c43e00a56.ql.
+Starting evaluation of codeql/java-tests/tmpl0wbgtz6/1968f44e44424b2dbfb88a2c43e00a56.ql.
+Evaluation completed (66ms).
+Shutting down query evaluator.
+
+2023/09/12 15:18:54 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpb7_4m52s/9468ac47312f4c1998e2c3aab1e0367f.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpb7_4m52s/9468ac47312f4c1998e2c3aab1e0367f.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpb7_4m52s/9468ac47312f4c1998e2c3aab1e0367f.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpb7_4m52s/9468ac47312f4c1998e2c3aab1e0367f.ql:18,2-18)
+
+2023/09/12 15:18:55 common.py WARNING Unknown option: '--format=csv'
+Try codeql query run --help for usage help.
+
+2023/09/12 15:18:56 common.py WARNING 
+2023/09/12 15:18:57 common.py WARNING 
+2023/09/12 15:25:05 functions.py WARNING 
+2023/09/12 15:25:05 functions.py WARNING 
+2023/09/12 15:25:29 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_i2ycnux/a7d7299923ef43f0859907e2845af0e5.ql.
+[1/1 comp 17.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_i2ycnux/a7d7299923ef43f0859907e2845af0e5.ql.
+Starting evaluation of codeql/java-tests/tmp_i2ycnux/a7d7299923ef43f0859907e2845af0e5.ql.
+Evaluation completed (88ms).
+Shutting down query evaluator.
+
+2023/09/12 15:25:46 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsr0x0ghj/c0c82b6a4eb742978448f877f84c4f9d.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsr0x0ghj/c0c82b6a4eb742978448f877f84c4f9d.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsr0x0ghj/c0c82b6a4eb742978448f877f84c4f9d.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsr0x0ghj/c0c82b6a4eb742978448f877f84c4f9d.ql:18,2-18)
+
+2023/09/12 15:25:47 common.py WARNING 
+2023/09/12 15:25:48 common.py WARNING 
+2023/09/12 15:27:26 functions.py WARNING 
+2023/09/12 15:27:26 functions.py WARNING 
+2023/09/12 15:27:46 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpv50ix3qi/b793833ad6354b22a781bce9eae9ba52.ql.
+[1/1 comp 14.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpv50ix3qi/b793833ad6354b22a781bce9eae9ba52.ql.
+Starting evaluation of codeql/java-tests/tmpv50ix3qi/b793833ad6354b22a781bce9eae9ba52.ql.
+Evaluation completed (70ms).
+Shutting down query evaluator.
+
+2023/09/12 15:28:01 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpu5q4ez95/0ad1238ad6d8403e833163e0ba4bc3fd.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpu5q4ez95/0ad1238ad6d8403e833163e0ba4bc3fd.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpu5q4ez95/0ad1238ad6d8403e833163e0ba4bc3fd.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpu5q4ez95/0ad1238ad6d8403e833163e0ba4bc3fd.ql:18,2-18)
+
+2023/09/12 15:28:02 common.py WARNING 
+2023/09/12 15:28:03 common.py WARNING 
+2023/09/12 15:28:39 functions.py WARNING 
+2023/09/12 15:28:39 functions.py WARNING 
+2023/09/12 15:29:04 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpvnxfryhq/3f48ee0201ff4ec29bf7d37271d35974.ql.
+[1/1 comp 17.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpvnxfryhq/3f48ee0201ff4ec29bf7d37271d35974.ql.
+Starting evaluation of codeql/java-tests/tmpvnxfryhq/3f48ee0201ff4ec29bf7d37271d35974.ql.
+Evaluation completed (61ms).
+Shutting down query evaluator.
+
+2023/09/12 15:29:21 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnrtlzkyf/d234cb0b33364a22b363d471d8db6675.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnrtlzkyf/d234cb0b33364a22b363d471d8db6675.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnrtlzkyf/d234cb0b33364a22b363d471d8db6675.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnrtlzkyf/d234cb0b33364a22b363d471d8db6675.ql:18,2-18)
+
+2023/09/12 15:29:22 common.py WARNING 
+2023/09/12 15:29:22 common.py WARNING 
+2023/09/12 15:38:02 functions.py WARNING 
+2023/09/12 15:38:02 functions.py WARNING 
+2023/09/12 15:38:22 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnkcs150n/5f69c761e9ed42f0b35aa4775e391e93.ql.
+[1/1 comp 13.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnkcs150n/5f69c761e9ed42f0b35aa4775e391e93.ql.
+Starting evaluation of codeql/java-tests/tmpnkcs150n/5f69c761e9ed42f0b35aa4775e391e93.ql.
+Evaluation completed (64ms).
+Shutting down query evaluator.
+
+2023/09/12 15:38:25 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql.
+ERROR: Could not resolve module semmle.code.java.dataflow.FlowSources. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:7,8-45)
+ERROR: Could not resolve module semmle.code.java.dataflow.ExternalFlow. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:8,16-54)
+ERROR: Could not resolve module SpringRelated.SpringController. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:18,2-18)
+ERROR: Could not resolve module java. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:6,8-12)
+ERROR: Could not resolve type Class (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:11,7-12)
+ERROR: Could not resolve type Method (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:11,16-22)
+
+2023/09/12 15:38:29 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql.
+ERROR: Could not resolve module semmle.code.java.dataflow.FlowSources. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:7,8-45)
+ERROR: Could not resolve module semmle.code.java.dataflow.ExternalFlow. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:8,16-54)
+ERROR: Could not resolve module SpringRelated.SpringController. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:18,2-18)
+ERROR: Could not resolve module java. There should probably be a qlpack.yml file declaring dependencies in /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController or an enclosing directory. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:6,8-12)
+ERROR: Could not resolve type Class (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:11,7-12)
+ERROR: Could not resolve type Method (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/plugins/SpringController/SpringController.ql:11,16-22)
+
+2023/09/12 15:39:06 functions.py WARNING 
+2023/09/12 15:39:06 functions.py WARNING 
+2023/09/12 15:39:26 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmponzbke_b/5c72342de06e488ba56d4310eef4078b.ql.
+[1/1 comp 14.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmponzbke_b/5c72342de06e488ba56d4310eef4078b.ql.
+Starting evaluation of codeql/java-tests/tmponzbke_b/5c72342de06e488ba56d4310eef4078b.ql.
+Evaluation completed (60ms).
+Shutting down query evaluator.
+
+2023/09/12 15:39:29 common.py WARNING ERROR: Referenced pack 'codeql-java' was not found locally, and no lock file is present for 'codeql/java-mytest'. Run 'codeql pack install' to create the lock file and download the dependencies. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/qlpack.yml:1,1-1)
+ERROR: No valid pack solution found:
+Because 'codeql/java-mytest' depends on 'codeql-java@*', but pack 'codeql-java' was not found, version solving failed.
+ (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/qlpack.yml:1,1-1)
+A fatal error occurred: A 'codeql resolve extensions-by-pack' operation failed with error code 2
+
+2023/09/12 15:39:31 common.py WARNING ERROR: Referenced pack 'codeql-java' was not found locally, and no lock file is present for 'codeql/java-mytest'. Run 'codeql pack install' to create the lock file and download the dependencies. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/qlpack.yml:1,1-1)
+ERROR: No valid pack solution found:
+Because 'codeql/java-mytest' depends on 'codeql-java@*', but pack 'codeql-java' was not found, version solving failed.
+ (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/qlpack.yml:1,1-1)
+A fatal error occurred: A 'codeql resolve extensions-by-pack' operation failed with error code 2
+
+2023/09/12 15:40:31 functions.py WARNING 
+2023/09/12 15:40:32 functions.py WARNING 
+2023/09/12 15:40:52 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbe1iutrs/8aacc27ad975434f8203c43ea2132333.ql.
+[1/1 comp 14.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbe1iutrs/8aacc27ad975434f8203c43ea2132333.ql.
+Starting evaluation of codeql/java-tests/tmpbe1iutrs/8aacc27ad975434f8203c43ea2132333.ql.
+Evaluation completed (66ms).
+Shutting down query evaluator.
+
+2023/09/12 15:41:07 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpcv1wfj38/3b0fbf5d3d5f449c949f91e321cf1c0f.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpcv1wfj38/3b0fbf5d3d5f449c949f91e321cf1c0f.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpcv1wfj38/3b0fbf5d3d5f449c949f91e321cf1c0f.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpcv1wfj38/3b0fbf5d3d5f449c949f91e321cf1c0f.ql:18,2-18)
+
+2023/09/12 15:41:08 common.py WARNING 
+2023/09/12 15:41:09 common.py WARNING 
+2023/09/12 15:43:39 functions.py WARNING 
+2023/09/12 15:43:40 functions.py WARNING 
+2023/09/12 15:44:01 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpea06os02/a9dbf49da2bf4dd4bcc3f66a1917a24a.ql.
+[1/1 comp 15.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpea06os02/a9dbf49da2bf4dd4bcc3f66a1917a24a.ql.
+Starting evaluation of codeql/java-tests/tmpea06os02/a9dbf49da2bf4dd4bcc3f66a1917a24a.ql.
+Evaluation completed (130ms).
+Shutting down query evaluator.
+
+2023/09/12 15:44:18 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpaivff1qn/f8b3dbf33159475e8f0a7bee8f872fb8.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpaivff1qn/f8b3dbf33159475e8f0a7bee8f872fb8.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpaivff1qn/f8b3dbf33159475e8f0a7bee8f872fb8.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpaivff1qn/f8b3dbf33159475e8f0a7bee8f872fb8.ql:18,2-18)
+
+2023/09/12 15:44:19 common.py WARNING 
+2023/09/12 15:44:20 common.py WARNING 
+2023/09/12 15:47:42 functions.py WARNING 
+2023/09/12 15:47:43 functions.py WARNING 
+2023/09/12 15:48:04 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpemvn6_e2/636b688d99974bbf82844f5225681d4e.ql.
+[1/1 comp 14.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpemvn6_e2/636b688d99974bbf82844f5225681d4e.ql.
+Starting evaluation of codeql/java-tests/tmpemvn6_e2/636b688d99974bbf82844f5225681d4e.ql.
+Evaluation completed (63ms).
+Shutting down query evaluator.
+
+2023/09/12 15:48:31 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpzy03pszg/a4f178aea67540b1a3919b666854e1ed.ql.
+[1/1 comp 17.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpzy03pszg/a4f178aea67540b1a3919b666854e1ed.ql.
+Starting evaluation of codeql/java-tests/tmpzy03pszg/a4f178aea67540b1a3919b666854e1ed.ql.
+[1/1 eval 3.4s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 15:48:31 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/12 15:49:43 functions.py WARNING 
+2023/09/12 15:49:44 functions.py WARNING 
+2023/09/12 15:50:04 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsgntr6rj/14bff513f5484cea813bb80e0b95ed0a.ql.
+[1/1 comp 14.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsgntr6rj/14bff513f5484cea813bb80e0b95ed0a.ql.
+Starting evaluation of codeql/java-tests/tmpsgntr6rj/14bff513f5484cea813bb80e0b95ed0a.ql.
+Evaluation completed (64ms).
+Shutting down query evaluator.
+
+2023/09/12 15:50:31 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2j5ljzeh/048a21b97ab345e8bd56ac1a374f7bda.ql.
+[1/1 comp 17.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2j5ljzeh/048a21b97ab345e8bd56ac1a374f7bda.ql.
+Starting evaluation of codeql/java-tests/tmp2j5ljzeh/048a21b97ab345e8bd56ac1a374f7bda.ql.
+[1/1 eval 3s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 15:50:32 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/12 15:54:00 functions.py WARNING 
+2023/09/12 15:54:01 functions.py WARNING 
+2023/09/12 15:54:22 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpzvj_ze7a/bb25e991c3f04de7912e23b6b920f87a.ql.
+[1/1 comp 15.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpzvj_ze7a/bb25e991c3f04de7912e23b6b920f87a.ql.
+Starting evaluation of codeql/java-tests/tmpzvj_ze7a/bb25e991c3f04de7912e23b6b920f87a.ql.
+Evaluation completed (63ms).
+Shutting down query evaluator.
+
+2023/09/12 15:54:55 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpv32hce93/ffd23da82082421284f5cf1d383cd45f.ql.
+[1/1 comp 22.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpv32hce93/ffd23da82082421284f5cf1d383cd45f.ql.
+Starting evaluation of codeql/java-tests/tmpv32hce93/ffd23da82082421284f5cf1d383cd45f.ql.
+[1/1 eval 3.6s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 15:54:56 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/12 15:55:18 functions.py WARNING 
+2023/09/12 15:55:18 functions.py WARNING 
+2023/09/12 15:55:43 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbsspkxgl/f5becd7a775644ca8c10101d4150bd86.ql.
+[1/1 comp 18.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbsspkxgl/f5becd7a775644ca8c10101d4150bd86.ql.
+Starting evaluation of codeql/java-tests/tmpbsspkxgl/f5becd7a775644ca8c10101d4150bd86.ql.
+Evaluation completed (72ms).
+Shutting down query evaluator.
+
+2023/09/12 15:56:06 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp29wvnwn7/9f8e326f92914199a780a7f32c1ef285.ql.
+[1/1 comp 15.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp29wvnwn7/9f8e326f92914199a780a7f32c1ef285.ql.
+Starting evaluation of codeql/java-tests/tmp29wvnwn7/9f8e326f92914199a780a7f32c1ef285.ql.
+[1/1 eval 2.7s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 15:56:07 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/12 15:56:23 functions.py WARNING 
+2023/09/12 15:56:23 functions.py WARNING 
+2023/09/12 15:56:48 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnop1s9dl/5012552bc7d4498fabdbc1e698d17189.ql.
+[1/1 comp 18.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnop1s9dl/5012552bc7d4498fabdbc1e698d17189.ql.
+Starting evaluation of codeql/java-tests/tmpnop1s9dl/5012552bc7d4498fabdbc1e698d17189.ql.
+Evaluation completed (83ms).
+Shutting down query evaluator.
+
+2023/09/12 15:57:04 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_md3krhz/31c5ee5b3684408da39a4710616f438a.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_md3krhz/31c5ee5b3684408da39a4710616f438a.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_md3krhz/31c5ee5b3684408da39a4710616f438a.ql:16,5-23)
+ERROR: Could not resolve predicate getContentType/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_md3krhz/31c5ee5b3684408da39a4710616f438a.ql:17,2-16)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp_md3krhz/31c5ee5b3684408da39a4710616f438a.ql:18,2-18)
+
+2023/09/12 15:57:05 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/12 15:57:37 functions.py WARNING 
+2023/09/12 15:57:38 functions.py WARNING 
+2023/09/12 15:58:00 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp880ltjzi/7ad8d446a2a44fa2b5345f1e076f5a82.ql.
+[1/1 comp 15.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp880ltjzi/7ad8d446a2a44fa2b5345f1e076f5a82.ql.
+Starting evaluation of codeql/java-tests/tmp880ltjzi/7ad8d446a2a44fa2b5345f1e076f5a82.ql.
+Evaluation completed (82ms).
+Shutting down query evaluator.
+
+2023/09/12 15:58:15 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprq0193ga/222e5b3d080440c191140f82af9223ae.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprq0193ga/222e5b3d080440c191140f82af9223ae.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprq0193ga/222e5b3d080440c191140f82af9223ae.ql:16,5-23)
+ERROR: Could not resolve predicate getContentType/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprq0193ga/222e5b3d080440c191140f82af9223ae.ql:17,2-16)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmprq0193ga/222e5b3d080440c191140f82af9223ae.ql:18,2-18)
+
+2023/09/12 15:58:15 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/12 15:59:31 functions.py WARNING 
+2023/09/12 15:59:31 functions.py WARNING 
+2023/09/12 15:59:58 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmppel6cew_/dbd5ba120d0b4599a7857db6a6bfa3d5.ql.
+[1/1 comp 18.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmppel6cew_/dbd5ba120d0b4599a7857db6a6bfa3d5.ql.
+Starting evaluation of codeql/java-tests/tmppel6cew_/dbd5ba120d0b4599a7857db6a6bfa3d5.ql.
+Evaluation completed (90ms).
+Shutting down query evaluator.
+
+2023/09/12 16:00:16 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp862tn9nd/d45fc89800de4aa095bf1b4345496cf3.ql.
+ERROR: Could not resolve module SpringRelated.SpringController (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp862tn9nd/d45fc89800de4aa095bf1b4345496cf3.ql:9,8-38)
+ERROR: Could not resolve predicate getControllerRoute/2 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp862tn9nd/d45fc89800de4aa095bf1b4345496cf3.ql:16,5-23)
+ERROR: Could not resolve predicate getRequestMethod/1 (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp862tn9nd/d45fc89800de4aa095bf1b4345496cf3.ql:18,2-18)
+
+2023/09/12 16:00:17 common.py WARNING A fatal error occurred: Could not process query metadata.
+Error was: Expected result pattern(s) are not present for path-problem query: Expected at least two result patterns. These should include at least an 'edges' result set (see https://codeql.github.com/docs/writing-codeql-queries/creating-path-queries/). [INVALID_RESULT_PATTERNS]
+
+2023/09/12 16:01:11 functions.py WARNING 
+2023/09/12 16:01:11 functions.py WARNING 
+2023/09/12 16:01:34 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp61upt08w/f1d8d84dd57643b5a6d57435729a0b1a.ql.
+[1/1 comp 16.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp61upt08w/f1d8d84dd57643b5a6d57435729a0b1a.ql.
+Starting evaluation of codeql/java-tests/tmp61upt08w/f1d8d84dd57643b5a6d57435729a0b1a.ql.
+Evaluation completed (84ms).
+Shutting down query evaluator.
+
+2023/09/12 16:02:15 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnzx8dcd9/0b04b0c2c1ba4188bc9c7e8346670187.ql.
+WARNING: Predicate queryTaintedBy has been deprecated and may be removed in future (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnzx8dcd9/0b04b0c2c1ba4188bc9c7e8346670187.ql:21,7-21)
+[1/1 comp 20.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpnzx8dcd9/0b04b0c2c1ba4188bc9c7e8346670187.ql.
+Starting evaluation of codeql/java-tests/tmpnzx8dcd9/0b04b0c2c1ba4188bc9c7e8346670187.ql.
+[1/1 eval 13.9s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/12 16:02:16 common.py WARNING 
+2023/09/12 16:02:17 common.py WARNING 

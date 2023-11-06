@@ -1,0 +1,126 @@
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/all/testAttr?key=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testAttr?key=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/all/testBody?json=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testBody?json=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/all/testCookie?
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testCookie?
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/all/testHeader?Connection=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testHeader?Connection=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/all/testJson? --data TestClass=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testJson? --data TestClass=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/all/testMultipart?testClassMutiPart= --data ""
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testMultipart?testClassMutiPart= --data ""
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/all/testMultipart? --data testClassMutiPart=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testMultipart? --data testClassMutiPart=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/all/testParam?key=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testParam?key=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/all/testParam/{id}/?
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testParam/{id}/?
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/all/testPart?testClass= --data MultipartFile=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testPart?testClass= --data MultipartFile=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/all/testPart? --data MultipartFile=&testClass=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testPart? --data MultipartFile=&testClass=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/all/testReqAttr?test=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testReqAttr?test=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/all/testSession?test=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/all/testSession?test=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/fastjson/create? --data POST_Data=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/fastjson/create? --data POST_Data=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/rce/one?command=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/rce/one?command=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/rce/one? --data command=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/rce/one? --data command=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/rce/two?command=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/rce/two?command=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/rce/two? --data command=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/rce/two? --data command=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/in? --data ""
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/in? --data ""
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/jpaWithAnnotations?name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/jpaWithAnnotations?name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/jpaWithAnnotations? --data name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/jpaWithAnnotations? --data name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/jpaone?name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/jpaone?name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/jpaone? --data name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/jpaone? --data name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/longin? --data ""
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/longin? --data ""
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/myBatis?name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/myBatis?name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/myBatis? --data name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/myBatis? --data name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/myBatisWithAnnotations?name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/myBatisWithAnnotations?name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/myBatisWithAnnotations? --data name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/myBatisWithAnnotations? --data name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/object? --data Student=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/object? --data Student=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/object_lombok? --data Teacher=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/object_lombok? --data Teacher=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/objectint? --data Student=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/objectint? --data Student=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/one?username=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/one?username=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/one? --data username=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/one? --data username=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/optinal_like?username=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/optinal_like?username=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/optinal_like? --data username=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/optinal_like? --data username=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody1?name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody1?name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody1? --data name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody1? --data name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody2?id=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody2?id=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody2? --data id=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody2? --data id=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody3?name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody3?name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody3? --data name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody3? --data name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody4?name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody4?name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody4? --data name=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody4? --data name=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody5?id=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody5?id=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody5? --data id=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody5? --data id=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/sqlinjection/paramInBody6?
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/sqlinjection/paramInBody6?
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/ssrf/five?url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/five?url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/ssrf/five? --data url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/five? --data url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/ssrf/four?url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/four?url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/ssrf/four? --data url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/four? --data url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/ssrf/one?url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/one?url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/ssrf/one? --data url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/one? --data url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/ssrf/three?url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/three?url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/ssrf/three? --data url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/three? --data url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/ssrf/two?url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/two?url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/ssrf/two? --data url=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/ssrf/two? --data url=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/test/test? --data TestClass=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/test/test? --data TestClass=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/test/testJsonx? --data TestClass=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/test/testJsonx? --data TestClass=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/test/testReqJson? --data TestClass=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/test/testReqJson? --data TestClass=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/test/testResXml? --data TestClass=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/test/testResXml? --data TestClass=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080/xxe/one?xml_str=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/xxe/one?xml_str=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_post.yaml webscan --url http://localhost:8080/xxe/one? --data xml_str=
+cd /Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/ && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url http://localhost:8080/xxe/one? --data xml_str=
+cd /Users/bianzhenkun/Desktop/ && ./xray_darwin_amd64 --config xray_config/config_get.yaml webscan --url http://localhost:8080

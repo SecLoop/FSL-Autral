@@ -1,0 +1,33 @@
+{
+    "routeName": "/SSRF/HTTPURLConnection/safe",
+    "filePath": "",
+    "className": "SSRF",
+    "method": "GET",
+    "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        },
+        {
+            "name": "getInputStream(...)",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }
+    ],
+    "postParams": [],
+    "pathParams": [],
+    "headers": {
+        "Cookies": "",
+        "Content-Type": "application/x-www-form-urlencoded"
+    },
+    "sinks": {
+        "classType": "InputStream",
+        "name": "getInputStream(...)",
+        "pos": "GET",
+        "property": [],
+        "vulnType": "XSS"
+    },
+    "yaml": ""
+}

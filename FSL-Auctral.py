@@ -7,21 +7,23 @@ import glob
 from jinja2 import Template
 import time
 import base64
+from cifuzz import *
 
-# csv_path = '/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/result/mytest/SpringController/result_java-sec-code.csv'
 current_directory = os.getcwd()
-csv_path = current_directory + '/out/result/mytest/SpringController/result_Hello-Java-Sec.csv'
+# csv_path = current_directory + '/out/result/mytest/SpringController/result_micro_service_seclab.csv'
+csv_path = current_directory + '/out/result/mytest/SpringController/result_Hello-Java-Sec-1.11.csv'
 # csv_path = current_directory + '/out/result/mytest/SpringController/result_webgoat.csv'
 base_url = current_directory + '/out'
 cifuzz_path = current_directory + '/out/fuzz.json'
-res_path = current_directory + '/out/data.json'
+res_path = current_directory + '/out/data4.json'
 xray_path = '/Users/bianzhenkun/Desktop/'
 xray_plus_path = '/Users/bianzhenkun/Downloads/xray_1.9.3_darwin_amd64/'
 xray_config_path = '/Users/bianzhenkun/Desktop/xray_config/'
 base_website_url = 'http://localhost:8888'
-init_cookie = 'remember-me=YWRtaW46MTY5OTkzOTUyODA4OTo2ZTBhMWUwYjk0ZTc1MDcyNTc2ZDc4NjQyOTVhZTQ0OQ; JSESSIONID=C802F6339B738E281743B474CD473DFB; JWT_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTg5ODI1NjcsImV4cCI6MTY5OTA2ODk2NywidXNlcm5hbWUiOiJhZG1pbiJ9.jg9a83rWEubOdgABYUC8hQ8uMdRyI2G-0bBssTaSeU8'
-folder_path = '/Users/bianzhenkun/Downloads/Hello-Java-Sec'
+init_cookie = 'JSESSIONID=F580851EAF903144F79B296ED3C52C8B; JWT_TOKEN=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTkxNzQ1OTksImV4cCI6MTY5OTI2MDk5OSwidXNlcm5hbWUiOiJhZG1pbiJ9.vRIDiwUJIH8ffqqpZg6A8srUF15h4-hR1BJrTgcfJNA'
+folder_path = '/Users/bianzhenkun/Downloads/Hello-Java-Sec-1.11'
 yaml_path = current_directory + '/poc/Templates/output.yaml'
+extract_element_path = base_url+'/result/mytest/ExtractElement/result_Hello-Java-Sec-1.11.csv'
 url_params = []
 body_params = []
 sub_path = []
@@ -31,8 +33,8 @@ json_list = []
 my_class_params = {}
 cifuzz_list = []
 poc_dict = {}
-name_num = 4
-name_num1 = 151
+name_num = 0
+name_num1 = 0
 
 def initEnv():
     initCookie()
@@ -88,7 +90,8 @@ def classifiedParams(data,route,index):
         prepareForCIFuzz(route)
         return 
     if data['source-type'][index] == 'MultipartFile':
-        # 文件上传，当正常参数处理，后期打特定payload
+        # 文件上传，当正常参数处理，后期打特定payload，这个地方需要王正和的payload，文件上传漏洞验证xray如果跑不出来，那么就到最后一步，最后一步打payload
+        # 更新，遇到这种情况，直接打一个文件上去，然后第三阶段poc判断的时候，直接访问这个特定文件，
         addBodyParam(data['source-type'][index])
         classifiedParams(data,route,index+1)
         deleteBodyParam()
@@ -113,11 +116,15 @@ def classifiedParams(data,route,index):
         elif data['annotation'][index] == 'RequestBody':
             # 这里选择的方法是将需要解析的类名的解析结果进行存储，在生成json的时候进行解析
             if data['source-type'][index] != 'String':
-                pass
-                # class_data = pd.read_csv(base_url+'result/mytest/ExtractElement/result_java-sec-code.csv')
-                # class_params = class_data[class_data['cls'] == data['source-type'][index]]
+                # print(base_url+'/result/mytest/ExtractElement/result_Hello-Java-Sec.csv')
+                class_data = pd.read_csv(extract_element_path)
+                class_params = class_data[class_data['cls'] == data['source-type'][index]]['cls']
+                for value in class_params:
+                    addBodyParam(value)
+                classifiedParams(data,route,index+1)
+                for value in class_params:
+                    deleteBodyParam()
                 # my_class_params[data['source-type'][index]] = class_params
-                
                 # addUrlParam(data['source-type'][index])
                 # classifiedParams(data,route,index+1)
                 # deleteUrlParam()
@@ -134,9 +141,9 @@ def classifiedParams(data,route,index):
         else:
             temp_param_data = data['param'][index]
             # 方便检测先干掉url里的参数
-            # addUrlParam(temp_param_data)
-            # classifiedParams(data,route,index+1)
-            # deleteUrlParam()
+            addUrlParam(temp_param_data)
+            classifiedParams(data,route,index+1)
+            deleteUrlParam()
             addBodyParam(temp_param_data)
             classifiedParams(data,route,index+1)
             deleteBodyParam()
@@ -221,7 +228,6 @@ def generateJson(route,data):
         headers[i] = ''
     params = [dict(t) for t in {tuple(sorted(d.items())) for d in params}]
     
-    
     #生成sinks
     sinks = []
     sink_data = pd.read_csv('/Users/bianzhenkun/Downloads/newsink2.csv')
@@ -265,7 +271,8 @@ def saveJsonData():
         json.dump(cifuzz_list, file)
     with open(res_path, 'w') as file:
         json.dump(json_list, file)
-
+        
+    
 def modifyConfigYaml(config_path,key,value):
     with open(config_path,'r') as f:
         config_data = yaml.safe_load(f.read()) 
@@ -287,7 +294,9 @@ def send2Xray(url,request_method,body,config):
     if request_method == 'POST':
         command += ' --data {}'.format(body if len(body)>0 else '\"\"')
     print('=================command1:'+command+'=================')
-    os.system(command + ' --html-output' + f' /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/fuzz_result/new_fuzz_result_'+str(name_num1)+'.html')
+    with open(current_directory + '/commands2.txt','a+') as f:
+        f.write(command+'\n')
+    os.system(command + ' --html-output' + f' /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/fuzz_result/1105_fuzz_result_'+str(name_num1)+'.html')
     name_num1 += 1 
     # 每次运行完命令，都需要将环境还原
     # os.system(f'cd {xray_config_path} && cp ./bak.yaml ./config_get.yaml && cp ./bak.yaml ./config_post.yaml && cp ./bak.yaml ./config_request.yaml')
@@ -297,8 +306,10 @@ def send2XrayPlus(url,request_method,body):
     command = f'cd {xray_plus_path} && ./xray_darwin_amd64 webscan --plugins phantasm,jsonp,struts,shiro,fastjson --url {url}'
     if request_method == 'POST':
         command += ' --data {}'.format(body if len(body)>0 else '\"\"')
+    with open(current_directory + '/commands2.txt','a+') as f:
+        f.write(command+'\n')
     print('=================command2:'+command+'=================')
-    os.system(command + ' --html-output' + f' /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/fuzz_result/new_fuzz_result_'+str(name_num1)+'.html')
+    os.system(command + ' --html-output' + f' /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/fuzz_result/1105_plus_fuzz_result_'+str(name_num1)+'.html')
     name_num1 += 1 
     # 每次运行完命令，都需要将环境还原
     # os.system(f'cd {xray_config_path} && cp ./bak.yaml ./config_get.yaml && cp ./bak.yaml ./config_post.yaml && cp ./bak.yaml ./config_request.yaml')
@@ -307,6 +318,8 @@ def send2XrayPlus(url,request_method,body):
 def xrayFuzz():
     with open(res_path,"r") as f:
         data = json.load(f)
+    # 探索框架漏洞
+    send2Xray(base_website_url,'GET','','config_get.yaml')
     for item in data:
         route = base_website_url + item['routeName'] + '?'
         body = ''
@@ -315,7 +328,8 @@ def xrayFuzz():
         #     modifyConfigYaml(xray_config_path+config_path,['http','headers',item['headers'][key]],'test')
         for i in item['getParams']:
             route += i['name'] + '=&'
-        route = route[:-1] if len(item['getParams'])>0 else route 
+        while route.endswith('?') or route.endswith('&'):
+            route = route[:-1]
         for i in item['postParams']:
             body += i['name'] + '=&'
         send2Xray(route,item['method'],body[:-1],config_path)
@@ -326,8 +340,10 @@ def initPocDict():
         pocs = f.readlines()
     for line in pocs:
         poc_data = line.split('—')
-        poc_dict[poc_data[0]] = poc_data[1]
-        
+        print(poc_data)
+        poc_dict[poc_data[0]] = [poc_data[1],poc_data[2]]
+    # print(poc_dict)
+
     
 def xrayFuzzWithPocs():
     with open(res_path,"r") as f:
@@ -358,7 +374,7 @@ def xrayFuzzWithPocs():
         # for i in str(item['pathParams']):
         #     path += '/' + i
         if len(item['getParams']) >0:
-            path += '?'
+            path += '?
             for i in item['getParams']:
                 if i['name'] == sink_param:
                     path += i['name'] + '=p4yl04d&'
@@ -388,11 +404,11 @@ def xrayFuzzWithPocs():
                 yaml_data_temp = f.read()
             with open(yaml_path,'w') as f2:
                 yaml_data_temp = yaml_data_temp.replace('p4yl04d',payload)
-                yaml_data_temp = yaml_data_temp.replace('3xpr3ss10n',poc_dict[payload])
+                yaml_data_temp = yaml_data_temp.replace('3xpr3ss10n',poc_dict[payload][0])
+                yaml_data_temp = yaml_data_temp.replace('p0cN4m3',poc_dict[payload][1])
                 f2.write(yaml_data_temp)
                 print('done')
             sendYaml2Xray(base_website_url,item['method'],body[:-1],config_path,yaml_path)
-            # time.sleep(3)
 
 def sendYaml2Xray(url,request_method,body,config,poc):
     global name_num
@@ -402,14 +418,14 @@ def sendYaml2Xray(url,request_method,body,config,poc):
     command += f' --poc {poc}'
     os.system(command + ' --html-output ' + ' /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/fuzz_result2/fuzz2_result_'+str(name_num)+'.html')
     name_num += 1
-    # print(url)
     # 每次运行完命令，都需要将环境还原
-    os.system(f'cd {xray_config_path} && cp ./bak.yaml ./config_get.yaml && cp ./bak.yaml ./config_post.yaml && cp ./bak.yaml ./config_request.yaml')
+    # os.system(f'cd {xray_config_path} && cp ./bak.yaml ./config_get.yaml && cp ./bak.yaml ./config_post.yaml && cp ./bak.yaml ./config_request.yaml')
+
 
     
 def mergeSinkCsvs():
-    merged_csv_path = "/Users/bianzhenkun/Downloads/newsink2.csv"
-    main_folder = "/Users/bianzhenkun/Desktop/webgoat"
+    merged_csv_path = "/Users/bianzhenkun/Downloads/newsink3.csv"
+    main_folder = "/Users/bianzhenkun/Downloads/Hello-Java-Sec-1.11"
     merged_data = pd.DataFrame()
 
     # 遍历每个文件夹
@@ -442,20 +458,42 @@ def rmDuplicates(params):
 
 
 # 接入cifuzz
-def cifuzz():
-    pass
+def cifuzz(data):    
+    clean()
+    set_seed()
+    count = 0
+    for item in data:
+        if item['sinks'] == {}:
+            continue
+        fuzz_single_route(item)
+        corpus_list = get_corpus(FINDINGS_DIR)
+        # output = {}
+        # output["routeName"] = item["routeName"]
+        # output["sinks"] = item["sinks"]
+        if corpus_list == []:
+            continue
+        reuslt_fuzz = find_all_subsequence(corpus_list, item)
+        content = gen_fuzz_poc(reuslt_fuzz)
+        # write a poc file
+        with open(f"templates/poc_{count}.txt" , 'wb') as f:
+            f.write(content)
+        clean()
+        set_seed()
+        count += 1
+
 
 if __name__ == '__main__':
     # 1. 初始化环境
     params_data = initEnv()
+    # mergeSinkCsvs()
     # # 2. 对codeql的结果进行处理，生成data.json
     # groupData(params_data)
     # saveJsonData()
     # # 3. Fuzz Stage1，xray黑盒测试
-    xrayFuzz()
-    # # mergeSinkCsvs()
+    # xrayFuzz()
     # # 4. Fuzz Stage2，加载poc list，根据sink，自动化生成针对性的xray yaml，发送到xray测试
-    # initPocDict()
-    # xrayFuzzWithPocs()
+    initPocDict()
+    xrayFuzzWithPocs()
     
-    # mergeSinkCsvs()
+    
+    

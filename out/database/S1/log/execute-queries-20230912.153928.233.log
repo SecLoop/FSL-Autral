@@ -1,0 +1,58 @@
+[2023-09-12 15:39:28] This is codeql execute queries -J-Xmx2048M --off-heap-ram=2048 --verbosity=progress --logdir=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/log --evaluator-log-level=5 --warnings=show --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --output=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/query-results.bqrs -- /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/db-java path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/springtest.ql
+[2023-09-12 15:39:28] Calling plumbing command: codeql resolve queries --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --format=json -- path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/springtest.ql
+[2023-09-12 15:39:28] [PROGRESS] resolve queries> Recording pack reference codeql/java-mytest at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc.
+[2023-09-12 15:39:28] Plumbing command codeql resolve queries completed:
+                      [
+                        "/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/springtest.ql"
+                      ]
+[2023-09-12 15:39:28] Refusing fancy output: $CODEQL_ISATTY terminal indication is missing
+[2023-09-12 15:39:28] Creating executor with 1 threads.
+[2023-09-12 15:39:28] Calling plumbing command: codeql resolve extensions --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/springtest.ql
+[2023-09-12 15:39:28] Calling plumbing command: codeql resolve queries --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --allow-library-packs --format startingpacks -- path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/springtest.ql
+[2023-09-12 15:39:28] [PROGRESS] resolve queries> Recording pack reference codeql/java-mytest at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc.
+[2023-09-12 15:39:28] Plumbing command codeql resolve queries completed:
+                      [
+                        "/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc"
+                      ]
+[2023-09-12 15:39:28] Calling plumbing command: codeql resolve extensions-by-pack --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml -- /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc
+[2023-09-12 15:39:28] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/java-mytest: not 0.0.0 {root: codeql/java-mytest@0.0.0}
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql/java-mytest: 0.0.0 {codeql/java-mytest: not 0.0.0 {root: codeql/java-mytest@0.0.0}}
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/java-mytest: * [*], codeql-java: not * {dependency: codeql/java-mytest@* [*] requires codeql-java@*}
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack> [DECISION 1] codeql/java-mytest: 0.0.0
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack> [DERIVATION] codeql-java: * {codeql/java-mytest: * [*], codeql-java: not * {dependency: codeql/java-mytest@* [*] requires codeql-java@*}}
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql-java: * [*] {pack not found: codeql-java}
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack> [CONFLICT] codeql-java: * [*] {pack not found: codeql-java}
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack>   [CONSTRAINT] codeql-java: *
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack>   [CONSTRAINT] codeql/java-mytest: 0.0.0
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack>   [SATISFIER] derivation: codeql-java: *
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack>   [ALMOST_SATISFIER] <none>
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack> [INCOMPATIBILITY] codeql/java-mytest: * [*] {conflict}
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack> [FAILURE]
+[2023-09-12 15:39:29] [SPAMMY] resolve extensions-by-pack>   Because 'codeql/java-mytest' depends on 'codeql-java@*', but pack 'codeql-java' was not found, version solving failed.
+[2023-09-12 15:39:29] [ERROR] resolve extensions-by-pack> ERROR: Referenced pack 'codeql-java' was not found locally, and no lock file is present for 'codeql/java-mytest'. Run 'codeql pack install' to create the lock file and download the dependencies. (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/qlpack.yml:1,1-1)
+[2023-09-12 15:39:29] [ERROR] resolve extensions-by-pack> ERROR: No valid pack solution found:
+                              Because 'codeql/java-mytest' depends on 'codeql-java@*', but pack 'codeql-java' was not found, version solving failed.
+                               (/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/my-poc/qlpack.yml:1,1-1)
+[2023-09-12 15:39:29] Sequence stamp origin is -6276045146760831171
+[2023-09-12 15:39:29] Pausing evaluation to close the cache at sequence stamp o+0
+[2023-09-12 15:39:29] The disk cache is freshly trimmed; leave it be.
+[2023-09-12 15:39:29] Unpausing evaluation
+[2023-09-12 15:39:29] Exception caught at top level: A 'codeql resolve extensions-by-pack' operation failed with error code 2
+                      com.semmle.cli2.picocli.PlumbingRunner.call(PlumbingRunner.java:67)
+                      com.semmle.cli2.picocli.SubcommandCommon.callPlumbingInProcess(SubcommandCommon.java:165)
+                      com.semmle.cli2.resolve.ResolveExtensionsCommand.executeJSON(ResolveExtensionsCommand.java:54)
+                      com.semmle.cli2.resolve.ResolveExtensionsCommand.executeJSON(ResolveExtensionsCommand.java:17)
+                      com.semmle.cli2.picocli.SimpleJsonSubcommand.executeInsistingOnJSONWithExistingMessages(SimpleJsonSubcommand.java:130)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:417)
+                      com.semmle.cli2.picocli.SimpleJsonSubcommand.executeInsistingOnJSON(SimpleJsonSubcommand.java:119)
+                      com.semmle.cli2.picocli.PlumbingRunner.call(PlumbingRunner.java:53)
+                      com.semmle.cli2.picocli.SubcommandCommon.callPlumbingInProcess(SubcommandCommon.java:165)
+                      com.semmle.cli2.execute.ExecuteQueriesCommand.resolveExtensions(ExecuteQueriesCommand.java:698)
+                      com.semmle.cli2.execute.ExecuteQueriesCommand.executeSubcommand(ExecuteQueriesCommand.java:399)
+                      com.semmle.cli2.picocli.SubcommandCommon.lambda$executeSubcommandWithMessages$5(SubcommandCommon.java:747)
+                      com.semmle.cli2.picocli.SubcommandCommon.withCompilationMessages(SubcommandCommon.java:417)
+                      com.semmle.cli2.picocli.SubcommandCommon.executeSubcommandWithMessages(SubcommandCommon.java:745)
+                      com.semmle.cli2.picocli.SubcommandCommon.call(SubcommandCommon.java:629)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:237)
+                      com.semmle.cli2.picocli.SubcommandMaker.runMain(SubcommandMaker.java:247)
+                      com.semmle.cli2.CodeQL.main(CodeQL.java:113)

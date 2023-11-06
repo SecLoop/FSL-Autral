@@ -1,0 +1,12 @@
+[2023-09-12 09:36:30] This is codeql query run -o /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs -d out/database/S1 /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpdx2xtdym/246db286c8334fae83d9710f5f231cb7.ql
+[2023-09-12 09:36:30] Log file was started late.
+[2023-09-12 09:36:30] Calling plumbing command: codeql resolve ram --format=json
+[2023-09-12 09:36:30] Plumbing command codeql resolve ram completed:
+                      [
+                        "-J-Xmx2048M",
+                        "--off-heap-ram=2048"
+                      ]
+[2023-09-12 09:36:30] Spawning plumbing command: execute queries -J-Xmx2048M --off-heap-ram=2048 --verbosity=progress --logdir=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/log --evaluator-log-level=5 --warnings=show --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --output=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs -- /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/db-java path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpdx2xtdym/246db286c8334fae83d9710f5f231cb7.ql
+[2023-09-12 09:36:44] [ERROR] Spawned process exited abnormally (code 2; tried to run: [/Users/bianzhenkun/Library/Application Support/Code/User/globalStorage/github.vscode-codeql/distribution2/codeql/tools/osx64/java/bin/java, -Xmx2048M, -Djava.library.path=/Users/bianzhenkun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., -cp, /Users/bianzhenkun/Library/Application Support/Code/User/globalStorage/github.vscode-codeql/distribution2/codeql/tools/codeql.jar, com.semmle.cli2.CodeQL, env_argv, execute, queries, -J-Xmx2048M, _, _, _, _, _, _, _, --, /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/db-java, _])
+[2023-09-12 09:36:44] Plumbing command codeql execute queries terminated with status 2.
+[2023-09-12 09:36:44] Exiting with code 2

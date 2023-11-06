@@ -1,0 +1,9 @@
+[2023-09-12 09:25:13] This is codeql execute queries -J-Xmx2048M --off-heap-ram=2048 --verbosity=progress --logdir=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/log --evaluator-log-level=5 --warnings=show --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --output=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs -- /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/out/database/S1/db-java path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9dqtjal1/d501b69ae37744c1ad5f7d35f44e3fa3.ql
+[2023-09-12 09:25:13] Calling plumbing command: codeql resolve queries --qlconfig-file=/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeqlpy-plus/qlconfig.yml --format=json -- path:/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9dqtjal1/d501b69ae37744c1ad5f7d35f44e3fa3.ql
+[2023-09-12 09:25:13] [PROGRESS] resolve queries> Recording pack reference codeql/java-tests at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test.
+[2023-09-12 09:25:13] Plumbing command codeql resolve queries completed:
+                      [
+                        "/Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp9dqtjal1/d501b69ae37744c1ad5f7d35f44e3fa3.ql"
+                      ]
+[2023-09-12 09:25:13] Refusing fancy output: $CODEQL_ISATTY terminal indication is missing
+[2023-09-12 09:25:13] Creating executor with 1 threads.

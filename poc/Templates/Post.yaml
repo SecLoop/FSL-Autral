@@ -1,12 +1,16 @@
-name: poc-yaml-example-com
+name: p0cN4m3
 transport: http
+set:
+  reverse: newReverse()
+  reverseURL: reverse.url
+  reverseRMI: reverse.rmi
 rules:
     r1:
         request:
             cache: true
             method: POST
             headers:
-                Content-Type: {{ContentType | default('application/x-www-form-urlcoded')}}
+                Content-Type: {{ContentType | default('application/x-www-form-urlcoded')}};
                 Cookies: {{Cookies | default('')}}
             path: {{path | default('/')}}
             body: {{body | default('')}}

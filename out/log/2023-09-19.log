@@ -1,0 +1,132 @@
+2023/09/19 14:53:42 functions.py WARNING 
+2023/09/19 14:53:42 functions.py WARNING 
+2023/09/19 14:54:07 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmphyti9y3u/5574bd12c06149dcb954ad71bfe8ce8b.ql.
+[1/1 comp 17.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmphyti9y3u/5574bd12c06149dcb954ad71bfe8ce8b.ql.
+Starting evaluation of codeql/java-tests/tmphyti9y3u/5574bd12c06149dcb954ad71bfe8ce8b.ql.
+Evaluation completed (89ms).
+Shutting down query evaluator.
+
+2023/09/19 14:54:39 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2f8wihyl/bc7bb7fcbbe74b6898689b5f47f2f5ff.ql.
+[1/1 comp 20.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2f8wihyl/bc7bb7fcbbe74b6898689b5f47f2f5ff.ql.
+Starting evaluation of codeql/java-tests/tmp2f8wihyl/bc7bb7fcbbe74b6898689b5f47f2f5ff.ql.
+[1/1 eval 4.2s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 14:54:40 common.py WARNING 
+2023/09/19 14:55:06 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2f8wihyl/5110dc3691344e04a4be0e646c6a4437.ql.
+[1/1 comp 18.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp2f8wihyl/5110dc3691344e04a4be0e646c6a4437.ql.
+Starting evaluation of codeql/java-tests/tmp2f8wihyl/5110dc3691344e04a4be0e646c6a4437.ql.
+[1/1 eval 972ms] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 14:55:07 common.py WARNING 
+2023/09/19 14:56:34 functions.py WARNING 
+2023/09/19 14:56:34 functions.py WARNING 
+2023/09/19 14:56:54 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpow_r0fw6/2ae4304c77eb4f9cac7243b59d138666.ql.
+[1/1 comp 14s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpow_r0fw6/2ae4304c77eb4f9cac7243b59d138666.ql.
+Starting evaluation of codeql/java-tests/tmpow_r0fw6/2ae4304c77eb4f9cac7243b59d138666.ql.
+Evaluation completed (76ms).
+Shutting down query evaluator.
+
+2023/09/19 14:57:31 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp0zfh9h01/2cbd35445a064c158badc421112533bd.ql.
+[1/1 comp 24s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp0zfh9h01/2cbd35445a064c158badc421112533bd.ql.
+Starting evaluation of codeql/java-tests/tmp0zfh9h01/2cbd35445a064c158badc421112533bd.ql.
+[1/1 eval 4.7s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 14:57:32 common.py WARNING 
+2023/09/19 14:57:56 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp0zfh9h01/e5a4f79815ad4611935d439a3bf30102.ql.
+[1/1 comp 15.8s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp0zfh9h01/e5a4f79815ad4611935d439a3bf30102.ql.
+Starting evaluation of codeql/java-tests/tmp0zfh9h01/e5a4f79815ad4611935d439a3bf30102.ql.
+[1/1 eval 782ms] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 14:57:57 common.py WARNING 
+2023/09/19 15:13:39 functions.py WARNING 
+2023/09/19 15:13:39 functions.py WARNING 
+2023/09/19 15:14:00 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgayt572i/4cc4705e456f445fbf0505465c373f36.ql.
+[1/1 comp 14.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpgayt572i/4cc4705e456f445fbf0505465c373f36.ql.
+Starting evaluation of codeql/java-tests/tmpgayt572i/4cc4705e456f445fbf0505465c373f36.ql.
+Evaluation completed (64ms).
+Shutting down query evaluator.
+
+2023/09/19 15:14:36 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpp33bx0sg/c9ea4f6aa1824760adc8f7464feb0efb.ql.
+[1/1 comp 22s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpp33bx0sg/c9ea4f6aa1824760adc8f7464feb0efb.ql.
+Starting evaluation of codeql/java-tests/tmpp33bx0sg/c9ea4f6aa1824760adc8f7464feb0efb.ql.
+[1/1 eval 6.3s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 15:14:37 common.py WARNING 
+2023/09/19 15:15:03 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpp33bx0sg/4f0ac06b79cf457d9f33d37b162c6818.ql.
+[1/1 comp 17.2s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpp33bx0sg/4f0ac06b79cf457d9f33d37b162c6818.ql.
+Starting evaluation of codeql/java-tests/tmpp33bx0sg/4f0ac06b79cf457d9f33d37b162c6818.ql.
+[1/1 eval 1.7s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 15:15:04 common.py WARNING 
+2023/09/19 16:30:48 functions.py WARNING 
+2023/09/19 16:30:48 functions.py WARNING 
+2023/09/19 16:31:13 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpb345m9dv/efe7ddf27e6f44d9973f336fc1f48012.ql.
+[1/1 comp 18.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpb345m9dv/efe7ddf27e6f44d9973f336fc1f48012.ql.
+Starting evaluation of codeql/java-tests/tmpb345m9dv/efe7ddf27e6f44d9973f336fc1f48012.ql.
+Evaluation completed (65ms).
+Shutting down query evaluator.
+
+2023/09/19 16:31:45 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsdye21zk/5a68e226b8e04c5693322ae8ad41530c.ql.
+[1/1 comp 19.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsdye21zk/5a68e226b8e04c5693322ae8ad41530c.ql.
+Starting evaluation of codeql/java-tests/tmpsdye21zk/5a68e226b8e04c5693322ae8ad41530c.ql.
+[1/1 eval 6.2s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 16:31:46 common.py WARNING 
+2023/09/19 16:32:10 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsdye21zk/32cb9ab6183c4da9a12b92cd48e69f6a.ql.
+[1/1 comp 16.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpsdye21zk/32cb9ab6183c4da9a12b92cd48e69f6a.ql.
+Starting evaluation of codeql/java-tests/tmpsdye21zk/32cb9ab6183c4da9a12b92cd48e69f6a.ql.
+[1/1 eval 1.2s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 16:32:11 common.py WARNING 
+2023/09/19 17:02:12 functions.py WARNING 
+2023/09/19 17:02:13 functions.py WARNING 
+2023/09/19 17:02:34 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpamzdstf3/203cfb6a8d304e069437a033c6a2ae6f.ql.
+[1/1 comp 14.5s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpamzdstf3/203cfb6a8d304e069437a033c6a2ae6f.ql.
+Starting evaluation of codeql/java-tests/tmpamzdstf3/203cfb6a8d304e069437a033c6a2ae6f.ql.
+Evaluation completed (71ms).
+Shutting down query evaluator.
+
+2023/09/19 17:03:07 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp3go9b148/76197539bcbe43a1ba7a62e99f804e72.ql.
+[1/1 comp 20.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp3go9b148/76197539bcbe43a1ba7a62e99f804e72.ql.
+Starting evaluation of codeql/java-tests/tmp3go9b148/76197539bcbe43a1ba7a62e99f804e72.ql.
+[1/1 eval 6s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 17:03:08 common.py WARNING 
+2023/09/19 17:03:31 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp3go9b148/b15bdbab5e2e4ebab5ef6ac0a93f8257.ql.
+[1/1 comp 15.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp3go9b148/b15bdbab5e2e4ebab5ef6ac0a93f8257.ql.
+Starting evaluation of codeql/java-tests/tmp3go9b148/b15bdbab5e2e4ebab5ef6ac0a93f8257.ql.
+[1/1 eval 1.4s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 17:03:32 common.py WARNING 
+2023/09/19 17:11:15 functions.py WARNING 
+2023/09/19 17:11:16 functions.py WARNING 
+2023/09/19 17:11:36 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi8dw8t6o/edcc9a3747be49b69bc713d69628b163.ql.
+[1/1 comp 14.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpi8dw8t6o/edcc9a3747be49b69bc713d69628b163.ql.
+Starting evaluation of codeql/java-tests/tmpi8dw8t6o/edcc9a3747be49b69bc713d69628b163.ql.
+Evaluation completed (65ms).
+Shutting down query evaluator.
+
+2023/09/19 17:12:08 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpmbb1c0vf/df363909ecdc4f7e9fef9722c6d8b1ee.ql.
+[1/1 comp 19.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpmbb1c0vf/df363909ecdc4f7e9fef9722c6d8b1ee.ql.
+Starting evaluation of codeql/java-tests/tmpmbb1c0vf/df363909ecdc4f7e9fef9722c6d8b1ee.ql.
+[1/1 eval 5.7s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 17:12:09 common.py WARNING 
+2023/09/19 17:12:32 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpmbb1c0vf/d429808989e04cde9791d65c0e866c32.ql.
+[1/1 comp 15.9s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpmbb1c0vf/d429808989e04cde9791d65c0e866c32.ql.
+Starting evaluation of codeql/java-tests/tmpmbb1c0vf/d429808989e04cde9791d65c0e866c32.ql.
+[1/1 eval 1.2s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/19 17:12:33 common.py WARNING 

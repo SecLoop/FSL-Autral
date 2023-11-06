@@ -1,0 +1,69 @@
+CRLFInjection	 crlf	 /crlf/safecode	 application/x-www-form-urlcoded	 RequestMapping	 "test3"	 String	 no AnAnnotation	 getParameter(...)
+CRLFInjection	 crlf	 /crlf/safecode	 application/x-www-form-urlcoded	 RequestMapping	 "test1"	 String	 no AnAnnotation	 getParameter(...)
+CRLFInjection	 crlf	 /crlf/safecode	 application/x-www-form-urlcoded	 RequestMapping	 "test2"	 String	 no AnAnnotation	 getParameter(...)
+CommandInject	 codeInject	 /codeinject	 	 GetMapping	 filepath	 String	 no AnAnnotation	 no get
+CommandInject	 codeInjectHost	 /codeinject/host	 	 GetMapping	 "host"	 String	 no AnAnnotation	 getHeader(...)
+CommandInject	 codeInjectSec	 /codeinject/sec	 	 GetMapping	 filepath	 String	 no AnAnnotation	 no get
+Cookies	 vuln05	 /cookie/vuln05	 	 GetMapping	 "nick"	 String	 CookieValue	 no get
+Cookies	 vuln06	 /cookie/vuln06	 	 GetMapping	 "nick"	 String	 CookieValue	 no get
+Cors	 vuls1	 /cors/vuln/origin	 	 GetMapping	 "origin"	 String	 no AnAnnotation	 getHeader(...)
+Cors	 getCsrfToken_01	 /cors/sec/webMvcConfigurer	 	 GetMapping	 token	 CsrfToken	 no AnAnnotation	 no get
+Cors	 getCsrfToken_02	 /cors/sec/httpCors	 	 GetMapping	 token	 CsrfToken	 no AnAnnotation	 no get
+Cors	 getCsrfToken_03	 /cors/sec/originFilter	 	 GetMapping	 token	 CsrfToken	 no AnAnnotation	 no get
+Cors	 getCsrfToken_04	 /cors/sec/corsFilter	 application/x-www-form-urlcoded	 RequestMapping	 token	 CsrfToken	 no AnAnnotation	 no get
+Cors	 seccode	 /cors/sec/checkOrigin	 	 GetMapping	 "Origin"	 String	 no AnAnnotation	 getHeader(...)
+Fastjson	 Deserialize	 /fastjson/deserialize	 application/json	 RequestMapping	 POST Data	 String	 RequestBody	 no get
+FileUpload	 singleFileUpload	 /file/upload	 application/x-www-form-urlcoded	 PostMapping	 "file"	 MultipartFile	 RequestParam	 no get
+FileUpload	 uploadPicture	 /file/upload/picture	 application/x-www-form-urlcoded	 PostMapping	 "file"	 MultipartFile	 RequestParam	 no get
+IPForge	 proxy	 /ip/proxy	 application/x-www-form-urlcoded	 RequestMapping	 "X-Real-IP"	 String	 no AnAnnotation	 getHeader(...)
+Jsonp	 referer	 /jsonp/vuln/referer	 application/x-www-form-urlcoded	 RequestMapping	 this.callback	 String	 no AnAnnotation	 getParameter(...)
+Jsonp	 emptyReferer	 /jsonp/vuln/emptyReferer	 application/x-www-form-urlcoded	 RequestMapping	 "referer"	 String	 no AnAnnotation	 getHeader(...)
+Jsonp	 emptyReferer	 /jsonp/vuln/emptyReferer	 application/x-www-form-urlcoded	 RequestMapping	 this.callback	 String	 no AnAnnotation	 getParameter(...)
+Jsonp	 safecode	 /jsonp/sec/checkReferer	 application/x-www-form-urlcoded	 RequestMapping	 "referer"	 String	 no AnAnnotation	 getHeader(...)
+Jsonp	 safecode	 /jsonp/sec/checkReferer	 application/x-www-form-urlcoded	 RequestMapping	 this.callback	 String	 no AnAnnotation	 getParameter(...)
+Jsonp	 getCsrfToken	 /jsonp/getToken	 	 GetMapping	 token	 CsrfToken	 no AnAnnotation	 no get
+PathTraversal	 getImage	 /path_traversal/vul	 	 GetMapping	 filepath	 String	 no AnAnnotation	 no get
+PathTraversal	 getImageSec	 /path_traversal/sec	 	 GetMapping	 filepath	 String	 no AnAnnotation	 no get
+Rce	 CommandExec	 /rce/exec	 	 GetMapping	 cmd	 String	 no AnAnnotation	 no get
+SQLI	 jdbc_sqli_vul	 /sqli/jdbc/vuln	 application/x-www-form-urlcoded	 RequestMapping	 "username"	 String	 RequestParam	 no get
+SQLI	 jdbc_sqli_sec	 /sqli/jdbc/sec	 application/x-www-form-urlcoded	 RequestMapping	 "username"	 String	 RequestParam	 no get
+SQLI	 mybatisVuln01	 /sqli/mybatis/vuln01	 	 GetMapping	 "username"	 String	 RequestParam	 no get
+SQLI	 mybatisVuln02	 /sqli/mybatis/vuln02	 	 GetMapping	 "username"	 String	 RequestParam	 no get
+SQLI	 mybatisVuln03	 /sqli/mybatis/orderby/vuln03	 	 GetMapping	 "sort"	 String	 RequestParam	 no get
+SQLI	 mybatisSec01	 /sqli/mybatis/sec01	 	 GetMapping	 "username"	 String	 RequestParam	 no get
+SQLI	 mybatisSec02	 /sqli/mybatis/sec02	 	 GetMapping	 "id"	 Integer	 RequestParam	 no get
+SQLI	 mybatisOrderBySec04	 /sqli/mybatis/orderby/sec04	 	 GetMapping	 "sort"	 String	 RequestParam	 no get
+SSRF	 URLConnectionVuln	 /ssrf/urlConnection/vuln	 application/x-www-form-urlcoded	 RequestMapping	 url	 String	 no AnAnnotation	 no get
+SSRF	 URLConnectionSec	 /ssrf/urlConnection/sec	 	 GetMapping	 url	 String	 no AnAnnotation	 no get
+SSRF	 httpURLConnection	 /ssrf/HttpURLConnection/sec	 	 GetMapping	 url	 String	 RequestParam	 no get
+SSRF	 request	 /ssrf/request/sec	 	 GetMapping	 url	 String	 RequestParam	 no get
+SSRF	 openStream	 /ssrf/openStream	 	 GetMapping	 url	 String	 RequestParam	 no get
+SSRF	 ImageIO	 /ssrf/ImageIO/sec	 	 GetMapping	 url	 String	 RequestParam	 no get
+SSRF	 okhttp	 /ssrf/okhttp/sec	 	 GetMapping	 url	 String	 RequestParam	 no get
+SSRF	 HttpClient	 /ssrf/httpclient/sec	 	 GetMapping	 url	 String	 RequestParam	 no get
+SSRF	 commonsHttpClient	 /ssrf/commonsHttpClient/sec	 	 GetMapping	 url	 String	 RequestParam	 no get
+SSRF	 Jsoup	 /ssrf/Jsoup/sec	 	 GetMapping	 url	 String	 RequestParam	 no get
+SSRF	 IOUtils	 /ssrf/IOUtils/sec	 	 GetMapping	 url	 String	 no AnAnnotation	 no get
+SSRF	 HttpSyncClients	 /ssrf/HttpSyncClients/vuln	 	 GetMapping	 "url"	 String	 RequestParam	 no get
+SSTI	 velocity	 /ssti/velocity	 	 GetMapping	 template	 String	 no AnAnnotation	 no get
+SpEL	 rce	 /spel/vuln	 	 GetMapping	 expression	 String	 no AnAnnotation	 no get
+Test	 Index	 /test	 application/x-www-form-urlcoded	 RequestMapping	 empId	 String	 no AnAnnotation	 no get
+Test	 test	 /test/aa	 application/x-www-form-urlcoded	 RequestMapping	 empId	 String	 no AnAnnotation	 no get
+URLRedirect	 redirect	 /urlRedirect/redirect	 	 GetMapping	 "url"	 String	 RequestParam	 no get
+URLRedirect	 setHeader	 /urlRedirect/setHeader	 application/x-www-form-urlcoded	 RequestMapping	 "url"	 String	 no AnAnnotation	 getParameter(...)
+URLRedirect	 sendRedirect	 /urlRedirect/sendRedirect	 application/x-www-form-urlcoded	 RequestMapping	 "url"	 String	 no AnAnnotation	 getParameter(...)
+URLRedirect	 forward	 /urlRedirect/forward	 application/x-www-form-urlcoded	 RequestMapping	 "url"	 String	 no AnAnnotation	 getParameter(...)
+URLRedirect	 sendRedirect_seccode	 /urlRedirect/sendRedirect/sec	 application/x-www-form-urlcoded	 RequestMapping	 "url"	 String	 no AnAnnotation	 getParameter(...)
+URLWhiteList	 endsWith	 /url/vuln/endsWith	 	 GetMapping	 "url"	 String	 RequestParam	 no get
+URLWhiteList	 contains	 /url/vuln/contains	 	 GetMapping	 "url"	 String	 RequestParam	 no get
+URLWhiteList	 regex	 /url/vuln/regex	 	 GetMapping	 "url"	 String	 RequestParam	 no get
+URLWhiteList	 url_bypass	 /url/vuln/url_bypass	 	 GetMapping	 url	 String	 no AnAnnotation	 no get
+URLWhiteList	 sec_endswith	 /url/sec/endswith	 	 GetMapping	 "url"	 String	 RequestParam	 no get
+URLWhiteList	 sec_multi_level_host	 /url/sec/multi_level_host	 	 GetMapping	 "url"	 String	 RequestParam	 no get
+URLWhiteList	 sec_array_indexOf	 /url/sec/array_indexOf	 	 GetMapping	 "url"	 String	 RequestParam	 no get
+XSS	 reflect	 /xss/reflect	 application/x-www-form-urlcoded	 RequestMapping	 xss	 String	 no AnAnnotation	 no get
+XSS	 store	 /xss/stored/store	 application/x-www-form-urlcoded	 RequestMapping	 xss	 String	 no AnAnnotation	 no get
+XSS	 show	 /xss/stored/show	 application/x-www-form-urlcoded	 RequestMapping	 "xss"	 String	 CookieValue	 no get
+XSS	 safe	 /xss/safe	 application/x-www-form-urlcoded	 RequestMapping	 xss	 String	 no AnAnnotation	 no get
+ooxmlXXE	 ooxml_xxe	 /ooxml/readxlsx	 application/x-www-form-urlcoded	 PostMapping	 file	 MultipartFile	 no AnAnnotation	 no get
+xlsxStreamerXXE	 xllx_streamer_xxe	 /xlsx-streamer/readxlsx	 application/x-www-form-urlcoded	 PostMapping	 file	 MultipartFile	 no AnAnnotation	 no get

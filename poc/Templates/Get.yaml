@@ -1,5 +1,9 @@
-name: poc-yaml-example-com
+name: p0cN4m3
 transport: http
+set:
+  reverse: newReverse()
+  reverseURL: reverse.url
+  reverseRMI: reverse.rmi
 rules:
     r1:
         request:

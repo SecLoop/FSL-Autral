@@ -1,0 +1,2588 @@
+[{
+        "routeName": "/CORS/vul",
+        "filePath": "",
+        "className": "CORS",
+        "method": "GET",
+        "getParams": [{
+            "name": "origin",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/readObject/safe",
+        "filePath": "",
+        "className": "Deserialization",
+        "method": "GET",
+        "getParams": [{
+            "name": "base64",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/readObject/safe",
+        "filePath": "",
+        "className": "Deserialization",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "base64",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/readObject/safe2",
+        "filePath": "",
+        "className": "Deserialization",
+        "method": "GET",
+        "getParams": [{
+            "name": "base64",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "base64",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/readObject/safe2",
+        "filePath": "",
+        "className": "Deserialization",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "base64",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "base64",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/readObject/vul",
+        "filePath": "",
+        "className": "Deserialization",
+        "method": "GET",
+        "getParams": [{
+            "name": "base64",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "base64",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/readObject/vul",
+        "filePath": "",
+        "className": "Deserialization",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "base64",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "base64",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/yaml/safe",
+        "filePath": "",
+        "className": "YamlVul",
+        "method": "POST",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/yaml/safe",
+        "filePath": "",
+        "className": "YamlVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "content",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/yaml/vul",
+        "filePath": "",
+        "className": "YamlVul",
+        "method": "POST",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Deserialize/yaml/vul",
+        "filePath": "",
+        "className": "YamlVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "content",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/JNDI/safe1",
+        "filePath": "",
+        "className": "JNDIInject",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "JndiInjection"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/JNDI/safe2",
+        "filePath": "",
+        "className": "JNDIInject",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "JndiInjection"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/JNDI/vul",
+        "filePath": "",
+        "className": "JNDIInject",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "JndiInjection"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/JWT/getName",
+        "filePath": "",
+        "className": "JWT",
+        "method": "GET",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "JWT_TOKEN",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Jackson/vul",
+        "filePath": "",
+        "className": "JacksonVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "POST_Data",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Log4j/vul",
+        "filePath": "",
+        "className": "Log4jVul",
+        "method": "POST",
+        "getParams": [{
+            "name": "q",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Log4j/vul",
+        "filePath": "",
+        "className": "Log4jVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "q",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/Groovy/safe",
+        "filePath": "",
+        "className": "GroovyVul",
+        "method": "GET",
+        "getParams": [{
+            "name": "cmd",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "cmd",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "GroovyInjection"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/Groovy/vul",
+        "filePath": "",
+        "className": "GroovyVul",
+        "method": "GET",
+        "getParams": [{
+            "name": "cmd",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "cmd",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "GroovyInjection"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/ProcessBuilder/safe",
+        "filePath": "",
+        "className": "ProcessBuilderVul",
+        "method": "GET",
+        "getParams": [{
+            "name": "filepath",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/ProcessBuilder/safe",
+        "filePath": "",
+        "className": "ProcessBuilderVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "filepath",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/ProcessBuilder/vul",
+        "filePath": "",
+        "className": "ProcessBuilderVul",
+        "method": "GET",
+        "getParams": [{
+            "name": "filepath",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "filepath",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "ExecTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/ProcessBuilder/vul",
+        "filePath": "",
+        "className": "ProcessBuilderVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "filepath",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "filepath",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "ExecTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/ProcessImpl/vul",
+        "filePath": "",
+        "className": "ProcessImplVul",
+        "method": "GET",
+        "getParams": [{
+            "name": "cmd",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/ProcessImpl/vul",
+        "filePath": "",
+        "className": "ProcessImplVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "cmd",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/Runtime/safe",
+        "filePath": "",
+        "className": "RuntimeVul",
+        "method": "GET",
+        "getParams": [{
+            "name": "cmd",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "cmd",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "ExecTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/Runtime/safe",
+        "filePath": "",
+        "className": "RuntimeVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "cmd",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "cmd",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "ExecTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/Runtime/vul",
+        "filePath": "",
+        "className": "RuntimeVul",
+        "method": "GET",
+        "getParams": [{
+            "name": "cmd",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "cmd",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "ExecTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/Runtime/vul",
+        "filePath": "",
+        "className": "RuntimeVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "cmd",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "cmd",
+            "pos": "POST",
+            "property": [],
+            "vulnType": "ExecTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/Runtime/vul2",
+        "filePath": "",
+        "className": "RuntimeVul",
+        "method": "GET",
+        "getParams": [{
+            "name": "file",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/RCE/ScriptEngine/vul",
+        "filePath": "",
+        "className": "LoadJsVul",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Redirect/safe",
+        "filePath": "",
+        "className": "Redirect",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "url",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Redirect/vul",
+        "filePath": "",
+        "className": "Redirect",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Redirect/vul2",
+        "filePath": "",
+        "className": "Redirect",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Redirect/vul3",
+        "filePath": "",
+        "className": "Redirect",
+        "method": "GET",
+        "getParams": [{
+            "name": "url",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SPEL/safe",
+        "filePath": "",
+        "className": "SpEL",
+        "method": "GET",
+        "getParams": [{
+            "name": "ex",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SPEL/vul",
+        "filePath": "",
+        "className": "SpEL",
+        "method": "GET",
+        "getParams": [{
+            "name": "ex",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "ex",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "SpelInjection"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SPEL/vul2",
+        "filePath": "",
+        "className": "SpEL",
+        "method": "GET",
+        "getParams": [{
+            "name": "ex",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "ex",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "SpelInjection"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/safe1",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getString(...)",
+            "property": [],
+            "vulnType": "XSSLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/safe2",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "id",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/safe2",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getString(...)",
+            "property": [],
+            "vulnType": "XSSLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/safe3",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getString(...)",
+            "property": [],
+            "vulnType": "XSSLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/safe4",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "Integer",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/vul1",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "id",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/vul1",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getString(...)",
+            "property": [],
+            "vulnType": "XSSLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/vul2",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "id",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/vul2",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getString(...)",
+            "property": [],
+            "vulnType": "XSSLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SQLI/JDBC/vul3",
+        "filePath": "",
+        "className": "JDBC",
+        "method": "GET",
+        "getParams": [{
+            "name": "id",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "id",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "SqlTainted"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/HTTPURLConnection/safe",
+        "filePath": "",
+        "className": "SSRF",
+        "method": "GET",
+        "getParams": [{
+                "name": "url",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "getInputStream(...)",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "InputStream",
+            "name": "getInputStream(...)",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/HTTPURLConnection/safe",
+        "filePath": "",
+        "className": "SSRF",
+        "method": "GET",
+        "getParams": [{
+                "name": "url",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "getInputStream(...)",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "url",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "RequestForgery"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/URLConnection/safe",
+        "filePath": "",
+        "className": "SSRF",
+        "method": "GET",
+        "getParams": [{
+                "name": "url",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "getInputStream(...)",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "InputStream",
+            "name": "getInputStream(...)",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/URLConnection/safe",
+        "filePath": "",
+        "className": "SSRF",
+        "method": "GET",
+        "getParams": [{
+                "name": "url",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "getInputStream(...)",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "url",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "RequestForgery"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/URLConnection/vul",
+        "filePath": "",
+        "className": "SSRF",
+        "method": "GET",
+        "getParams": [{
+                "name": "url",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "getInputStream(...)",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "InputStream",
+            "name": "getInputStream(...)",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/URLConnection/vul",
+        "filePath": "",
+        "className": "SSRF",
+        "method": "GET",
+        "getParams": [{
+                "name": "url",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "getInputStream(...)",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "url",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "RequestForgery"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/URLConnection/vul2",
+        "filePath": "",
+        "className": "SSRF",
+        "method": "GET",
+        "getParams": [{
+                "name": "url",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "getInputStream(...)",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "InputStream",
+            "name": "getInputStream(...)",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSRF/URLConnection/vul2",
+        "filePath": "",
+        "className": "SSRF",
+        "method": "GET",
+        "getParams": [{
+                "name": "url",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "getInputStream(...)",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "url",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "RequestForgery"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSTI/doc/safe/{document}/",
+        "filePath": "",
+        "className": "SSTI",
+        "method": "GET",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [{
+            "name": "/SSTI/doc/safe/{document}/",
+            "pos": "Path",
+            "classType": "String",
+            "property": []
+        }],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSTI/doc/vul/{document}/",
+        "filePath": "",
+        "className": "SSTI",
+        "method": "GET",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [{
+            "name": "/SSTI/doc/vul/{document}/",
+            "pos": "Path",
+            "classType": "String",
+            "property": []
+        }],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSTI/thymeleaf/safe",
+        "filePath": "",
+        "className": "SSTI",
+        "method": "GET",
+        "getParams": [{
+            "name": "lang",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/SSTI/thymeleaf/vul",
+        "filePath": "",
+        "className": "SSTI",
+        "method": "GET",
+        "getParams": [{
+            "name": "lang",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/Traversal/download",
+        "filePath": "",
+        "className": "Traversal",
+        "method": "GET",
+        "getParams": [{
+            "name": "filename",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getProperty(...)",
+            "property": [],
+            "vulnType": "XSSLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Traversal/download",
+        "filePath": "",
+        "className": "Traversal",
+        "method": "GET",
+        "getParams": [{
+            "name": "filename",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "filename",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "TaintedPath"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Traversal/download",
+        "filePath": "",
+        "className": "Traversal",
+        "method": "GET",
+        "getParams": [{
+            "name": "filename",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "filename",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Traversal/download",
+        "filePath": "",
+        "className": "Traversal",
+        "method": "GET",
+        "getParams": [{
+            "name": "filename",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getProperty(...)",
+            "property": [],
+            "vulnType": "TaintedPathLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Traversal/download/safe",
+        "filePath": "",
+        "className": "Traversal",
+        "method": "GET",
+        "getParams": [{
+            "name": "filename",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getProperty(...)",
+            "property": [],
+            "vulnType": "XSSLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Traversal/list",
+        "filePath": "",
+        "className": "Traversal",
+        "method": "GET",
+        "getParams": [{
+            "name": "filename",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getProperty(...)",
+            "property": [],
+            "vulnType": "XSSLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Traversal/list",
+        "filePath": "",
+        "className": "Traversal",
+        "method": "GET",
+        "getParams": [{
+            "name": "filename",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "filename",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "TaintedPath"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Traversal/list",
+        "filePath": "",
+        "className": "Traversal",
+        "method": "GET",
+        "getParams": [{
+            "name": "filename",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "filename",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/Traversal/list",
+        "filePath": "",
+        "className": "Traversal",
+        "method": "GET",
+        "getParams": [{
+            "name": "filename",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getProperty(...)",
+            "property": [],
+            "vulnType": "TaintedPathLocal"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XFF/proxy",
+        "filePath": "",
+        "className": "XFF",
+        "method": "GET",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "X-Forwarded-For": ""
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getHeader(...)",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XFF/vul",
+        "filePath": "",
+        "className": "XFF",
+        "method": "GET",
+        "getParams": [{
+            "name": "X-Forwarded-For",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "getHeader(...)",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XPath/safe",
+        "filePath": "",
+        "className": "XPathInjection",
+        "method": "GET",
+        "getParams": [{
+                "name": "username",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "escapePassword",
+            "property": [],
+            "vulnType": "SensitiveInfoLog"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XPath/vul",
+        "filePath": "",
+        "className": "XPathInjection",
+        "method": "GET",
+        "getParams": [{
+                "name": "username",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "username",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XPathInjection"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XPath/vul",
+        "filePath": "",
+        "className": "XPathInjection",
+        "method": "GET",
+        "getParams": [{
+                "name": "username",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "password",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XPathInjection"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XSS/esapi",
+        "filePath": "",
+        "className": "XSS",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XSS/escape",
+        "filePath": "",
+        "className": "XSS",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XSS/filter",
+        "filePath": "",
+        "className": "XSS",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XSS/reflect",
+        "filePath": "",
+        "className": "XSS",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XSS/vul2",
+        "filePath": "",
+        "className": "XSS",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "pos": "GET",
+            "property": [],
+            "vulnType": "XSS"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XSS/whitelist",
+        "filePath": "",
+        "className": "XSS",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XStream/safe",
+        "filePath": "",
+        "className": "XStreamVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "POST_Data",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XStream/vul",
+        "filePath": "",
+        "className": "XStreamVul",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "POST_Data",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {
+            "classType": "String",
+            "name": "content",
+            "property": [],
+            "vulnType": "UnsafeDeserialization"
+        },
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/DocumentBuilder",
+        "filePath": "",
+        "className": "XXE",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/DocumentBuilder",
+        "filePath": "",
+        "className": "XXE",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "content",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/SAXBuilder",
+        "filePath": "",
+        "className": "XXE",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "POST_Data",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/SAXParser",
+        "filePath": "",
+        "className": "XXE",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/SAXParser",
+        "filePath": "",
+        "className": "XXE",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "content",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/SAXReader",
+        "filePath": "",
+        "className": "XXE",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/SAXReader",
+        "filePath": "",
+        "className": "XXE",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "content",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/XMLReader",
+        "filePath": "",
+        "className": "XXE",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/XMLReader",
+        "filePath": "",
+        "className": "XXE",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "content",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/safe",
+        "filePath": "",
+        "className": "XXE",
+        "method": "GET",
+        "getParams": [{
+            "name": "content",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/safe",
+        "filePath": "",
+        "className": "XXE",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "content",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/unmarshaller",
+        "filePath": "",
+        "className": "XXE",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+            "name": "POST_Data",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/xmlbeam",
+        "filePath": "",
+        "className": "XXE",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/XXE/xmlbeam",
+        "filePath": "",
+        "className": "XXE",
+        "method": "POST",
+        "getParams": [{
+            "name": "Customer",
+            "pos": "GET",
+            "classType": "Customer",
+            "property": []
+        }],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/json"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/user/login",
+        "filePath": "",
+        "className": "Login",
+        "method": "GET",
+        "getParams": [{
+                "name": "username",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "captcha",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/user/login",
+        "filePath": "",
+        "className": "Login",
+        "method": "POST",
+        "getParams": [{
+                "name": "username",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [{
+            "name": "captcha",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/user/login",
+        "filePath": "",
+        "className": "Login",
+        "method": "POST",
+        "getParams": [{
+                "name": "username",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "captcha",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [{
+            "name": "password",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/user/login",
+        "filePath": "",
+        "className": "Login",
+        "method": "POST",
+        "getParams": [{
+            "name": "username",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [{
+                "name": "password",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "captcha",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/user/login",
+        "filePath": "",
+        "className": "Login",
+        "method": "POST",
+        "getParams": [{
+                "name": "password",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "captcha",
+                "pos": "GET",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "postParams": [{
+            "name": "username",
+            "pos": "POST",
+            "classType": "String",
+            "property": []
+        }],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/user/login",
+        "filePath": "",
+        "className": "Login",
+        "method": "POST",
+        "getParams": [{
+            "name": "password",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [{
+                "name": "username",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "captcha",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/user/login",
+        "filePath": "",
+        "className": "Login",
+        "method": "POST",
+        "getParams": [{
+            "name": "captcha",
+            "pos": "GET",
+            "classType": "String",
+            "property": []
+        }],
+        "postParams": [{
+                "name": "username",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    },
+    {
+        "routeName": "/user/login",
+        "filePath": "",
+        "className": "Login",
+        "method": "POST",
+        "getParams": [],
+        "postParams": [{
+                "name": "username",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "password",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            },
+            {
+                "name": "captcha",
+                "pos": "POST",
+                "classType": "String",
+                "property": []
+            }
+        ],
+        "pathParams": [],
+        "headers": {
+            "Cookies": "",
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        "sinks": {},
+        "yaml": ""
+    }
+]

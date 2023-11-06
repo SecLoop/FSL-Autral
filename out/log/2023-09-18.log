@@ -1,0 +1,81 @@
+2023/09/18 17:19:49 functions.py WARNING /bin/sh: codeql: command not found
+
+2023/09/18 17:19:49 check.py ERROR codeql is not install or the codeql path is not in environment path
+2023/09/18 17:21:17 functions.py WARNING 
+2023/09/18 17:21:18 functions.py WARNING 
+2023/09/18 17:21:21 functions.py WARNING A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/CodeQLpy/out/database/micro_service_seclab-main/db-java/default/cache/.lock
+(eventual cause: OverlappingFileLockException)
+
+2023/09/18 17:21:21 check.py ERROR database or codeql is error.
+2023/09/18 18:52:14 functions.py WARNING 
+2023/09/18 18:52:15 functions.py WARNING 
+2023/09/18 18:52:17 functions.py WARNING A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/CodeQLpy/out/database/micro_service_seclab-main/db-java/default/cache/.lock
+(eventual cause: OverlappingFileLockException)
+
+2023/09/18 18:52:17 check.py ERROR database or codeql is error.
+2023/09/18 18:53:11 functions.py WARNING 
+2023/09/18 18:53:11 functions.py WARNING 
+2023/09/18 18:53:13 functions.py WARNING A fatal error occurred: Error initializing the IMB disk cache: the cache directory is already locked by another running process. Only one instance of the IMB can access a cache directory at a time. The lock file is located at /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/CodeQLpy/out/database/micro_service_seclab-main/db-java/default/cache/.lock
+(eventual cause: OverlappingFileLockException)
+
+2023/09/18 18:53:13 check.py ERROR database or codeql is error.
+2023/09/18 18:54:16 functions.py WARNING 
+2023/09/18 18:54:17 functions.py WARNING 
+2023/09/18 18:54:48 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmphjz6dpde/2879d5c6c3bd4c398ad78d9c09bba4a7.ql.
+[1/1 comp 21.4s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmphjz6dpde/2879d5c6c3bd4c398ad78d9c09bba4a7.ql.
+Starting evaluation of codeql/java-tests/tmphjz6dpde/2879d5c6c3bd4c398ad78d9c09bba4a7.ql.
+Evaluation completed (128ms).
+Shutting down query evaluator.
+
+2023/09/18 18:55:34 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpoxs3gt1i/1146ba37f63f4be08d8aa779fb5e2f74.ql.
+[1/1 comp 32.7s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpoxs3gt1i/1146ba37f63f4be08d8aa779fb5e2f74.ql.
+Starting evaluation of codeql/java-tests/tmpoxs3gt1i/1146ba37f63f4be08d8aa779fb5e2f74.ql.
+[1/1 eval 4.1s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/18 18:55:35 common.py WARNING 
+2023/09/18 19:01:42 functions.py WARNING 
+2023/09/18 19:01:42 functions.py WARNING 
+2023/09/18 19:02:04 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp77lcsq1m/0bcf4532f1cf466cbedbd675379b2218.ql.
+[1/1 comp 15.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmp77lcsq1m/0bcf4532f1cf466cbedbd675379b2218.ql.
+Starting evaluation of codeql/java-tests/tmp77lcsq1m/0bcf4532f1cf466cbedbd675379b2218.ql.
+Evaluation completed (74ms).
+Shutting down query evaluator.
+
+2023/09/18 19:02:45 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpio0pegfu/d25bc501541540b8ad1c099698103275.ql.
+[1/1 comp 23.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpio0pegfu/d25bc501541540b8ad1c099698103275.ql.
+Starting evaluation of codeql/java-tests/tmpio0pegfu/d25bc501541540b8ad1c099698103275.ql.
+[1/1 eval 7.8s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/18 19:02:46 common.py WARNING 
+2023/09/18 19:22:33 functions.py WARNING 
+2023/09/18 19:22:33 functions.py WARNING 
+2023/09/18 19:22:54 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpd154n3fu/2234f545213c4ea3821364c066d1b66d.ql.
+[1/1 comp 14.3s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpd154n3fu/2234f545213c4ea3821364c066d1b66d.ql.
+Starting evaluation of codeql/java-tests/tmpd154n3fu/2234f545213c4ea3821364c066d1b66d.ql.
+Evaluation completed (75ms).
+Shutting down query evaluator.
+
+2023/09/18 19:23:32 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbmhd3zs3/867a40b4691346cdb4ff9adb5eb02bd9.ql.
+[1/1 comp 27.6s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpbmhd3zs3/867a40b4691346cdb4ff9adb5eb02bd9.ql.
+Starting evaluation of codeql/java-tests/tmpbmhd3zs3/867a40b4691346cdb4ff9adb5eb02bd9.ql.
+[1/1 eval 4s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/18 19:23:33 common.py WARNING 
+2023/09/18 21:26:58 functions.py WARNING 
+2023/09/18 21:26:58 functions.py WARNING 
+2023/09/18 21:27:26 functions.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpe4ppsizx/949518bc2b8f4391942ed77be20525ec.ql.
+[1/1 comp 20.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpe4ppsizx/949518bc2b8f4391942ed77be20525ec.ql.
+Starting evaluation of codeql/java-tests/tmpe4ppsizx/949518bc2b8f4391942ed77be20525ec.ql.
+Evaluation completed (101ms).
+Shutting down query evaluator.
+
+2023/09/18 21:28:10 common.py WARNING Compiling query plan for /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpuyg_a535/c048c5b6271048aca7ce4d4dd7425cbe.ql.
+[1/1 comp 31.1s] Compiled /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/tmpuyg_a535/c048c5b6271048aca7ce4d4dd7425cbe.ql.
+Starting evaluation of codeql/java-tests/tmpuyg_a535/c048c5b6271048aca7ce4d4dd7425cbe.ql.
+[1/1 eval 3.8s] Evaluation done; writing results to /Users/bianzhenkun/Desktop/L3ttuc3WS/CodeQLWS/codeql/java/ql/test/query.bqrs.
+Shutting down query evaluator.
+
+2023/09/18 21:28:11 common.py WARNING 
