@@ -126,14 +126,12 @@ def gen_assign(data):
                 for property in param['property']:
                     assign_content += f"String {property} = data.consumeAsciiString(30);\n"
     
-    # print(assign_content)
     return assign_content
 
 def gen_fuzz_url(routeName, pathParams):
     url = routeName
     for path in pathParams:
         url = url.replace("{"+path+"}", f"\"+{path}+\"")
-    # print(f"\"{url}\"")
     return url
 
 def gen_fuzz_headers(header_data):
@@ -142,7 +140,6 @@ def gen_fuzz_headers(header_data):
         if header == "Cookie" or header == "Cookies":
             continue
         header_content += f"headers.add(\"{header}\",\"{header_data[header]}\");\n"
-    # print(header_content)
     return header_content
 
 def gen_fuzz_params(param_data):
