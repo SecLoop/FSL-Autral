@@ -26,7 +26,6 @@ def set_seed():
     print(f"rm -r {BASE_DIR}/seed/ && cp -r {BASE_DIR}/seed-init/ {BASE_DIR}/seed/")
     os.system(f"rm -r {BASE_DIR}/seed/; cp -r {BASE_DIR}/seed-init/ {BASE_DIR}/seed/")
 
-
 def fuzz_single_route(data):
     with open(BASE_DIR + "/data.json", "wb") as f:
         f.write(json.dumps(data, indent=4).encode())
@@ -85,6 +84,11 @@ def find_valid_corpus(target, feature):
     for corpus_target in target:
         if check_corpus_valid(corpus_target, feature):
             corpus = corpus_target
+<<<<<<< HEAD
+=======
+    
+    feature = sorted(feature, key=len)
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
     for item in feature:
         # print(item)
         corpus = corpus.replace(item, b"{{keywords:*"+item+b"*}}")
@@ -100,24 +104,48 @@ def set_param_fuzz_value(data, num, payload):
     elif num - len(pathParams) < len(getParams):
         data["getParams"][num - len(pathParams)]["value"] = payload
     else:
+<<<<<<< HEAD
+=======
+        print(num - len(pathParams) - len(getParams))
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
         data["postParams"][num - len(pathParams) - len(getParams)]["value"] = payload
     return data
 
 def find_all_subsequence(corpus_list, data):
     corpus_sep = seperate_corpus(corpus_list)
+<<<<<<< HEAD
     min_len = min(len(temp) for temp in corpus_sep)
+=======
+    print(corpus_sep)
+    min_len = min(min(len(temp) for temp in corpus_sep), len(data['getParams']) + len(data['postParams']) + len(data['pathParams']))
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
 
     feature = []
     target = []
     for i in range(min_len):
         target = []
         for n in range(len(corpus_sep)):
+<<<<<<< HEAD
             target.append(corpus_sep[n][i])
         vote_feature = find_similar(target)
         highest_vote = max(vote_feature.values())
         feature = [key for key, value in vote_feature.items() if value == highest_vote]
         payload_demo = find_valid_corpus(target, feature)
         data = set_param_fuzz_value(data, i, payload_demo)
+=======
+            if corpus_sep[n][i] != "":
+                target.append(corpus_sep[n][i])
+
+        if len(target) <= 1:
+            data = set_param_fuzz_value(data, i, target[0])
+        else:
+            vote_feature = find_similar(target)
+            print(vote_feature)
+            highest_vote = max(vote_feature.values())
+            feature = [key for key, value in vote_feature.items() if value == highest_vote]
+            payload_demo = find_valid_corpus(target, feature)
+            data = set_param_fuzz_value(data, i, payload_demo)
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
 
     return data
 
@@ -125,13 +153,18 @@ def find_all_subsequence(corpus_list, data):
         
 def gen_fuzz_poc(data):
     print(data)
+<<<<<<< HEAD
     url = data['routeName']
+=======
+    url = data['routeName'].encode()
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
     pathParams = data['pathParams']
     getParams = data['getParams']
     postParams = data['postParams']
     httpHeaders = data['headers']
 
     for path in pathParams:
+<<<<<<< HEAD
         url = url.replace("{"+path+"}", path['value'].decode())
     
     if len(getParams) > 0:
@@ -153,6 +186,38 @@ Host:
     
     
 
+=======
+        url = url.replace(b"{"+path.encode()+b"}", path['value'])
+    
+    if len(getParams) > 0:
+        url += b"?"
+    for param in getParams:
+        if "value" in param.keys():
+            url += param['name'].encode() + b"=" + param['value'] + b"&"
+        else:
+            postData += param['name'].encode() + b"=&"
+    if len(getParams) > 0:
+        url = url[:-1]
+
+    headers = b""
+    for key in httpHeaders.keys():
+        headers += key.encode() + b": " + httpHeaders[key].encode() + b"\n"
+
+    postData = b""
+    for param in postParams:
+        if "value" in param.keys():
+            postData += param['name'].encode() + b"=" + param['value'] + b"&"
+        else:
+            postData += param['name'].encode() + b"=&"
+    if len(postParams) > 0:
+        postData = postData[:-1]
+
+    return b"""%b %b HTTP/1.1
+Host:
+%b
+%b""" % (data['method'].encode(), url, headers, postData)
+    
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
 
 if __name__ == "__main__":
 
@@ -161,6 +226,10 @@ if __name__ == "__main__":
     
     clean()
     set_seed()
+<<<<<<< HEAD
+=======
+    count = 0
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
     for item in data:
         if item['sinks'] == {}:
             continue
@@ -169,6 +238,7 @@ if __name__ == "__main__":
         output = {}
         output["routeName"] = item["routeName"]
         output["sinks"] = item["sinks"]
+<<<<<<< HEAD
         # output["corpus"] = corpus_list
         # print(output)
         corpus_list = [b"Larry\\\x89['\\\x89[\xf2\xf2", b"Larry\\\x89['\x12\r", b"Larry\\;\x89@'\x00\x00\x00\x18\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff{\\,\xb1\xf2\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff\xff", b"Larry\\\x89@'[", b"Larry\\\x89['\xf2\xf2"]
@@ -177,10 +247,21 @@ if __name__ == "__main__":
 
 
         
+=======
+        print("====================")
+        print(output)
+        # corpus_list = [b'22229222222>\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x000\'"\x08\n\r\t\\%_222222222222322105222\n']
+
+        print(corpus_list)
+        print("====================")
+        if corpus_list == []:
+            continue
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
         # if len(item['getParams']) + len(item['postParams']) + len(item['pathParams']) > 1:
         reuslt_fuzz = find_all_subsequence(corpus_list, item)
         # else:
             # reuslt_fuzz = set_param_fuzz_value()
+<<<<<<< HEAD
         gen_fuzz_poc(reuslt_fuzz)
         # with open("result_fuzz.json", "ab+") as f:
         #     f.write(json.dumps(output, indent=4).encode())
@@ -188,6 +269,16 @@ if __name__ == "__main__":
         #     f.write(b",".join(corpus_list))
         #     f.write(b"\n\n")
         # print(output)
+=======
+        content = gen_fuzz_poc(reuslt_fuzz)
+        with open(f"templates/poc_{count}.txt" , 'wb') as f:
+            f.write(content)
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
         clean()
         set_seed()
+        count += 1
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 95f9b0fabc6497fd82072d93f66c40cd1b3dd5ab
